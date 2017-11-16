@@ -101,6 +101,29 @@ function insertstarfiles(callback,sqlQuery){
     });
 }
 
+function insertstarfiles1(callback,sqlQuery){
+
+    console.log("\nSQL Query::"+sqlQuery);
+
+    //var connection=getConnection();
+
+    pool.getConnection(function(err, connection) {
+
+        connection.query(sqlQuery, function (err, rows) {
+            if (err) {
+                console.log("ERROR: " + err.message);
+                callback(err, rows);
+            }
+            else {	// return err or result
+                console.log("DB Insertion for star files successful");
+                callback(err, rows);
+            }
+        });
+        console.log("\nConnection closed..");
+        connection.release();
+    });
+}
+
 exports.fetchData=fetchData;
 exports.insertData=insertData;
 exports.insertstarfiles=insertstarfiles;
