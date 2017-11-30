@@ -25,7 +25,7 @@ class AboutUs extends Component{
         </div>
 
         </div>
-        <div className="col-lg-2"></div>
+        <div className="col-md-2"></div>
             </div>
 
             <div className="row">
