@@ -24,6 +24,10 @@ class Login extends Component {
             password: ''
         });
     }
+	
+	componentDidMount(){
+		
+	}
 
 
 
