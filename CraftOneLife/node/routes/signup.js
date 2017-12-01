@@ -6,9 +6,7 @@ var doSignUp = function(req,res) {
 };
 
 
-var checksignup = function(req,res) {
-    console.log("in DO checksignup of node" + req.body);
-};
+
 
 var validate = function(req,res) {
     console.log("in DO validate of node" + req.body);
