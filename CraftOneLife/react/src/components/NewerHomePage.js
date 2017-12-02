@@ -11,7 +11,7 @@ import Welcome from "./Welcome";
 import Signup from "./Signup";
 import Artists from "./Artists";
 import ArtistDetails from './ArtistDetails';
-import ArtistWelcomePage from './ArtistWelcomePage';
+import ArtistWelcome from './ArtistWelcomePage';
 import ArtistUploadBooks from './ArtistUploadBooks';
 import ArtistProfilePage from './ArtistProfilePage';
 
@@ -110,6 +110,7 @@ class NewerHomePage extends Component {
 
                                         <nav id="fh5co-menu-wrap" role="navigation">
                                             <ul className="sf-menu" id="fh5co-primary-menu">
+
                                                 <li className="active"><a href="/">Home</a></li>
                                                 <li>
                                                     <a href="#" className="fh5co-sub-ddown">Books</a>
@@ -273,7 +274,7 @@ class NewerHomePage extends Component {
                              <div className="fh5co-hero">
                                  <div className="container">
                                      <div className="row justify-content-md-center">
-                                        <ArtistWelcomePage/>
+                                        <ArtistWelcome/>
                                      </div>
                                  </div>
                              </div>
@@ -437,7 +438,7 @@ class NewerHomePage extends Component {
                     )}/>
 
 
-                <Route exact path="/artistuploadbooks" render={() => (
+             <Route exact path="/artistuploadbooks" render={() => (
                     <div id="fh5co-wrapper">
                         <div id="fh5co-page">
                             <header id="fh5co-header-section" className="sticky-banner">
@@ -473,7 +474,7 @@ class NewerHomePage extends Component {
                             <div className="fh5co-hero">
                                 <div className="container">
                                     <div className="row justify-content-md-center">
-                                    <ArtistUploadBooks/>
+                                        <ArtistUploadBooks/>
                                     </div>
                                 </div>
                             </div>

@@ -14,7 +14,6 @@ class Message extends Component {
                     {this.props.message && ( //Just a change here
                         <div className="alert alert-warning" role="alert">
                             {this.props.message}
-							This is a message page
                         </div>
                     )}
                 </div>
