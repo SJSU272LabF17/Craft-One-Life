@@ -5,10 +5,17 @@ import '../css/bootstrap.css';
 import adrian from '../images/Adrian.png';
 
 class ArtistDetails extends Component{
+
+    constructor(props)
+    {
+        super(props);
+        console.log("in constr"+ JSON.stringify(props));
+    }
     render() {
         return (
             <div className="col-sm-4 col-md-4">
-                <img style={{width:270, height:250}} src={adrian}/>
+                <h1>Hi</h1>
+                <h1>{this.props.params.name}</h1>
             </div>
         );
     }

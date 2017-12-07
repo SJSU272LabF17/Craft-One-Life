@@ -27,7 +27,7 @@ var getBookDetails =  function (req,res) {
                     var data={
                     bookId:results[i].book_id,
                     bookName:results[i].book_name,
-                    bookPrice:results[i].user_price,
+                    bookPrice:results[i].admin_price,
                     bookDesc:results[i].book_desc,
                     bookTilePath:(new Buffer(bitmap).toString('base64'))
                 }

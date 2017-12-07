@@ -14,7 +14,7 @@ class Artists extends Component {
             <div>
                 <h1>MEET CRAFTONELIFE Artists</h1>
                 <h3>CraftOneLife supports artists facing homelessness or disabilities. Browse stunning stories written by them and read their inspiring stories.</h3>
-            <div className="col-sm-3 col-md-3">
+          <div className="col-sm-3 col-md-3">
                 <Link to="/ArtistDetails"><img style={{width:270, height:250}} src={adrian}/></Link>
             </div>
 

@@ -13,7 +13,7 @@ class ArtistUploadBooks extends Component {
     };
 
     componentWillMount() {
-        var rootdir = './uploads'
+        var rootdir = './public/uploads'
         this.setState({
             rootdir: rootdir,
         });

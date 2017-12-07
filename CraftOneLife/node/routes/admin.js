@@ -1,6 +1,8 @@
 var express = require('express');
 var router = express.Router();
 var mysql=require("./mysql");
+var nodemailer = require('nodemailer');
+
 
 router.get('/getallusers', function (req, res, next) {
 
@@ -56,6 +58,40 @@ router.post('/approveuser', function (req, res) {
                 res.status(500).json({message: "An error occured"});
             }
             else {
+                var transporter = nodemailer.createTransport({
+                    service: 'Gmail',
+                    auth: {
+                        user: 'genesisworld23@gmail.com',
+                        pass:'genesis23'
+                    }});
+
+                var mailOptions = {
+                    from: 'genesisworld23@gmail.com', // sender address
+                    to: req.body.email, // list of receivers
+                    subject: 'Artist Account Approval ', // Subject line
+                    text: 'We have reviewed your profile!\n' +
+                    '\n' +
+                    'You can now login with your credentials from our portal.\n' +
+                    '\n' +
+                    '\n' +
+                    'Thank you so much for your interest in CraftOneLife.\n' +
+                    '\n' +
+                    'Best,\n' +
+                    'CraftOneLife Team\n', // plaintext body
+                };
+
+                transporter.sendMail(mailOptions, function(error, info){
+                    if(error){
+                        return console.log(error);
+                    }
+                    else {
+                        res.code="200";
+                        console.log('Message sent: ' + info.response);
+
+                    }
+                    callback(null,res);
+                });
+
 
                 res.status(201).send("successful");
 
@@ -112,7 +148,7 @@ router.post('/approvebook', function (req, res) {
 
 
     console.log("approvebooks",req.body);
-    var approveBooks = "update books set isApproved=1 where book_id='"+req.body.id+"'";
+    var approveBooks = "update books set isApproved=1,admin_price="+parseInt(req.body.u.user_price)*1.2+" where book_id='"+req.body.u.book_id+"'";
 
     try {
 

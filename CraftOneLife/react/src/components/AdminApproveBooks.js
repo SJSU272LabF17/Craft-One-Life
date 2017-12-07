@@ -13,18 +13,32 @@ class AdminApproveBooks extends Component{
 
     componentWillMount(){
         API.getBooksForApproval().then((res) => {
-            alert(JSON.stringify(res.resarray));
-            this.setState({Books:res.resarray});
+            alert(res.resarray);
+            if(typeof res.resarray=="undefined"){
+                res.resarray=[];
+                this.setState({Books:res.resarray});
+            }
+            else{
+                this.setState({Books:res.resarray});}
         });
     }
 
-    addApprovedBooks(id)
+    addApprovedBooks(u)
     {
 
-        alert(id);
-        var data={id:id};
+        alert(u);
+        var data={u:u};
         API.approveBooks(data).then((res) => {
             alert("Book approved successfully");
+            API.getBooksForApproval().then((res) => {
+                alert(res.resarray);
+                if(typeof res.resarray=="undefined"){
+                    res.resarray=[];
+                    this.setState({Books:res.resarray});
+                }
+                else{
+                    this.setState({Books:res.resarray});}
+            });
         });
     }
 
@@ -39,23 +53,23 @@ class AdminApproveBooks extends Component{
                     <div>
 
 
-                    <div className="list-group-item clearfix" >
-                        <div className="pull-left">
-                            NAME : <a className="list-group-item-heading" href={'http://localhost:3001/uploads/'+u.book_name}>{u.book_name}</a>
+                        <div className="list-group-item clearfix" >
+                            <div className="pull-left">
+                                NAME : <a className="list-group-item-heading" href={'http://localhost:3001/uploads/'+u.book_path.split("/")[3]}>{u.book_name}</a>
 
-                        </div>
+                            </div>
 
-                        <div className="pull-right">
-                            <div className="row">
-                                <div className="col-xs-12">
-                                    <button className="btn btn-success"  onClick={()=>this.addApprovedBooks(u.book_id)}> APPROVE</button>
-                                    <button className="btn btn-danger"> REJECT</button>
+                            <div className="pull-right">
+                                <div className="row">
+                                    <div className="col-xs-12">
+                                        <button className="btn btn-success"  onClick={()=>this.addApprovedBooks(u)}> APPROVE</button>
+                                        <button className="btn btn-danger"> REJECT</button>
 
 
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
                     </div>
 
                     /*<tr className="row" key={u.book_id} >

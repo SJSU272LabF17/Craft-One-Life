@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Link,withRouter} from 'react-router-dom';
 import * as API from '../api/API';
+import Avatar from 'react-avatar';
 
 class ArtistDisplayProfile extends Component {
 
@@ -33,17 +34,38 @@ class ArtistDisplayProfile extends Component {
 
     render(){
         return(
+            <div className="row justify-content-md-center">
+                <div className="col-sm-12 col-md-12">
+                    <h3 style={{color:'green'}}><u>My Profile</u></h3>
+                    <hr/>
+                    <br/>
+                </div>
+                <div className="col-sm-3 col-md-3">
+                    <div>
+                        <Avatar src={"data:image/jpeg;base64,"+this.state.profile_pic} round={true} size={150} alt={this.state.profile_pic}/>
+                    </div>
+                    <br/>
+
+                </div>
+                <div className="col-sm-2 col-md-2">
+                </div>
 
             <div className="col-sm-7 col-md-7">
+                <div className="form-group">
+                    <hr/>
+                </div>
                 <form>
-                    <div className="form-group">
-                        <hr/>
-                    </div>
-                    <div className="input-field">
+
+                    <div className="row">
+                        <div className="col-sm-4 col-md-4"><p>First Name : </p></div>
+                        <div className="col-sm-8 col-md-8">
+
+                            <div className="input-field">
 
                         <input className="form-control"
                                placeholder="First Name"
                                type="text"
+                               disabled={true}
                                value={this.state.fname}
                                onChange={(event)=>{
                                    this.setState({
@@ -54,11 +76,18 @@ class ArtistDisplayProfile extends Component {
                                autoFocus
                         />
                     </div>
+                        </div>
+                    </div>
                     <br/>
-                    <div className="input-field">
+                    <div className="row">
+                        <div className="col-sm-4 col-md-4"><p>Last Name : </p></div>
+                        <div className="col-sm-8 col-md-8">
+
+                            <div className="input-field">
                         <input className="form-control"
                                placeholder="Last Name"
                                type="text"
+                               disabled={true}
                                value={this.state.lname}
                                onChange={(event)=>{
                                    this.setState({
@@ -68,13 +97,20 @@ class ArtistDisplayProfile extends Component {
                                required
                         />
                     </div>
+                        </div>
+                    </div>
                     <br/>
 
-                    <br/>
+                    <div className="row">
+                        <div className="col-sm-4 col-md-4"><p>Email : </p></div>
+                        <div className="col-sm-8 col-md-8">
+
+                            <div className="input-field">
                     <div className="input-field">
                         <input className="form-control"
-                               placeholder="Email no"
+                               placeholder="Email"
                                type="text"
+                               disabled={true}
                                value={this.state.email}
                                onChange={(event)=>{
                                    this.setState({
@@ -86,14 +122,21 @@ class ArtistDisplayProfile extends Component {
                         />
 
                     </div>
+                            </div>
+                        </div>
+                    </div>
                     <br/>
 
-                    <br/>
+                    <div className="row">
+                        <div className="col-sm-4 col-md-4"><p>Phone Number : </p></div>
+                        <div className="col-sm-8 col-md-8">
 
+                            <div className="input-field">
                     <div className="input-field">
                         <input className="form-control"
                                placeholder="Phone number"
                                type="text"
+                               disabled={true}
                                value={this.state.contact_no}
                                onChange={(event)=>{
                                    this.setState({
@@ -103,14 +146,22 @@ class ArtistDisplayProfile extends Component {
                                required
                         />
                     </div>
+                            </div>
+                        </div>
+                    </div>
                     <br/>
+                    <div className="row">
+                        <div className="col-sm-4 col-md-4"><p>About Me : </p></div>
+                        <div className="col-sm-8 col-md-8">
 
-                    <br/>
+
 
                     <div className="input-field">
                         <input className="form-control"
+                               style={{height:150, textAlign:'top'}}
                                placeholder="Give your brief description"
                                type="text"
+                               disabled={true}
                                value={this.state.about_me}
                                onChange={(event)=>{
                                    this.setState({
@@ -121,9 +172,12 @@ class ArtistDisplayProfile extends Component {
 
                         />
                     </div>
+                        </div>
+                    </div>
                     <br/>
-
-                    <br/>
+                    {/*<div className="row">
+                        <div className="col-sm-4 col-md-4"><p>Profile Pic : </p></div>
+                        <div className="col-sm-8 col-md-8">
                     <div className="input-field">
                         <input
                             className={'fileupload'}
@@ -133,18 +187,18 @@ class ArtistDisplayProfile extends Component {
                         />
 
                     </div>
+                        </div>
+                    </div>*/}
 
-                    <div><p>My profile</p>
-                        <img src={"data:image/jpeg;base64,"+this.state.profile_pic} height={100} width={200} alt={this.state.profile_pic}/></div>
+
                     <br/>
 
-                    <br/>
-
-                    <div className="input-field">
+                   {/* <div className="input-field">
                         <button className="btn btn-success" onClick={() => this.saveUserProfile(this.state)}>Update
                         </button>
-                    </div>
+                    </div>*/}
                 </form>
+            </div>
             </div>
 
         );

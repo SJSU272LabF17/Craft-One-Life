@@ -23,8 +23,10 @@ class AdminApproveUsers extends Component{
             alert(res.resarray);
             if(typeof res.resarray=="undefined"){
                 res.resarray=[];
+                this.setState({users:res.resarray});
             }
-            this.setState({users:res.resarray});
+            else{
+            this.setState({users:res.resarray});}
         });
     }
 
