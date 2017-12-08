@@ -3,7 +3,7 @@ var path = require('path');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var cors = require('cors');
+// var cors = require('cors');
 var session = require("client-sessions");
 var passport = require('passport');
 require('./routes/login')(passport);
@@ -19,11 +19,30 @@ var addToCart = require('./routes/addtocart');
 var proceedCheckout = require('./routes/proceedcheckout');
 var addQty = require('./routes/addQuantity')
 var removeQty = require('./routes/removeQty')
+var myorders = require('./routes/myorders')
 var admin = require('./routes/admin');
 var cart = require('./routes/cart');
+var artistearnings = require('./routes/artistearnings');
+var mybooks = require('./routes/getMyBooks')
+var cors = require('express-cors');
 
 var app = express();
 
+
+
+app.use(cors({
+    allowedOrigins: [
+        'http://52.87.159.119:3000', 'localhost:3000', 'http://localhost:3000'
+    ]
+}));
+
+// Enable CORS
+// var corsOptions = {
+//     origin: 'http://52.87.159.119:3000/',
+//     credentials: true,
+//     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+// }
+// app.use(cors(corsOptions));
 
 app.use(session({
     cookieName: 'session',
@@ -31,13 +50,7 @@ app.use(session({
     duration: 30 * 60 * 1000,    //setting the time for active session
     activeDuration: 5 * 60 * 1000  }))
 
-//Enable CORS
-var corsOptions = {
-    origin: 'http://localhost:3000',
-    credentials: true,
-    optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
-}
-app.use(cors(corsOptions));
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -66,17 +79,21 @@ app.post('/emptyCheckout',proceedCheckout.emptyCheckout);
 app.post('/addQty',addQty.addQuantity);
 app.post('/removeQty',removeQty.removeQuantity);
 app.use('/admin',admin);
+app.post('/myorders',myorders.myorders);
+app.post('/getEarnings',artistearnings.getEarnings);
+app.post('/mybooks',mybooks.myorders)
 
 app.post('/login',function(req, res,next) {
     console.log("username in app" + JSON.stringify(req.body));
     passport.authenticate('login', function(err, user) {
         if(err) {
-            res.status(500).send();
+            res.status(500).send({status:500});
         }
 
         if(!user) {
-            res.status(401).send();
+            res.status(401).send({status:401});
         }
+        if(user){
         req.session.user = user[0].email;
         req.session.user_id = user[0].user_id;
         console.log(req.session)
@@ -87,6 +104,7 @@ app.post('/login',function(req, res,next) {
         return res.status(201).send({
             results: user,
             status: '201'});
+        }
     })(req, res,next);
 });
 

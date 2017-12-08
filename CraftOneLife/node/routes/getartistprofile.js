@@ -24,7 +24,7 @@ var fetchUserProfile=function (req,res){
                     lname:results[0].lname,
                     email:results[0].email,
                     contact_no:results[0].contact_no,
-                    about_me:results[0].email,
+                    about_me:results[0].about_me,
                     profile_pic:(new Buffer(bitmap).toString('base64'))
 
                 }
