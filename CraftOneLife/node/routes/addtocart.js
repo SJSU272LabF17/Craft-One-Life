@@ -2,7 +2,7 @@ var mysql = require('./mysql');
 
 var addToCart = function(req,res) {
     console.log("in addtocart" + JSON.stringify(req.body.user_id));
-console.log(req.session);
+    console.log(req.session);
     var checkCart = "select * from cart where user_id="+req.body.user_id+" and book_id="+req.body.bookId;
 
     try {
@@ -41,18 +41,12 @@ console.log(req.session);
 
                 }
 
-
-
-
-
             }
         }, checkCart)
 
     }
-
     catch(err){
         console.log(err);
     }
-
 };
 exports.addToCart=addToCart;
