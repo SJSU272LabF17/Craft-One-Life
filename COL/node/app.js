@@ -24,9 +24,17 @@ var admin = require('./routes/admin');
 var cart = require('./routes/cart');
 var artistearnings = require('./routes/artistearnings');
 var mybooks = require('./routes/getMyBooks')
+var cors = require('express-cors');
 
 var app = express();
 
+
+
+app.use(cors({
+    allowedOrigins: [
+        'http://52.87.159.119:3000', 'localhost:3000', 'http://localhost:3000'
+    ]
+}));
 
 app.use(session({
     cookieName: 'session',
@@ -35,12 +43,12 @@ app.use(session({
     activeDuration: 5 * 60 * 1000  }))
 
 //Enable CORS
-var corsOptions = {
-    origin: 'http://52.87.159.119:3000/',
-    credentials: true,
-    optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
-}
-app.use(cors(corsOptions));
+// var corsOptions = {
+//     origin: 'http://52.87.159.119:3000/',
+//     credentials: true,
+//     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+// }
+// app.use(cors(corsOptions));
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
