@@ -2,256 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba4cda77-9c6d-4db8-99ab-1f7b6840addd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/.idea/COL.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/bin/www" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/package-lock.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/public/profileImages/Adrian.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/public/stylesheets/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/public/uploads/Adrian.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/public/uploads/Angels and Demons.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/public/uploads/Class_Project_description-273-kayak.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/public/uploads/CmpE180-38_ClassDiagram_team_NEO.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/public/uploads/Cracking the Interview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/public/uploads/Da Vinci Code.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/public/uploads/Harry Potter.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/public/uploads/Inferno.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/public/uploads/Profile_pics/RajviModh.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/public/uploads/Profile_pics/Untitled.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/public/uploads/Profile_pics/family photo.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/public/uploads/RESUME.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/public/uploads/Silence of the Lambs.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/public/uploads/The Curious Case.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/public/uploads/The Fury.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/public/uploads/The Secret Of Power.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/public/uploads/Three Mistakes of Life.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/public/uploads/Untitled.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/public/uploads/WallmartReturnLabel.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/public/uploads/aboutus.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/public/uploads/car-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/public/uploads/car-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/public/uploads/car-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/public/uploads/contractCahill.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/public/uploads/demo.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/public/uploads/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/routes/addQuantity.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/routes/addtocart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/routes/admin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/routes/artistearnings.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/routes/cart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/routes/files.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/routes/getMyBooks.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/routes/getartistprofile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/routes/getbookdetails.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/routes/homelesssignup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/routes/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/routes/login.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/routes/myorders.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/routes/mysql.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/routes/proceedcheckout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/routes/removeQty.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/routes/signup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/routes/userprofile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/uploads/Adrian.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/uploads/Class_Project_description-273-kayak.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/uploads/demo.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/views/error.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/views/index.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/node/views/layout.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/.idea/logindemo.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/.idea/preferred-vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/package-lock.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/css/animate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/css/bootstrap-datepicker.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/css/carousel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/css/cs-select.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/css/cs-skin-border.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/css/icomoon.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/css/magnific-popup.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/css/style.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/css/superfish.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/fonts/bootstrap/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/fonts/bootstrap/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/fonts/bootstrap/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/fonts/icomoon/icomoon.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/fonts/icomoon/icomoon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/fonts/icomoon/icomoon.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/fonts/icomoon/icomoon.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/fonts/icomoon/icomoon/Read Me.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/fonts/icomoon/icomoon/demo-files/demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/fonts/icomoon/icomoon/demo-files/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/fonts/icomoon/icomoon/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/fonts/icomoon/icomoon/fonts/icomoon.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/fonts/icomoon/icomoon/fonts/icomoon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/fonts/icomoon/icomoon/fonts/icomoon.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/fonts/icomoon/icomoon/fonts/icomoon.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/fonts/icomoon/icomoon/selection.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/fonts/icomoon/icomoon/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/images/car-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/images/car-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/images/car-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/images/car-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/images/car-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/images/car-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/images/ch1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/images/cover_bg_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/images/cover_bg_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/images/cover_bg_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/images/cover_bg_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/images/cover_bg_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/images/fb1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/images/loc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/images/place-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/images/place-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/images/place-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/images/place-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/images/place-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/images/place-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/images/place-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/images/place-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/images/place-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/images/place-9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/js/bootstrap-datepicker.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/js/classie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/js/google_map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/js/hoverIntent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/js/jquery.easing.1.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/js/jquery.magnific-popup.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/js/jquery.stellar.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/js/jquery.waypoints.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/js/magnific-popup-options.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/js/modernizr-2.6.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/js/respond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/js/selectFx.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/js/sticky.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/js/superfish.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/public/manifest.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/App.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/App.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/App.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/api/API.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/components/AboutUs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/components/AdminApproveBooks.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/components/AdminApproveUsers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/components/AfterHeader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/components/ArtistDetails.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/components/ArtistDisplayProfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/components/ArtistEarnings.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/components/ArtistMyBooks.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/components/ArtistProfilePage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/components/ArtistUploadBooks.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/components/Artists.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/components/BeforeHeader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/components/BookDetails.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/components/BooksAdventure.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/components/ContactUs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/components/DemoCarousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/components/ImageGridList.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/components/Login.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/components/Message.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/components/MyOrders.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/components/NewerHomePage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/components/Signup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/components/UserCart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/components/Welcome.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/css/animate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/css/bootstrap-datepicker.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/css/carousel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/css/cs-select.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/css/cs-skin-border.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/css/hotel-style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/css/icomoon.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/css/magnific-popup.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/css/style.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/css/superfish.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/fonts/bootstrap/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/fonts/bootstrap/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/fonts/bootstrap/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/fonts/icomoon/icomoon.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/fonts/icomoon/icomoon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/fonts/icomoon/icomoon.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/fonts/icomoon/icomoon.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/fonts/icomoon/icomoon/Read Me.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/fonts/icomoon/icomoon/demo-files/demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/fonts/icomoon/icomoon/demo-files/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/fonts/icomoon/icomoon/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/fonts/icomoon/icomoon/fonts/icomoon.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/fonts/icomoon/icomoon/fonts/icomoon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/fonts/icomoon/icomoon/fonts/icomoon.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/fonts/icomoon/icomoon/fonts/icomoon.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/fonts/icomoon/icomoon/selection.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/fonts/icomoon/icomoon/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/Adrian.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/about1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/aboutus.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/arr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/car-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/car-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/car-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/car-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/car-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/car-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/ch1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/clientTestimonials.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/clients.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/cover_bg_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/cover_bg_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/cover_bg_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/cover_bg_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/cover_bg_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/fb1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/footerClients.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/homeSlider.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/homeSlider2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/homeSlider3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/img_4623.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/loc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/logo1.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/place-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/place-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/place-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/place-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/place-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/place-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/place-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/place-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/place-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/place-9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/tick-mark1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/images/whatWeOffer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/index.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/src/registerServiceWorker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/COL/react/yarn.lock" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COL/node/app.js" afterPath="$PROJECT_DIR$/COL/node/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COL/react/src/api/API.js" afterPath="$PROJECT_DIR$/COL/react/src/api/API.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -265,17 +18,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="www" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/COL/node/bin/www">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>localhost:3000/</find>
+      <find>localhost:3000</find>
+      <find>api</find>
+      <find>http://localhost:3000</find>
+      <find>3000</find>
+      <find>3001</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/COL/react</dir>
+      <dir>$PROJECT_DIR$/COL/react/src/images</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -285,6 +62,8 @@
       <list>
         <option value="$PROJECT_DIR$/CraftOneLife/react/src/components/AboutUs.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/COL/node/app.js" />
+        <option value="$PROJECT_DIR$/COL/react/src/api/API.js" />
       </list>
     </option>
   </component>
@@ -334,7 +113,14 @@
               <item name="Project-Team-19" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project-Team-19" type="462c0819:PsiDirectoryNode" />
               <item name="COL" type="462c0819:PsiDirectoryNode" />
-              <item name="react" type="462c0819:PsiDirectoryNode" />
+              <item name="node" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project-Team-19" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project-Team-19" type="462c0819:PsiDirectoryNode" />
+              <item name="COL" type="462c0819:PsiDirectoryNode" />
+              <item name="node" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -378,7 +164,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7389000" />
+    <option name="totallyTimeSpent" value="10677000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -386,6 +172,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24876674" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -403,7 +190,6 @@
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24876674" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -421,20 +207,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CraftOneLife/react/src/components/AboutUs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CraftOneLife/react/src/components/AboutUs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="40" column="23" lean-forward="false" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node/package.json" />
     <entry file="file://$PROJECT_DIR$/node/.gitignore" />
     <entry file="file://$PROJECT_DIR$/react/.gitignore" />
@@ -560,10 +332,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/COL/react/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/node/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="38" column="34" lean-forward="false" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/react/src/components/AdminApproveBooks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/react/src/images/car-6.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/react/src/images/car-4.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/react/src/components/ArtistMyBooks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="69" column="53" lean-forward="true" selection-start-line="69" selection-start-column="53" selection-end-line="69" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/react/src/api/API.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="81" lean-forward="true" selection-start-line="0" selection-start-column="81" selection-end-line="0" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/node/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
           <folding />
         </state>
       </provider>
