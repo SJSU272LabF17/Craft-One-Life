@@ -47,6 +47,23 @@ class AdminApproveUsers extends Component{
         });
     }
 
+    rejectUser(u)
+    {
+        var data={email:u.email};
+
+        API.rejectuser(data).then((res) => {
+
+            //alert("User approved successfully");
+            API.getusersforapproval().then((res) => {
+                alert(res.resarray);
+                if(typeof res.resarray=="undefined"){
+                    res.resarray=[];
+                }
+                this.setState({users:res.resarray});
+            });
+        });
+    }
+
     constructor(props)
     {
         super(props);
@@ -57,11 +74,13 @@ class AdminApproveUsers extends Component{
 
     render() {
         return (
-            <div className="col-sm-4 col-md-4">
-                <h1>Hi</h1>
+            <div className="col-sm-8 col-md-8">
+<br/>
 
-                <h4>Users to be approved</h4>
-                <h4>Approved Users</h4>
+                <h3 style={{color:'green'}}><u>Users to be approved</u></h3>
+                <hr/>
+                <br/>
+
                 {this.state.users.map((u,index) =>(
                     <div>
 
@@ -76,7 +95,7 @@ class AdminApproveUsers extends Component{
                                 <div className="row">
                                     <div className="col-xs-12">
                                         <button className="btn btn-success"  onClick={()=>this.addApprovedUser(u)}> APPROVE</button>
-                                        <button className="btn btn-danger"> REJECT</button>
+                                        &nbsp;<button className="btn btn-danger" onClick={()=>this.rejectUser(u)}> REJECT</button>
 
 
                                     </div>
