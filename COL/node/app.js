@@ -3,7 +3,7 @@ var path = require('path');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var cors = require('cors');
+// var cors = require('cors');
 var session = require("client-sessions");
 var passport = require('passport');
 require('./routes/login')(passport);
@@ -36,19 +36,21 @@ app.use(cors({
     ]
 }));
 
-app.use(session({
-    cookieName: 'session',
-    secret: 'cmpe273_test_string',
-    duration: 30 * 60 * 1000,    //setting the time for active session
-    activeDuration: 5 * 60 * 1000  }))
-
-//Enable CORS
+// Enable CORS
 // var corsOptions = {
 //     origin: 'http://52.87.159.119:3000/',
 //     credentials: true,
 //     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 // }
 // app.use(cors(corsOptions));
+
+app.use(session({
+    cookieName: 'session',
+    secret: 'cmpe273_test_string',
+    duration: 30 * 60 * 1000,    //setting the time for active session
+    activeDuration: 5 * 60 * 1000  }))
+
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
