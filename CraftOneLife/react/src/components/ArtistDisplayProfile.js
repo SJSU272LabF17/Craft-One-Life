@@ -40,14 +40,23 @@ class ArtistDisplayProfile extends Component {
                     <hr/>
                     <br/>
                 </div>
+<<<<<<< HEAD
                 <div className="col-sm-2 col-md-2">
+=======
+                <div className="col-sm-3 col-md-3">
+>>>>>>> 42dd93887df5a9371b034c0e9b68dc917c69d630
                     <div>
                         <Avatar src={"data:image/jpeg;base64,"+this.state.profile_pic} round={true} size={150} alt={this.state.profile_pic}/>
                     </div>
                     <br/>
 
                 </div>
+<<<<<<< HEAD
 
+=======
+                <div className="col-sm-2 col-md-2">
+                </div>
+>>>>>>> 42dd93887df5a9371b034c0e9b68dc917c69d630
 
             <div className="col-sm-7 col-md-7">
                 <div className="form-group">
