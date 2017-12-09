@@ -20,7 +20,7 @@ class AdminApproveUsers extends Component{
 
     componentWillMount(){
         API.getusersforapproval().then((res) => {
-            alert(res.resarray);
+            
             if(typeof res.resarray=="undefined"){
                 res.resarray=[];
                 this.setState({users:res.resarray});
@@ -38,7 +38,7 @@ class AdminApproveUsers extends Component{
 
             //alert("User approved successfully");
             API.getusersforapproval().then((res) => {
-                alert(res.resarray);
+                
                 if(typeof res.resarray=="undefined"){
                     res.resarray=[];
                 }
@@ -55,7 +55,7 @@ class AdminApproveUsers extends Component{
 
             //alert("User approved successfully");
             API.getusersforapproval().then((res) => {
-                alert(res.resarray);
+                
                 if(typeof res.resarray=="undefined"){
                     res.resarray=[];
                 }

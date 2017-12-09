@@ -26,11 +26,11 @@ class AboutUs extends Component{
                     <h3 style={{textAlign:"left"}}>Our Story</h3>
                     <p>
 
-                        Rajvi Modh embarked on her mission when she was 23.
+                        <b> Neha Jethani </b> embarked on her mission when she was 23.
 
                         After getting a grant from San Jose State to encourage homeless people to write she conducted writing competitions along with amazing prizes for the winners which attracted many participators. But she was amazed by the incredible writing she got to read. Amazing thinking were being born and fading into oblivion. Rajvi then committed herself to share those writings with the world and deterring those from fading into oblivion.
 
-                        After one year, she, along with her three colleagues, founded CratfOneLife.
+                        After one year, she, along with her three colleagues :<b> Rajvi Modh, Kalikalyan Dash and Divyank Shukla </b>, founded CratfOneLife.
 
                     </p>
                 </div>
