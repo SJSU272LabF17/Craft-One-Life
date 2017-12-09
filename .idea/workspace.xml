@@ -2,279 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba4cda77-9c6d-4db8-99ab-1f7b6840addd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/node/public/uploads/Angels and Demons.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/node/public/uploads/Class_Project_description-273-kayak.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/node/public/uploads/CmpE180-38_ClassDiagram_team_NEO.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/node/public/uploads/Cracking the Interview.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/node/public/uploads/Da Vinci Code.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/node/public/uploads/Harry Potter.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/node/public/uploads/Inferno.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/node/public/uploads/RESUME.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/node/public/uploads/Silence of the Lambs.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/node/public/uploads/The Curious Case.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/node/public/uploads/The Fury.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/node/public/uploads/The Secret Of Power.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/node/public/uploads/Three Mistakes of Life.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/node/public/uploads/contractCahill.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/node/public/uploads/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/node/uploads/demo.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/react/src/images/about1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/react/src/images/img_4623.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/node/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/node/routes/admin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/node/routes/artistearnings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/node/routes/getMyBooks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/node/routes/getartistprofile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/node/routes/myorders.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/node/routes/proceedcheckout.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/node/routes/signup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/react/src/api/API.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/react/src/components/AboutUs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/react/src/components/AdminApproveBooks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/react/src/components/AdminApproveUsers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/react/src/components/AfterHeader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/react/src/components/ArtistDisplayProfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/react/src/components/ArtistEarnings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/react/src/components/ArtistMyBooks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/react/src/components/ArtistProfilePage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/react/src/components/ArtistUploadBooks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/react/src/components/BeforeHeader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/react/src/components/BooksAdventure.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/react/src/components/ContactUs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/react/src/components/DemoCarousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/react/src/components/Login.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/react/src/components/MyOrders.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/react/src/components/NewerHomePage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/react/src/components/Signup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COL/react/src/components/UserCart.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CraftOneLife/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CraftOneLife/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CraftOneLife/.idea/watcherTasks.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CraftOneLife/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CraftOneLife/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CraftOneLife/node/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CraftOneLife/node/routes/admin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CraftOneLife/node/routes/getartistprofile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CraftOneLife/node/routes/proceedcheckout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/api/API.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/components/AboutUs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/components/AdminApproveUsers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/components/AfterHeader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/components/ArtistDisplayProfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/components/ArtistProfilePage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/components/ArtistUploadBooks.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/components/BeforeHeader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/components/BooksAdventure.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/components/ContactUs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/components/DemoCarousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/components/Login.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/components/NewerHomePage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/components/Signup.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/.idea/LoginAppReactJS.iml" afterPath="$PROJECT_DIR$/COL/.idea/COL.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/.idea/misc.xml" afterPath="$PROJECT_DIR$/COL/.idea/misc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/node/bin/www" afterPath="$PROJECT_DIR$/COL/node/bin/www" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/node/package-lock.json" afterPath="$PROJECT_DIR$/COL/node/package-lock.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/node/package.json" afterPath="$PROJECT_DIR$/COL/node/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/node/public/profileImages/Adrian.png" afterPath="$PROJECT_DIR$/COL/node/public/profileImages/Adrian.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/node/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/COL/node/public/stylesheets/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/node/public/uploads/Adrian.png" afterPath="$PROJECT_DIR$/COL/node/public/uploads/Adrian.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/node/public/uploads/Profile_pics/RajviModh.jpeg" afterPath="$PROJECT_DIR$/COL/node/public/uploads/Profile_pics/RajviModh.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/node/public/uploads/Profile_pics/Untitled.jpg" afterPath="$PROJECT_DIR$/COL/node/public/uploads/Profile_pics/Untitled.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/node/public/uploads/Profile_pics/family photo.jpeg" afterPath="$PROJECT_DIR$/COL/node/public/uploads/Profile_pics/family photo.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/node/public/uploads/Untitled.jpg" afterPath="$PROJECT_DIR$/COL/node/public/uploads/Untitled.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/node/public/uploads/WallmartReturnLabel.pdf" afterPath="$PROJECT_DIR$/COL/node/public/uploads/WallmartReturnLabel.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/node/public/uploads/aboutus.jpg" afterPath="$PROJECT_DIR$/COL/node/public/uploads/aboutus.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/node/public/uploads/car-1.jpg" afterPath="$PROJECT_DIR$/COL/node/public/uploads/car-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/node/public/uploads/car-2.jpg" afterPath="$PROJECT_DIR$/COL/node/public/uploads/car-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/node/public/uploads/car-3.jpg" afterPath="$PROJECT_DIR$/COL/node/public/uploads/car-3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/node/routes/addQuantity.js" afterPath="$PROJECT_DIR$/COL/node/routes/addQuantity.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/node/routes/addtocart.js" afterPath="$PROJECT_DIR$/COL/node/routes/addtocart.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/node/routes/cart.js" afterPath="$PROJECT_DIR$/COL/node/routes/cart.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/node/routes/files.js" afterPath="$PROJECT_DIR$/COL/node/routes/files.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/node/routes/getbookdetails.js" afterPath="$PROJECT_DIR$/COL/node/routes/getbookdetails.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/node/routes/homelesssignup.js" afterPath="$PROJECT_DIR$/COL/node/routes/homelesssignup.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/node/routes/index.js" afterPath="$PROJECT_DIR$/COL/node/routes/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/node/routes/login.js" afterPath="$PROJECT_DIR$/COL/node/routes/login.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/node/routes/mysql.js" afterPath="$PROJECT_DIR$/COL/node/routes/mysql.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/node/routes/removeQty.js" afterPath="$PROJECT_DIR$/COL/node/routes/removeQty.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/node/routes/userprofile.js" afterPath="$PROJECT_DIR$/COL/node/routes/userprofile.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/node/uploads/Adrian.png" afterPath="$PROJECT_DIR$/COL/node/uploads/Adrian.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/node/uploads/Class_Project_description-273-kayak.pdf" afterPath="$PROJECT_DIR$/COL/node/uploads/Class_Project_description-273-kayak.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/node/uploads/demo.pdf" afterPath="$PROJECT_DIR$/COL/node/public/uploads/demo.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/node/views/error.jade" afterPath="$PROJECT_DIR$/COL/node/views/error.jade" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/node/views/index.jade" afterPath="$PROJECT_DIR$/COL/node/views/index.jade" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/node/views/layout.jade" afterPath="$PROJECT_DIR$/COL/node/views/layout.jade" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/.gitignore" afterPath="$PROJECT_DIR$/COL/react/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/.idea/logindemo.iml" afterPath="$PROJECT_DIR$/COL/react/.idea/logindemo.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/.idea/misc.xml" afterPath="$PROJECT_DIR$/COL/react/.idea/misc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/.idea/modules.xml" afterPath="$PROJECT_DIR$/COL/react/.idea/modules.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/.idea/preferred-vcs.xml" afterPath="$PROJECT_DIR$/COL/react/.idea/preferred-vcs.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/.idea/workspace.xml" afterPath="$PROJECT_DIR$/COL/react/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/README.md" afterPath="$PROJECT_DIR$/COL/react/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/package-lock.json" afterPath="$PROJECT_DIR$/COL/react/package-lock.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/package.json" afterPath="$PROJECT_DIR$/COL/react/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/css/animate.css" afterPath="$PROJECT_DIR$/COL/react/public/css/animate.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/css/bootstrap-datepicker.min.css" afterPath="$PROJECT_DIR$/COL/react/public/css/bootstrap-datepicker.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/css/bootstrap.css" afterPath="$PROJECT_DIR$/COL/react/public/css/bootstrap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/COL/react/public/css/bootstrap.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/css/carousel.css" afterPath="$PROJECT_DIR$/COL/react/public/css/carousel.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/css/cs-select.css" afterPath="$PROJECT_DIR$/COL/react/public/css/cs-select.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/css/cs-skin-border.css" afterPath="$PROJECT_DIR$/COL/react/public/css/cs-skin-border.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/css/icomoon.css" afterPath="$PROJECT_DIR$/COL/react/public/css/icomoon.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/css/magnific-popup.css" afterPath="$PROJECT_DIR$/COL/react/public/css/magnific-popup.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/css/style.css" afterPath="$PROJECT_DIR$/COL/react/public/css/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/css/style.css.map" afterPath="$PROJECT_DIR$/COL/react/public/css/style.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/css/superfish.css" afterPath="$PROJECT_DIR$/COL/react/public/css/superfish.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/favicon.ico" afterPath="$PROJECT_DIR$/COL/react/public/favicon.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/fonts/bootstrap/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/COL/react/public/fonts/bootstrap/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/fonts/bootstrap/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/COL/react/public/fonts/bootstrap/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/COL/react/public/fonts/bootstrap/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/fonts/bootstrap/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/COL/react/public/fonts/bootstrap/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/COL/react/public/fonts/bootstrap/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/fonts/icomoon/icomoon.eot" afterPath="$PROJECT_DIR$/COL/react/public/fonts/icomoon/icomoon.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/fonts/icomoon/icomoon.svg" afterPath="$PROJECT_DIR$/COL/react/public/fonts/icomoon/icomoon.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/fonts/icomoon/icomoon.ttf" afterPath="$PROJECT_DIR$/COL/react/public/fonts/icomoon/icomoon.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/fonts/icomoon/icomoon.woff" afterPath="$PROJECT_DIR$/COL/react/public/fonts/icomoon/icomoon.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/fonts/icomoon/icomoon/Read Me.txt" afterPath="$PROJECT_DIR$/COL/react/public/fonts/icomoon/icomoon/Read Me.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/fonts/icomoon/icomoon/demo-files/demo.css" afterPath="$PROJECT_DIR$/COL/react/public/fonts/icomoon/icomoon/demo-files/demo.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/fonts/icomoon/icomoon/demo-files/demo.js" afterPath="$PROJECT_DIR$/COL/react/public/fonts/icomoon/icomoon/demo-files/demo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/fonts/icomoon/icomoon/demo.html" afterPath="$PROJECT_DIR$/COL/react/public/fonts/icomoon/icomoon/demo.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/fonts/icomoon/icomoon/fonts/icomoon.eot" afterPath="$PROJECT_DIR$/COL/react/public/fonts/icomoon/icomoon/fonts/icomoon.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/fonts/icomoon/icomoon/fonts/icomoon.svg" afterPath="$PROJECT_DIR$/COL/react/public/fonts/icomoon/icomoon/fonts/icomoon.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/fonts/icomoon/icomoon/fonts/icomoon.ttf" afterPath="$PROJECT_DIR$/COL/react/public/fonts/icomoon/icomoon/fonts/icomoon.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/fonts/icomoon/icomoon/fonts/icomoon.woff" afterPath="$PROJECT_DIR$/COL/react/public/fonts/icomoon/icomoon/fonts/icomoon.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/fonts/icomoon/icomoon/selection.json" afterPath="$PROJECT_DIR$/COL/react/public/fonts/icomoon/icomoon/selection.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/fonts/icomoon/icomoon/style.css" afterPath="$PROJECT_DIR$/COL/react/public/fonts/icomoon/icomoon/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/images/car-1.jpg" afterPath="$PROJECT_DIR$/COL/react/public/images/car-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/images/car-2.jpg" afterPath="$PROJECT_DIR$/COL/react/public/images/car-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/images/car-3.jpg" afterPath="$PROJECT_DIR$/COL/react/public/images/car-3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/images/car-4.jpg" afterPath="$PROJECT_DIR$/COL/react/public/images/car-4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/images/car-5.jpg" afterPath="$PROJECT_DIR$/COL/react/public/images/car-5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/images/car-6.jpg" afterPath="$PROJECT_DIR$/COL/react/public/images/car-6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/images/ch1.png" afterPath="$PROJECT_DIR$/COL/react/public/images/ch1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/images/cover_bg_1.jpg" afterPath="$PROJECT_DIR$/COL/react/public/images/cover_bg_1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/images/cover_bg_2.jpg" afterPath="$PROJECT_DIR$/COL/react/public/images/cover_bg_2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/images/cover_bg_3.jpg" afterPath="$PROJECT_DIR$/COL/react/public/images/cover_bg_3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/images/cover_bg_4.jpg" afterPath="$PROJECT_DIR$/COL/react/public/images/cover_bg_4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/images/cover_bg_5.jpg" afterPath="$PROJECT_DIR$/COL/react/public/images/cover_bg_5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/images/fb1.png" afterPath="$PROJECT_DIR$/COL/react/public/images/fb1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/images/loc.png" afterPath="$PROJECT_DIR$/COL/react/public/images/loc.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/images/place-1.jpg" afterPath="$PROJECT_DIR$/COL/react/public/images/place-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/images/place-10.jpg" afterPath="$PROJECT_DIR$/COL/react/public/images/place-10.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/images/place-2.jpg" afterPath="$PROJECT_DIR$/COL/react/public/images/place-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/images/place-3.jpg" afterPath="$PROJECT_DIR$/COL/react/public/images/place-3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/images/place-4.jpg" afterPath="$PROJECT_DIR$/COL/react/public/images/place-4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/images/place-5.jpg" afterPath="$PROJECT_DIR$/COL/react/public/images/place-5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/images/place-6.jpg" afterPath="$PROJECT_DIR$/COL/react/public/images/place-6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/images/place-7.jpg" afterPath="$PROJECT_DIR$/COL/react/public/images/place-7.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/images/place-8.jpg" afterPath="$PROJECT_DIR$/COL/react/public/images/place-8.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/images/place-9.jpg" afterPath="$PROJECT_DIR$/COL/react/public/images/place-9.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/index.html" afterPath="$PROJECT_DIR$/COL/react/public/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/js/bootstrap-datepicker.min.js" afterPath="$PROJECT_DIR$/COL/react/public/js/bootstrap-datepicker.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/COL/react/public/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/js/classie.js" afterPath="$PROJECT_DIR$/COL/react/public/js/classie.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/js/google_map.js" afterPath="$PROJECT_DIR$/COL/react/public/js/google_map.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/js/hoverIntent.js" afterPath="$PROJECT_DIR$/COL/react/public/js/hoverIntent.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/js/jquery.easing.1.3.js" afterPath="$PROJECT_DIR$/COL/react/public/js/jquery.easing.1.3.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/js/jquery.magnific-popup.min.js" afterPath="$PROJECT_DIR$/COL/react/public/js/jquery.magnific-popup.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/js/jquery.min.js" afterPath="$PROJECT_DIR$/COL/react/public/js/jquery.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/js/jquery.stellar.min.js" afterPath="$PROJECT_DIR$/COL/react/public/js/jquery.stellar.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/js/jquery.waypoints.min.js" afterPath="$PROJECT_DIR$/COL/react/public/js/jquery.waypoints.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/js/magnific-popup-options.js" afterPath="$PROJECT_DIR$/COL/react/public/js/magnific-popup-options.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/js/main.js" afterPath="$PROJECT_DIR$/COL/react/public/js/main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/js/modernizr-2.6.2.min.js" afterPath="$PROJECT_DIR$/COL/react/public/js/modernizr-2.6.2.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/js/respond.min.js" afterPath="$PROJECT_DIR$/COL/react/public/js/respond.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/js/selectFx.js" afterPath="$PROJECT_DIR$/COL/react/public/js/selectFx.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/js/sticky.js" afterPath="$PROJECT_DIR$/COL/react/public/js/sticky.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/js/superfish.js" afterPath="$PROJECT_DIR$/COL/react/public/js/superfish.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/public/manifest.json" afterPath="$PROJECT_DIR$/COL/react/public/manifest.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/App.css" afterPath="$PROJECT_DIR$/COL/react/src/App.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/App.js" afterPath="$PROJECT_DIR$/COL/react/src/App.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/App.test.js" afterPath="$PROJECT_DIR$/COL/react/src/App.test.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/components/ArtistDetails.js" afterPath="$PROJECT_DIR$/COL/react/src/components/ArtistDetails.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/components/Artists.js" afterPath="$PROJECT_DIR$/COL/react/src/components/Artists.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/components/BookDetails.js" afterPath="$PROJECT_DIR$/COL/react/src/components/BookDetails.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/components/ImageGridList.js" afterPath="$PROJECT_DIR$/COL/react/src/components/ImageGridList.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/components/Message.js" afterPath="$PROJECT_DIR$/COL/react/src/components/Message.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/components/Welcome.js" afterPath="$PROJECT_DIR$/COL/react/src/components/Welcome.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/css/animate.css" afterPath="$PROJECT_DIR$/COL/react/src/css/animate.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/css/bootstrap-datepicker.min.css" afterPath="$PROJECT_DIR$/COL/react/src/css/bootstrap-datepicker.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/css/bootstrap.css" afterPath="$PROJECT_DIR$/COL/react/src/css/bootstrap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/COL/react/src/css/bootstrap.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/css/carousel.css" afterPath="$PROJECT_DIR$/COL/react/src/css/carousel.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/css/cs-select.css" afterPath="$PROJECT_DIR$/COL/react/src/css/cs-select.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/css/cs-skin-border.css" afterPath="$PROJECT_DIR$/COL/react/src/css/cs-skin-border.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/css/hotel-style.css" afterPath="$PROJECT_DIR$/COL/react/src/css/hotel-style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/css/icomoon.css" afterPath="$PROJECT_DIR$/COL/react/src/css/icomoon.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/css/magnific-popup.css" afterPath="$PROJECT_DIR$/COL/react/src/css/magnific-popup.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/css/style.css" afterPath="$PROJECT_DIR$/COL/react/src/css/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/css/style.css.map" afterPath="$PROJECT_DIR$/COL/react/src/css/style.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/css/superfish.css" afterPath="$PROJECT_DIR$/COL/react/src/css/superfish.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/fonts/bootstrap/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/COL/react/src/fonts/bootstrap/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/fonts/bootstrap/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/COL/react/src/fonts/bootstrap/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/COL/react/src/fonts/bootstrap/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/fonts/bootstrap/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/COL/react/src/fonts/bootstrap/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/COL/react/src/fonts/bootstrap/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/fonts/icomoon/icomoon.eot" afterPath="$PROJECT_DIR$/COL/react/src/fonts/icomoon/icomoon.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/fonts/icomoon/icomoon.svg" afterPath="$PROJECT_DIR$/COL/react/src/fonts/icomoon/icomoon.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/fonts/icomoon/icomoon.ttf" afterPath="$PROJECT_DIR$/COL/react/src/fonts/icomoon/icomoon.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/fonts/icomoon/icomoon.woff" afterPath="$PROJECT_DIR$/COL/react/src/fonts/icomoon/icomoon.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/fonts/icomoon/icomoon/Read Me.txt" afterPath="$PROJECT_DIR$/COL/react/src/fonts/icomoon/icomoon/Read Me.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/fonts/icomoon/icomoon/demo-files/demo.css" afterPath="$PROJECT_DIR$/COL/react/src/fonts/icomoon/icomoon/demo-files/demo.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/fonts/icomoon/icomoon/demo-files/demo.js" afterPath="$PROJECT_DIR$/COL/react/src/fonts/icomoon/icomoon/demo-files/demo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/fonts/icomoon/icomoon/demo.html" afterPath="$PROJECT_DIR$/COL/react/src/fonts/icomoon/icomoon/demo.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/fonts/icomoon/icomoon/fonts/icomoon.eot" afterPath="$PROJECT_DIR$/COL/react/src/fonts/icomoon/icomoon/fonts/icomoon.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/fonts/icomoon/icomoon/fonts/icomoon.svg" afterPath="$PROJECT_DIR$/COL/react/src/fonts/icomoon/icomoon/fonts/icomoon.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/fonts/icomoon/icomoon/fonts/icomoon.ttf" afterPath="$PROJECT_DIR$/COL/react/src/fonts/icomoon/icomoon/fonts/icomoon.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/fonts/icomoon/icomoon/fonts/icomoon.woff" afterPath="$PROJECT_DIR$/COL/react/src/fonts/icomoon/icomoon/fonts/icomoon.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/fonts/icomoon/icomoon/selection.json" afterPath="$PROJECT_DIR$/COL/react/src/fonts/icomoon/icomoon/selection.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/fonts/icomoon/icomoon/style.css" afterPath="$PROJECT_DIR$/COL/react/src/fonts/icomoon/icomoon/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/11.png" afterPath="$PROJECT_DIR$/COL/react/src/images/11.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/Adrian.png" afterPath="$PROJECT_DIR$/COL/react/src/images/Adrian.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/aboutus.jpg" afterPath="$PROJECT_DIR$/COL/react/src/images/aboutus.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/arr.png" afterPath="$PROJECT_DIR$/COL/react/src/images/arr.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/car-1.jpg" afterPath="$PROJECT_DIR$/COL/react/src/images/car-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/car-2.jpg" afterPath="$PROJECT_DIR$/COL/react/src/images/car-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/car-3.jpg" afterPath="$PROJECT_DIR$/COL/react/src/images/car-3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/car-4.jpg" afterPath="$PROJECT_DIR$/COL/react/src/images/car-4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/car-5.jpg" afterPath="$PROJECT_DIR$/COL/react/src/images/car-5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/car-6.jpg" afterPath="$PROJECT_DIR$/COL/react/src/images/car-6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/ch1.png" afterPath="$PROJECT_DIR$/COL/react/src/images/ch1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/clientTestimonials.png" afterPath="$PROJECT_DIR$/COL/react/src/images/clientTestimonials.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/clients.png" afterPath="$PROJECT_DIR$/COL/react/src/images/clients.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/cover_bg_1.jpg" afterPath="$PROJECT_DIR$/COL/react/src/images/cover_bg_1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/cover_bg_2.jpg" afterPath="$PROJECT_DIR$/COL/react/src/images/cover_bg_2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/cover_bg_3.jpg" afterPath="$PROJECT_DIR$/COL/react/src/images/cover_bg_3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/cover_bg_4.jpg" afterPath="$PROJECT_DIR$/COL/react/src/images/cover_bg_4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/cover_bg_5.jpg" afterPath="$PROJECT_DIR$/COL/react/src/images/cover_bg_5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/fb1.png" afterPath="$PROJECT_DIR$/COL/react/src/images/fb1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/footerClients.png" afterPath="$PROJECT_DIR$/COL/react/src/images/footerClients.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/homeSlider.png" afterPath="$PROJECT_DIR$/COL/react/src/images/homeSlider.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/homeSlider2.jpg" afterPath="$PROJECT_DIR$/COL/react/src/images/homeSlider2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/homeSlider3.png" afterPath="$PROJECT_DIR$/COL/react/src/images/homeSlider3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/loc.png" afterPath="$PROJECT_DIR$/COL/react/src/images/loc.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/logo1.jpeg" afterPath="$PROJECT_DIR$/COL/react/src/images/logo1.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/place-1.jpg" afterPath="$PROJECT_DIR$/COL/react/src/images/place-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/place-10.jpg" afterPath="$PROJECT_DIR$/COL/react/src/images/place-10.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/place-2.jpg" afterPath="$PROJECT_DIR$/COL/react/src/images/place-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/place-3.jpg" afterPath="$PROJECT_DIR$/COL/react/src/images/place-3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/place-4.jpg" afterPath="$PROJECT_DIR$/COL/react/src/images/place-4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/place-5.jpg" afterPath="$PROJECT_DIR$/COL/react/src/images/place-5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/place-6.jpg" afterPath="$PROJECT_DIR$/COL/react/src/images/place-6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/place-7.jpg" afterPath="$PROJECT_DIR$/COL/react/src/images/place-7.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/place-8.jpg" afterPath="$PROJECT_DIR$/COL/react/src/images/place-8.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/place-9.jpg" afterPath="$PROJECT_DIR$/COL/react/src/images/place-9.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/search.png" afterPath="$PROJECT_DIR$/COL/react/src/images/search.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/tick-mark1.png" afterPath="$PROJECT_DIR$/COL/react/src/images/tick-mark1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/images/whatWeOffer.png" afterPath="$PROJECT_DIR$/COL/react/src/images/whatWeOffer.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/index.css" afterPath="$PROJECT_DIR$/COL/react/src/index.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/index.js" afterPath="$PROJECT_DIR$/COL/react/src/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/logo.svg" afterPath="$PROJECT_DIR$/COL/react/src/logo.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/COL/react/src/registerServiceWorker.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CraftOneLife/react/yarn.lock" afterPath="$PROJECT_DIR$/COL/react/yarn.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -289,11 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/COL/node/routes/admin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="909">
+              <caret line="231" column="0" lean-forward="true" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -319,6 +56,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/COL/node/node_modules" />
     <handled-path value="$PROJECT_DIR$/COL/react/node_modules" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
@@ -363,6 +101,13 @@
               <item name="Project-Team-19" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project-Team-19" type="462c0819:PsiDirectoryNode" />
               <item name="COL" type="462c0819:PsiDirectoryNode" />
+              <item name="node" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project-Team-19" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project-Team-19" type="462c0819:PsiDirectoryNode" />
+              <item name="COL" type="462c0819:PsiDirectoryNode" />
               <item name="react" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -402,16 +147,15 @@
       <option name="presentableId" value="Default" />
       <updated>1511944207549</updated>
       <workItem from="1511944208829" duration="194000" />
-      <workItem from="1512782962427" duration="1610000" />
+      <workItem from="1512782962427" duration="4240000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2693000" />
+    <option name="totallyTimeSpent" value="5323000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24876674" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -419,7 +163,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -463,7 +207,15 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/node/routes/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="909">
+          <caret line="231" column="0" lean-forward="true" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
           <folding />
         </state>
       </provider>
