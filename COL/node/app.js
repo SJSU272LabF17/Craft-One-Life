@@ -36,7 +36,7 @@ app.use(session({
 
 //Enable CORS
 var corsOptions = {
-    origin: 'http://52.87.159.119:3000/',
+    origin: 'http://52.87.159.119:3000',
     credentials: true,
     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 }
