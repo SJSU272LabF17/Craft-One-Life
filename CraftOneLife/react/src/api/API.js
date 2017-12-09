@@ -1,4 +1,4 @@
-const api = process.env.REACT_APP_CONTACTS_API_URL || 'http://localhost:3001'
+const api = process.env.REACT_APP_CONTACTS_API_URL || 'http://52.87.159.119:3001'
 
 const headers = {
     'Accept': 'application/json'

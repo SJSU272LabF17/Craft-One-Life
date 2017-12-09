@@ -1,0 +1,1439 @@
+
+> logindemo@0.1.0 start /var/www/html/Project-Team-19/CraftOneLife/react
+> react-scripts start
+
+Starting the development server...
+
+Compiled with warnings.
+
+./src/components/NewerHomePage.js
+  Line 3:     'ReactDOM' is defined but never used                                                                             no-unused-vars
+  Line 5:     'DropdownMenu' is defined but never used                                                                         no-unused-vars
+  Line 5:     'MenuItem' is defined but never used                                                                             no-unused-vars
+  Line 13:    'Artists' is defined but never used                                                                              no-unused-vars
+  Line 14:    'ArtistDetails' is defined but never used                                                                        no-unused-vars
+  Line 15:    'BookDetails' is defined but never used                                                                          no-unused-vars
+  Line 147:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images        jsx-a11y/alt-text
+  Line 174:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images        jsx-a11y/alt-text
+  Line 177:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images        jsx-a11y/alt-text
+  Line 179:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images        jsx-a11y/alt-text
+  Line 199:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 200:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 201:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 207:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 208:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 209:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 210:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 211:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 217:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 218:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 219:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 220:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 227:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 228:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 229:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 230:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 231:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 271:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 272:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 273:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 279:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 280:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 281:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 282:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 283:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 289:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 290:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 291:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 292:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 299:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 300:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 301:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 302:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 303:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 343:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 344:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 345:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 351:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 352:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 353:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 354:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 355:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 361:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 362:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 363:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 364:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 371:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 372:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 373:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 374:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 375:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 414:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 415:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 416:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 422:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 423:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 424:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 425:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 426:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 432:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 433:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 434:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 435:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 442:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 443:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 444:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 445:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 446:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 484:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 485:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 486:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 492:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 493:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 494:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 495:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 496:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 502:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 503:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 504:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 505:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 512:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 513:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 514:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 515:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 516:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 555:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 556:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 557:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 563:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 564:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 565:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 566:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 567:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 573:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 574:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 575:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 576:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 583:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 584:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 585:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 586:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 587:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 627:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 628:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 629:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 635:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 636:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 637:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 638:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 639:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 645:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 646:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 647:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 648:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 655:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 656:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 657:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 658:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 659:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 699:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 700:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 701:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 707:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 708:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 709:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 710:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 711:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 717:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 718:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 719:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 720:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 727:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 728:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 729:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 730:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 731:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 754:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 754:   Anchors must have content and the content must be accessible by a screen reader                                  jsx-a11y/anchor-has-content
+  Line 757:   The element nav has an implicit role of navigation. Defining this explicitly is redundant and should be avoided  jsx-a11y/no-redundant-roles
+  Line 788:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 789:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 790:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 796:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 797:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 798:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 799:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 800:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 806:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 807:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 808:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 809:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 816:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 817:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 818:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 819:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 820:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 841:   Anchors must have content and the content must be accessible by a screen reader                                  jsx-a11y/anchor-has-content
+  Line 841:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 844:   The element nav has an implicit role of navigation. Defining this explicitly is redundant and should be avoided  jsx-a11y/no-redundant-roles
+  Line 875:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 876:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 877:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 883:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 884:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 885:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 886:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 887:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 893:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 894:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 895:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 896:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 903:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 904:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 905:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 906:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 907:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 927:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 927:   Anchors must have content and the content must be accessible by a screen reader                                  jsx-a11y/anchor-has-content
+  Line 930:   The element nav has an implicit role of navigation. Defining this explicitly is redundant and should be avoided  jsx-a11y/no-redundant-roles
+  Line 961:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 962:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 963:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 969:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 970:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 971:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 972:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 973:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 979:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 980:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 981:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 982:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 989:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 990:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 991:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 992:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 993:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1021:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1021:  Anchors must have content and the content must be accessible by a screen reader                                  jsx-a11y/anchor-has-content
+  Line 1024:  The element nav has an implicit role of navigation. Defining this explicitly is redundant and should be avoided  jsx-a11y/no-redundant-roles
+  Line 1054:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1055:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1056:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1062:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1063:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1064:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1065:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1066:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1072:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1073:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1074:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1075:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1082:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1083:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1084:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1085:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1086:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1109:  Anchors must have content and the content must be accessible by a screen reader                                  jsx-a11y/anchor-has-content
+  Line 1109:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1112:  The element nav has an implicit role of navigation. Defining this explicitly is redundant and should be avoided  jsx-a11y/no-redundant-roles
+  Line 1142:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1143:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1144:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1150:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1151:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1152:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1153:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1154:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1160:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1161:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1162:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1163:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1170:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1171:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1172:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1173:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1174:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+
+./src/components/BeforeHeader.js
+  Line 1:   React.PropTypes is deprecated since React 15.5.0, use the npm module prop-types instead                          react/no-deprecated
+  Line 1:   'PropTypes' is defined but never used                                                                            no-unused-vars
+  Line 2:   'Route' is defined but never used                                                                                no-unused-vars
+  Line 3:   'API' is defined but never used                                                                                  no-unused-vars
+  Line 11:  Anchors must have content and the content must be accessible by a screen reader                                  jsx-a11y/anchor-has-content
+  Line 11:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 14:  The element nav has an implicit role of navigation. Defining this explicitly is redundant and should be avoided  jsx-a11y/no-redundant-roles
+
+./src/components/Login.js
+  Line 8:  'textbox' is assigned a value but never used  no-unused-vars
+
+./src/components/AboutUs.js
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/Artists.js
+  Line 2:   'withRouter' is defined but never used                                                                     no-unused-vars
+  Line 3:   'PropTypes' is defined but never used                                                                      no-unused-vars
+  Line 6:   'ArtistDetails' is defined but never used                                                                  no-unused-vars
+  Line 18:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 22:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 25:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 28:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/ArtistDetails.js
+  Line 2:  'PropTypes' is defined but never used  no-unused-vars
+  Line 5:  'adrian' is defined but never used     no-unused-vars
+
+./src/components/BookDetails.js
+  Line 2:  'API' is defined but never used            no-unused-vars
+  Line 3:  'ImageGridList' is defined but never used  no-unused-vars
+
+./src/components/AdminApproveBooks.js
+  Line 17:  Expected '===' and instead saw '=='  eqeqeq
+  Line 35:  Expected '===' and instead saw '=='  eqeqeq
+
+./src/components/BooksAdventure.js
+  Line 3:  'ImageGridList' is defined but never used  no-unused-vars
+  Line 4:  'TextField' is defined but never used      no-unused-vars
+  Line 5:  'Typography' is defined but never used     no-unused-vars
+
+./src/components/MyOrders.js
+  Line 1:  React.PropTypes is deprecated since React 15.5.0, use the npm module prop-types instead  react/no-deprecated
+  Line 1:  'PropTypes' is defined but never used                                                    no-unused-vars
+  Line 2:  'Route' is defined but never used                                                        no-unused-vars
+  Line 2:  'Link' is defined but never used                                                         no-unused-vars
+  Line 3:  'API' is defined but never used                                                          no-unused-vars
+
+./src/components/DemoCarousel.js
+  Line 2:   'ReactDOM' is defined but never used                                                                       no-unused-vars
+  Line 14:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 18:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 22:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/AfterHeader.js
+  Line 1:   React.PropTypes is deprecated since React 15.5.0, use the npm module prop-types instead                          react/no-deprecated
+  Line 1:   'PropTypes' is defined but never used                                                                            no-unused-vars
+  Line 2:   'Route' is defined but never used                                                                                no-unused-vars
+  Line 26:  Anchors must have content and the content must be accessible by a screen reader                                  jsx-a11y/anchor-has-content
+  Line 26:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 29:  The element nav has an implicit role of navigation. Defining this explicitly is redundant and should be avoided  jsx-a11y/no-redundant-roles
+
+./src/components/AdminApproveUsers.js
+  Line 7:   'adrian' is defined but never used   no-unused-vars
+  Line 24:  Expected '===' and instead saw '=='  eqeqeq
+  Line 42:  Expected '===' and instead saw '=='  eqeqeq
+  Line 50:  Useless constructor                  no-useless-constructor
+
+./src/components/ArtistUploadBooks.js
+  Line 2:  'Link' is defined but never used        no-unused-vars
+  Line 2:  'withRouter' is defined but never used  no-unused-vars
+
+./src/components/ContactUs.js
+  Line 2:  'PropTypes' is defined but never used  no-unused-vars
+
+./src/components/ArtistProfilePage.js
+  Line 2:  'Link' is defined but never used    no-unused-vars
+  Line 3:  'Panel' is defined but never used   no-unused-vars
+  Line 4:  'Button' is defined but never used  no-unused-vars
+
+./src/components/ArtistDisplayProfile.js
+  Line 2:  'Link' is defined but never used  no-unused-vars
+
+./src/components/UserCart.js
+  Line 44:   Missing radix parameter                     radix
+  Line 44:   Missing radix parameter                     radix
+  Line 152:  Expected '!==' and instead saw '!='         eqeqeq
+  Line 156:  Expected '!==' and instead saw '!='         eqeqeq
+  Line 175:  'payload' is already defined                no-redeclare
+  Line 222:  'total' is assigned a value but never used  no-unused-vars
+
+./src/components/ImageGridList.js
+  Line 2:  'Route' is defined but never used          no-unused-vars
+  Line 2:  'withRouter' is defined but never used     no-unused-vars
+  Line 5:  'ArtistDetails' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+
+> logindemo@0.1.0 start /var/www/html/Project-Team-19/CraftOneLife/react
+> react-scripts start
+
+Starting the development server...
+
+Compiled with warnings.
+
+./src/components/NewerHomePage.js
+  Line 3:     'ReactDOM' is defined but never used                                                                             no-unused-vars
+  Line 5:     'DropdownMenu' is defined but never used                                                                         no-unused-vars
+  Line 5:     'MenuItem' is defined but never used                                                                             no-unused-vars
+  Line 13:    'Artists' is defined but never used                                                                              no-unused-vars
+  Line 14:    'ArtistDetails' is defined but never used                                                                        no-unused-vars
+  Line 15:    'BookDetails' is defined but never used                                                                          no-unused-vars
+  Line 147:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images        jsx-a11y/alt-text
+  Line 174:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images        jsx-a11y/alt-text
+  Line 177:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images        jsx-a11y/alt-text
+  Line 179:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images        jsx-a11y/alt-text
+  Line 199:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 200:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 201:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 207:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 208:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 209:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 210:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 211:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 217:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 218:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 219:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 220:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 227:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 228:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 229:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 230:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 231:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 271:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 272:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 273:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 279:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 280:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 281:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 282:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 283:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 289:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 290:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 291:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 292:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 299:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 300:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 301:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 302:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 303:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 343:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 344:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 345:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 351:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 352:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 353:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 354:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 355:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 361:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 362:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 363:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 364:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 371:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 372:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 373:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 374:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 375:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 414:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 415:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 416:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 422:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 423:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 424:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 425:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 426:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 432:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 433:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 434:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 435:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 442:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 443:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 444:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 445:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 446:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 484:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 485:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 486:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 492:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 493:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 494:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 495:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 496:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 502:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 503:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 504:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 505:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 512:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 513:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 514:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 515:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 516:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 555:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 556:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 557:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 563:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 564:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 565:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 566:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 567:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 573:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 574:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 575:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 576:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 583:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 584:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 585:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 586:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 587:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 627:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 628:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 629:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 635:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 636:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 637:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 638:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 639:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 645:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 646:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 647:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 648:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 655:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 656:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 657:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 658:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 659:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 699:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 700:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 701:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 707:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 708:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 709:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 710:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 711:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 717:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 718:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 719:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 720:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 727:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 728:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 729:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 730:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 731:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 754:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 754:   Anchors must have content and the content must be accessible by a screen reader                                  jsx-a11y/anchor-has-content
+  Line 757:   The element nav has an implicit role of navigation. Defining this explicitly is redundant and should be avoided  jsx-a11y/no-redundant-roles
+  Line 788:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 789:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 790:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 796:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 797:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 798:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 799:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 800:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 806:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 807:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 808:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 809:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 816:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 817:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 818:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 819:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 820:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 841:   Anchors must have content and the content must be accessible by a screen reader                                  jsx-a11y/anchor-has-content
+  Line 841:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 844:   The element nav has an implicit role of navigation. Defining this explicitly is redundant and should be avoided  jsx-a11y/no-redundant-roles
+  Line 875:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 876:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 877:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 883:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 884:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 885:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 886:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 887:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 893:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 894:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 895:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 896:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 903:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 904:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 905:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 906:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 907:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 927:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 927:   Anchors must have content and the content must be accessible by a screen reader                                  jsx-a11y/anchor-has-content
+  Line 930:   The element nav has an implicit role of navigation. Defining this explicitly is redundant and should be avoided  jsx-a11y/no-redundant-roles
+  Line 961:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 962:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 963:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 969:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 970:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 971:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 972:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 973:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 979:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 980:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 981:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 982:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 989:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 990:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 991:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 992:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 993:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1021:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1021:  Anchors must have content and the content must be accessible by a screen reader                                  jsx-a11y/anchor-has-content
+  Line 1024:  The element nav has an implicit role of navigation. Defining this explicitly is redundant and should be avoided  jsx-a11y/no-redundant-roles
+  Line 1054:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1055:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1056:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1062:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1063:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1064:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1065:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1066:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1072:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1073:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1074:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1075:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1082:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1083:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1084:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1085:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1086:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1109:  Anchors must have content and the content must be accessible by a screen reader                                  jsx-a11y/anchor-has-content
+  Line 1109:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1112:  The element nav has an implicit role of navigation. Defining this explicitly is redundant and should be avoided  jsx-a11y/no-redundant-roles
+  Line 1142:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1143:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1144:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1150:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1151:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1152:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1153:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1154:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1160:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1161:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1162:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1163:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1170:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1171:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1172:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1173:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1174:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+
+./src/components/BeforeHeader.js
+  Line 1:   React.PropTypes is deprecated since React 15.5.0, use the npm module prop-types instead                          react/no-deprecated
+  Line 1:   'PropTypes' is defined but never used                                                                            no-unused-vars
+  Line 2:   'Route' is defined but never used                                                                                no-unused-vars
+  Line 3:   'API' is defined but never used                                                                                  no-unused-vars
+  Line 11:  Anchors must have content and the content must be accessible by a screen reader                                  jsx-a11y/anchor-has-content
+  Line 11:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 14:  The element nav has an implicit role of navigation. Defining this explicitly is redundant and should be avoided  jsx-a11y/no-redundant-roles
+
+./src/components/Login.js
+  Line 8:  'textbox' is assigned a value but never used  no-unused-vars
+
+./src/components/AboutUs.js
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/Artists.js
+  Line 2:   'withRouter' is defined but never used                                                                     no-unused-vars
+  Line 3:   'PropTypes' is defined but never used                                                                      no-unused-vars
+  Line 6:   'ArtistDetails' is defined but never used                                                                  no-unused-vars
+  Line 18:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 22:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 25:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 28:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/ArtistDetails.js
+  Line 2:  'PropTypes' is defined but never used  no-unused-vars
+  Line 5:  'adrian' is defined but never used     no-unused-vars
+
+./src/components/BookDetails.js
+  Line 2:  'API' is defined but never used            no-unused-vars
+  Line 3:  'ImageGridList' is defined but never used  no-unused-vars
+
+./src/components/AdminApproveBooks.js
+  Line 17:  Expected '===' and instead saw '=='  eqeqeq
+  Line 35:  Expected '===' and instead saw '=='  eqeqeq
+
+./src/components/BooksAdventure.js
+  Line 3:  'ImageGridList' is defined but never used  no-unused-vars
+  Line 4:  'TextField' is defined but never used      no-unused-vars
+  Line 5:  'Typography' is defined but never used     no-unused-vars
+
+./src/components/AfterHeader.js
+  Line 1:   React.PropTypes is deprecated since React 15.5.0, use the npm module prop-types instead                          react/no-deprecated
+  Line 1:   'PropTypes' is defined but never used                                                                            no-unused-vars
+  Line 2:   'Route' is defined but never used                                                                                no-unused-vars
+  Line 26:  Anchors must have content and the content must be accessible by a screen reader                                  jsx-a11y/anchor-has-content
+  Line 26:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 29:  The element nav has an implicit role of navigation. Defining this explicitly is redundant and should be avoided  jsx-a11y/no-redundant-roles
+
+./src/components/AdminApproveUsers.js
+  Line 7:   'adrian' is defined but never used   no-unused-vars
+  Line 24:  Expected '===' and instead saw '=='  eqeqeq
+  Line 42:  Expected '===' and instead saw '=='  eqeqeq
+  Line 50:  Useless constructor                  no-useless-constructor
+
+./src/components/ArtistUploadBooks.js
+  Line 2:  'Link' is defined but never used        no-unused-vars
+  Line 2:  'withRouter' is defined but never used  no-unused-vars
+
+./src/components/MyOrders.js
+  Line 1:  React.PropTypes is deprecated since React 15.5.0, use the npm module prop-types instead  react/no-deprecated
+  Line 1:  'PropTypes' is defined but never used                                                    no-unused-vars
+  Line 2:  'Route' is defined but never used                                                        no-unused-vars
+  Line 2:  'Link' is defined but never used                                                         no-unused-vars
+  Line 3:  'API' is defined but never used                                                          no-unused-vars
+
+./src/components/DemoCarousel.js
+  Line 2:   'ReactDOM' is defined but never used                                                                       no-unused-vars
+  Line 14:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 18:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 22:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/ContactUs.js
+  Line 2:  'PropTypes' is defined but never used  no-unused-vars
+
+./src/components/ArtistProfilePage.js
+  Line 2:  'Link' is defined but never used    no-unused-vars
+  Line 3:  'Panel' is defined but never used   no-unused-vars
+  Line 4:  'Button' is defined but never used  no-unused-vars
+
+./src/components/ArtistDisplayProfile.js
+  Line 2:  'Link' is defined but never used  no-unused-vars
+
+./src/components/UserCart.js
+  Line 44:   Missing radix parameter                     radix
+  Line 44:   Missing radix parameter                     radix
+  Line 152:  Expected '!==' and instead saw '!='         eqeqeq
+  Line 156:  Expected '!==' and instead saw '!='         eqeqeq
+  Line 175:  'payload' is already defined                no-redeclare
+  Line 222:  'total' is assigned a value but never used  no-unused-vars
+
+./src/components/ImageGridList.js
+  Line 2:  'Route' is defined but never used          no-unused-vars
+  Line 2:  'withRouter' is defined but never used     no-unused-vars
+  Line 5:  'ArtistDetails' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/NewerHomePage.js
+  Line 3:     'ReactDOM' is defined but never used                                                                             no-unused-vars
+  Line 5:     'DropdownMenu' is defined but never used                                                                         no-unused-vars
+  Line 5:     'MenuItem' is defined but never used                                                                             no-unused-vars
+  Line 13:    'Artists' is defined but never used                                                                              no-unused-vars
+  Line 14:    'ArtistDetails' is defined but never used                                                                        no-unused-vars
+  Line 15:    'BookDetails' is defined but never used                                                                          no-unused-vars
+  Line 147:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images        jsx-a11y/alt-text
+  Line 174:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images        jsx-a11y/alt-text
+  Line 177:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images        jsx-a11y/alt-text
+  Line 179:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images        jsx-a11y/alt-text
+  Line 199:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 200:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 201:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 207:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 208:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 209:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 210:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 211:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 217:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 218:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 219:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 220:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 227:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 228:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 229:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 230:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 231:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 271:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 272:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 273:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 279:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 280:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 281:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 282:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 283:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 289:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 290:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 291:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 292:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 299:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 300:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 301:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 302:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 303:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 343:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 344:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 345:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 351:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 352:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 353:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 354:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 355:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 361:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 362:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 363:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 364:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 371:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 372:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 373:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 374:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 375:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 414:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 415:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 416:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 422:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 423:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 424:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 425:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 426:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 432:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 433:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 434:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 435:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 442:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 443:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 444:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 445:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 446:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 484:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 485:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 486:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 492:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 493:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 494:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 495:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 496:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 502:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 503:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 504:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 505:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 512:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 513:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 514:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 515:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 516:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 555:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 556:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 557:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 563:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 564:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 565:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 566:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 567:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 573:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 574:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 575:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 576:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 583:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 584:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 585:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 586:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 587:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 627:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 628:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 629:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 635:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 636:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 637:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 638:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 639:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 645:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 646:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 647:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 648:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 655:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 656:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 657:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 658:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 659:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 699:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 700:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 701:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 707:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 708:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 709:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 710:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 711:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 717:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 718:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 719:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 720:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 727:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 728:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 729:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 730:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 731:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 754:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 754:   Anchors must have content and the content must be accessible by a screen reader                                  jsx-a11y/anchor-has-content
+  Line 757:   The element nav has an implicit role of navigation. Defining this explicitly is redundant and should be avoided  jsx-a11y/no-redundant-roles
+  Line 788:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 789:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 790:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 796:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 797:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 798:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 799:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 800:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 806:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 807:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 808:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 809:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 816:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 817:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 818:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 819:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 820:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 841:   Anchors must have content and the content must be accessible by a screen reader                                  jsx-a11y/anchor-has-content
+  Line 841:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 844:   The element nav has an implicit role of navigation. Defining this explicitly is redundant and should be avoided  jsx-a11y/no-redundant-roles
+  Line 875:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 876:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 877:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 883:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 884:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 885:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 886:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 887:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 893:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 894:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 895:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 896:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 903:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 904:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 905:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 906:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 907:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 927:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 927:   Anchors must have content and the content must be accessible by a screen reader                                  jsx-a11y/anchor-has-content
+  Line 930:   The element nav has an implicit role of navigation. Defining this explicitly is redundant and should be avoided  jsx-a11y/no-redundant-roles
+  Line 961:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 962:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 963:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 969:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 970:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 971:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 972:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 973:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 979:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 980:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 981:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 982:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 989:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 990:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 991:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 992:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 993:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1021:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1021:  Anchors must have content and the content must be accessible by a screen reader                                  jsx-a11y/anchor-has-content
+  Line 1024:  The element nav has an implicit role of navigation. Defining this explicitly is redundant and should be avoided  jsx-a11y/no-redundant-roles
+  Line 1054:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1055:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1056:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1062:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1063:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1064:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1065:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1066:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1072:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1073:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1074:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1075:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1082:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1083:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1084:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1085:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1086:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1109:  Anchors must have content and the content must be accessible by a screen reader                                  jsx-a11y/anchor-has-content
+  Line 1109:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1112:  The element nav has an implicit role of navigation. Defining this explicitly is redundant and should be avoided  jsx-a11y/no-redundant-roles
+  Line 1142:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1143:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1144:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1150:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1151:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1152:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1153:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1154:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1160:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1161:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1162:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1163:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1170:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1171:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1172:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1173:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1174:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+
+./src/components/BeforeHeader.js
+  Line 1:   React.PropTypes is deprecated since React 15.5.0, use the npm module prop-types instead                          react/no-deprecated
+  Line 1:   'PropTypes' is defined but never used                                                                            no-unused-vars
+  Line 2:   'Route' is defined but never used                                                                                no-unused-vars
+  Line 3:   'API' is defined but never used                                                                                  no-unused-vars
+  Line 11:  Anchors must have content and the content must be accessible by a screen reader                                  jsx-a11y/anchor-has-content
+  Line 11:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 14:  The element nav has an implicit role of navigation. Defining this explicitly is redundant and should be avoided  jsx-a11y/no-redundant-roles
+
+./src/components/AfterHeader.js
+  Line 1:   React.PropTypes is deprecated since React 15.5.0, use the npm module prop-types instead                          react/no-deprecated
+  Line 1:   'PropTypes' is defined but never used                                                                            no-unused-vars
+  Line 2:   'Route' is defined but never used                                                                                no-unused-vars
+  Line 26:  Anchors must have content and the content must be accessible by a screen reader                                  jsx-a11y/anchor-has-content
+  Line 26:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 29:  The element nav has an implicit role of navigation. Defining this explicitly is redundant and should be avoided  jsx-a11y/no-redundant-roles
+
+./src/components/Login.js
+  Line 8:  'textbox' is assigned a value but never used  no-unused-vars
+
+./src/components/AboutUs.js
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/ContactUs.js
+  Line 2:  'PropTypes' is defined but never used  no-unused-vars
+
+./src/components/Artists.js
+  Line 2:   'withRouter' is defined but never used                                                                     no-unused-vars
+  Line 3:   'PropTypes' is defined but never used                                                                      no-unused-vars
+  Line 6:   'ArtistDetails' is defined but never used                                                                  no-unused-vars
+  Line 18:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 22:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 25:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 28:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/ArtistDetails.js
+  Line 2:  'PropTypes' is defined but never used  no-unused-vars
+  Line 5:  'adrian' is defined but never used     no-unused-vars
+
+./src/components/BookDetails.js
+  Line 2:  'API' is defined but never used            no-unused-vars
+  Line 3:  'ImageGridList' is defined but never used  no-unused-vars
+
+./src/components/AdminApproveBooks.js
+  Line 17:  Expected '===' and instead saw '=='  eqeqeq
+  Line 35:  Expected '===' and instead saw '=='  eqeqeq
+
+./src/components/AdminApproveUsers.js
+  Line 7:   'adrian' is defined but never used   no-unused-vars
+  Line 24:  Expected '===' and instead saw '=='  eqeqeq
+  Line 42:  Expected '===' and instead saw '=='  eqeqeq
+  Line 50:  Useless constructor                  no-useless-constructor
+
+./src/components/ArtistUploadBooks.js
+  Line 2:  'Link' is defined but never used        no-unused-vars
+  Line 2:  'withRouter' is defined but never used  no-unused-vars
+
+./src/components/ArtistProfilePage.js
+  Line 2:  'Link' is defined but never used    no-unused-vars
+  Line 3:  'Panel' is defined but never used   no-unused-vars
+  Line 4:  'Button' is defined but never used  no-unused-vars
+
+./src/components/ArtistDisplayProfile.js
+  Line 2:  'Link' is defined but never used  no-unused-vars
+
+./src/components/BooksAdventure.js
+  Line 3:  'ImageGridList' is defined but never used  no-unused-vars
+  Line 4:  'TextField' is defined but never used      no-unused-vars
+  Line 5:  'Typography' is defined but never used     no-unused-vars
+
+./src/components/UserCart.js
+  Line 44:   Missing radix parameter                     radix
+  Line 44:   Missing radix parameter                     radix
+  Line 152:  Expected '!==' and instead saw '!='         eqeqeq
+  Line 156:  Expected '!==' and instead saw '!='         eqeqeq
+  Line 175:  'payload' is already defined                no-redeclare
+  Line 222:  'total' is assigned a value but never used  no-unused-vars
+
+./src/components/MyOrders.js
+  Line 1:  React.PropTypes is deprecated since React 15.5.0, use the npm module prop-types instead  react/no-deprecated
+  Line 1:  'PropTypes' is defined but never used                                                    no-unused-vars
+  Line 2:  'Route' is defined but never used                                                        no-unused-vars
+  Line 2:  'Link' is defined but never used                                                         no-unused-vars
+  Line 3:  'API' is defined but never used                                                          no-unused-vars
+
+./src/components/DemoCarousel.js
+  Line 2:   'ReactDOM' is defined but never used                                                                       no-unused-vars
+  Line 14:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 18:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 22:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/ImageGridList.js
+  Line 2:  'Route' is defined but never used          no-unused-vars
+  Line 2:  'withRouter' is defined but never used     no-unused-vars
+  Line 5:  'ArtistDetails' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+The build failed because the process exited too early. This probably means the system ran out of memory or someone called `kill -9` on the process.
+
+npm ERR! Linux 4.4.0-1041-aws
+npm ERR! argv "/usr/bin/node" "/usr/bin/npm" "start"
+npm ERR! node v6.12.1
+npm ERR! npm  v3.10.10
+npm ERR! code ELIFECYCLE
+npm ERR! logindemo@0.1.0 start: `react-scripts start`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the logindemo@0.1.0 start script 'react-scripts start'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the logindemo package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     react-scripts start
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs logindemo
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls logindemo
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /var/www/html/Project-Team-19/CraftOneLife/react/npm-debug.log
+
+> logindemo@0.1.0 start /var/www/html/Project-Team-19/CraftOneLife/react
+> react-scripts start
+
+Starting the development server...
+
+Compiled with warnings.
+
+./src/components/NewerHomePage.js
+  Line 3:     'ReactDOM' is defined but never used                                                                             no-unused-vars
+  Line 5:     'DropdownMenu' is defined but never used                                                                         no-unused-vars
+  Line 5:     'MenuItem' is defined but never used                                                                             no-unused-vars
+  Line 13:    'Artists' is defined but never used                                                                              no-unused-vars
+  Line 14:    'ArtistDetails' is defined but never used                                                                        no-unused-vars
+  Line 15:    'BookDetails' is defined but never used                                                                          no-unused-vars
+  Line 147:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images        jsx-a11y/alt-text
+  Line 174:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images        jsx-a11y/alt-text
+  Line 177:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images        jsx-a11y/alt-text
+  Line 179:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images        jsx-a11y/alt-text
+  Line 199:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 200:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 201:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 207:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 208:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 209:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 210:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 211:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 217:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 218:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 219:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 220:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 227:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 228:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 229:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 230:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 231:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 271:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 272:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 273:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 279:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 280:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 281:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 282:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 283:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 289:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 290:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 291:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 292:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 299:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 300:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 301:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 302:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 303:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 343:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 344:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 345:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 351:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 352:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 353:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 354:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 355:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 361:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 362:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 363:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 364:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 371:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 372:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 373:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 374:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 375:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 414:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 415:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 416:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 422:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 423:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 424:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 425:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 426:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 432:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 433:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 434:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 435:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 442:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 443:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 444:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 445:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 446:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 484:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 485:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 486:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 492:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 493:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 494:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 495:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 496:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 502:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 503:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 504:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 505:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 512:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 513:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 514:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 515:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 516:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 555:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 556:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 557:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 563:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 564:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 565:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 566:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 567:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 573:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 574:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 575:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 576:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 583:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 584:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 585:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 586:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 587:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 627:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 628:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 629:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 635:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 636:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 637:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 638:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 639:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 645:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 646:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 647:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 648:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 655:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 656:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 657:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 658:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 659:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 699:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 700:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 701:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 707:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 708:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 709:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 710:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 711:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 717:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 718:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 719:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 720:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 727:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 728:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 729:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 730:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 731:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 754:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 754:   Anchors must have content and the content must be accessible by a screen reader                                  jsx-a11y/anchor-has-content
+  Line 757:   The element nav has an implicit role of navigation. Defining this explicitly is redundant and should be avoided  jsx-a11y/no-redundant-roles
+  Line 788:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 789:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 790:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 796:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 797:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 798:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 799:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 800:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 806:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 807:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 808:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 809:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 816:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 817:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 818:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 819:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 820:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 841:   Anchors must have content and the content must be accessible by a screen reader                                  jsx-a11y/anchor-has-content
+  Line 841:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 844:   The element nav has an implicit role of navigation. Defining this explicitly is redundant and should be avoided  jsx-a11y/no-redundant-roles
+  Line 875:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 876:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 877:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 883:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 884:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 885:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 886:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 887:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 893:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 894:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 895:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 896:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 903:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 904:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 905:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 906:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 907:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 927:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 927:   Anchors must have content and the content must be accessible by a screen reader                                  jsx-a11y/anchor-has-content
+  Line 930:   The element nav has an implicit role of navigation. Defining this explicitly is redundant and should be avoided  jsx-a11y/no-redundant-roles
+  Line 961:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 962:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 963:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 969:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 970:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 971:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 972:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 973:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 979:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 980:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 981:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 982:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 989:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 990:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 991:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 992:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 993:   Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1021:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1021:  Anchors must have content and the content must be accessible by a screen reader                                  jsx-a11y/anchor-has-content
+  Line 1024:  The element nav has an implicit role of navigation. Defining this explicitly is redundant and should be avoided  jsx-a11y/no-redundant-roles
+  Line 1054:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1055:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1056:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1062:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1063:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1064:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1065:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1066:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1072:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1073:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1074:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1075:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1082:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1083:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1084:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1085:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1086:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1109:  Anchors must have content and the content must be accessible by a screen reader                                  jsx-a11y/anchor-has-content
+  Line 1109:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1112:  The element nav has an implicit role of navigation. Defining this explicitly is redundant and should be avoided  jsx-a11y/no-redundant-roles
+  Line 1142:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1143:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1144:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1150:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1151:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1152:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1153:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1154:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1160:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1161:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1162:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1163:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1170:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1171:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1172:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1173:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 1174:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+
+./src/components/BeforeHeader.js
+  Line 1:   React.PropTypes is deprecated since React 15.5.0, use the npm module prop-types instead                          react/no-deprecated
+  Line 1:   'PropTypes' is defined but never used                                                                            no-unused-vars
+  Line 2:   'Route' is defined but never used                                                                                no-unused-vars
+  Line 3:   'API' is defined but never used                                                                                  no-unused-vars
+  Line 11:  Anchors must have content and the content must be accessible by a screen reader                                  jsx-a11y/anchor-has-content
+  Line 11:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 14:  The element nav has an implicit role of navigation. Defining this explicitly is redundant and should be avoided  jsx-a11y/no-redundant-roles
+
+./src/components/Login.js
+  Line 8:  'textbox' is assigned a value but never used  no-unused-vars
+
+./src/components/AboutUs.js
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/Artists.js
+  Line 2:   'withRouter' is defined but never used                                                                     no-unused-vars
+  Line 3:   'PropTypes' is defined but never used                                                                      no-unused-vars
+  Line 6:   'ArtistDetails' is defined but never used                                                                  no-unused-vars
+  Line 18:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 22:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 25:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 28:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/ArtistDetails.js
+  Line 2:  'PropTypes' is defined but never used  no-unused-vars
+  Line 5:  'adrian' is defined but never used     no-unused-vars
+
+./src/components/BookDetails.js
+  Line 2:  'API' is defined but never used            no-unused-vars
+  Line 3:  'ImageGridList' is defined but never used  no-unused-vars
+
+./src/components/AdminApproveBooks.js
+  Line 17:  Expected '===' and instead saw '=='  eqeqeq
+  Line 35:  Expected '===' and instead saw '=='  eqeqeq
+
+./src/components/BooksAdventure.js
+  Line 3:  'ImageGridList' is defined but never used  no-unused-vars
+  Line 4:  'TextField' is defined but never used      no-unused-vars
+  Line 5:  'Typography' is defined but never used     no-unused-vars
+
+./src/components/MyOrders.js
+  Line 1:  React.PropTypes is deprecated since React 15.5.0, use the npm module prop-types instead  react/no-deprecated
+  Line 1:  'PropTypes' is defined but never used                                                    no-unused-vars
+  Line 2:  'Route' is defined but never used                                                        no-unused-vars
+  Line 2:  'Link' is defined but never used                                                         no-unused-vars
+  Line 3:  'API' is defined but never used                                                          no-unused-vars
+
+./src/components/DemoCarousel.js
+  Line 2:   'ReactDOM' is defined but never used                                                                       no-unused-vars
+  Line 14:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 18:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 22:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/AfterHeader.js
+  Line 1:   React.PropTypes is deprecated since React 15.5.0, use the npm module prop-types instead                          react/no-deprecated
+  Line 1:   'PropTypes' is defined but never used                                                                            no-unused-vars
+  Line 2:   'Route' is defined but never used                                                                                no-unused-vars
+  Line 26:  Anchors must have content and the content must be accessible by a screen reader                                  jsx-a11y/anchor-has-content
+  Line 26:  Links must not point to "#". Use a more descriptive href or use a button instead                                 jsx-a11y/href-no-hash
+  Line 29:  The element nav has an implicit role of navigation. Defining this explicitly is redundant and should be avoided  jsx-a11y/no-redundant-roles
+
+./src/components/AdminApproveUsers.js
+  Line 7:   'adrian' is defined but never used   no-unused-vars
+  Line 24:  Expected '===' and instead saw '=='  eqeqeq
+  Line 42:  Expected '===' and instead saw '=='  eqeqeq
+  Line 50:  Useless constructor                  no-useless-constructor
+
+./src/components/ArtistUploadBooks.js
+  Line 2:  'Link' is defined but never used        no-unused-vars
+  Line 2:  'withRouter' is defined but never used  no-unused-vars
+
+./src/components/ContactUs.js
+  Line 2:  'PropTypes' is defined but never used  no-unused-vars
+
+./src/components/ArtistProfilePage.js
+  Line 2:  'Link' is defined but never used    no-unused-vars
+  Line 3:  'Panel' is defined but never used   no-unused-vars
+  Line 4:  'Button' is defined but never used  no-unused-vars
+
+./src/components/ArtistDisplayProfile.js
+  Line 2:  'Link' is defined but never used  no-unused-vars
+
+./src/components/UserCart.js
+  Line 44:   Missing radix parameter                     radix
+  Line 44:   Missing radix parameter                     radix
+  Line 152:  Expected '!==' and instead saw '!='         eqeqeq
+  Line 156:  Expected '!==' and instead saw '!='         eqeqeq
+  Line 175:  'payload' is already defined                no-redeclare
+  Line 222:  'total' is assigned a value but never used  no-unused-vars
+
+./src/components/ImageGridList.js
+  Line 2:  'Route' is defined but never used          no-unused-vars
+  Line 2:  'withRouter' is defined but never used     no-unused-vars
+  Line 5:  'ArtistDetails' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+

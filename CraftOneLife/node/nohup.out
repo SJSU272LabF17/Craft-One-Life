@@ -1,0 +1,122 @@
+
+> untitled@0.0.0 start /var/www/html/Project-Team-19/CraftOneLife/node
+> nodemon ./bin/www
+
+[33m[nodemon] 1.12.5[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+    at Error (native)
+
+npm ERR! Linux 4.4.0-1041-aws
+npm ERR! argv "/usr/bin/node" "/usr/bin/npm" "start"
+npm ERR! node v6.12.1
+npm ERR! npm  v3.10.10
+npm ERR! code ELIFECYCLE
+npm ERR! untitled@0.0.0 start: `nodemon ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the untitled@0.0.0 start script 'nodemon ./bin/www'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the untitled package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     nodemon ./bin/www
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs untitled
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls untitled
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /var/www/html/Project-Team-19/CraftOneLife/node/npm-debug.log
+Listening on port 3001
+[0mGET / [32m200 [0m300.847 ms - 170[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.785 ms - -[0m
+[0mGET / [36m304 [0m31.381 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.693 ms - -[0m
+Thu, 07 Dec 2017 23:30:18 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at node_modules/express-cors/index.js:95:45
+username in app{"username":"u","password":"123"}
+in login of node
+
+SQL Query::select * from users where email='u' and password='123'
+/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+TypeError: Cannot read property 'query' of undefined
+    at /var/www/html/Project-Team-19/CraftOneLife/node/routes/mysql.js:20:19
+    at Handshake.onConnect (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Handshake.ErrorPacket (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/mysql/lib/protocol/sequences/Handshake.js:132:8)
+    at Protocol._parsePacket (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+
+> untitled@0.0.0 start /var/www/html/Project-Team-19/CraftOneLife/node
+> nodemon ./bin/www
+
+[33m[nodemon] 1.12.5[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+    at Error (native)
+
+npm ERR! Linux 4.4.0-1041-aws
+npm ERR! argv "/usr/bin/node" "/usr/bin/npm" "start"
+npm ERR! node v6.12.1
+npm ERR! npm  v3.10.10
+npm ERR! code ELIFECYCLE
+npm ERR! untitled@0.0.0 start: `nodemon ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the untitled@0.0.0 start script 'nodemon ./bin/www'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the untitled package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     nodemon ./bin/www
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs untitled
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls untitled
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /var/www/html/Project-Team-19/CraftOneLife/node/npm-debug.log
+Listening on port 3001
+[0mGET / [36m304 [0m301.205 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.794 ms - -[0m
+Thu, 07 Dec 2017 23:34:02 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at node_modules/express-cors/index.js:95:45
+username in app{"username":"u","password":"123"}
+in login of node
+
+SQL Query::select * from users where email='u' and password='123'
+/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+TypeError: Cannot read property 'query' of undefined
+    at /var/www/html/Project-Team-19/CraftOneLife/node/routes/mysql.js:20:19
+    at Handshake.onConnect (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Handshake.ErrorPacket (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/mysql/lib/protocol/sequences/Handshake.js:132:8)
+    at Protocol._parsePacket (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)

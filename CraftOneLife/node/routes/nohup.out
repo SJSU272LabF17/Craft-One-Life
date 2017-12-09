@@ -1,0 +1,469 @@
+
+> untitled@0.0.0 start /var/www/html/Project-Team-19/CraftOneLife/node
+> nodemon ./bin/www
+
+[33m[nodemon] 1.12.5[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+    at Error (native)
+
+npm ERR! Linux 4.4.0-1041-aws
+npm ERR! argv "/usr/bin/node" "/usr/bin/npm" "start"
+npm ERR! node v6.12.1
+npm ERR! npm  v3.10.10
+npm ERR! code ELIFECYCLE
+npm ERR! untitled@0.0.0 start: `nodemon ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the untitled@0.0.0 start script 'nodemon ./bin/www'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the untitled package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     nodemon ./bin/www
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs untitled
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls untitled
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /var/www/html/Project-Team-19/CraftOneLife/node/routes/npm-debug.log
+Listening on port 3001
+Thu, 07 Dec 2017 23:36:16 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at node_modules/express-cors/index.js:95:45
+username in app{"username":"U","password":"123"}
+in login of node
+
+SQL Query::select * from users where email='U' and password='123'
+
+Connection closed..
+DB Results:[object Object]
+{ user: 'u', user_id: 10 }
+u
+session initialized
+back in app.js[{"user_id":10,"email":"u","password":"123","is_Approved":0,"fname":null,"lname":null,"contact_no":null,"about_me":null,"user_type":"U","user_earnings":null,"profile_pic":"./public/uploads/Profile_pics/RajviModh.jpeg"}]
+[0mPOST /login [32m201 [0m41.645 ms - 246[0m
+
+SQL Query::select * from books where isApproved='1'
+
+Connection closed..
+DB Results:[object Object],[object Object]
+[0mPOST /getBookDetails [32m201 [0m8.409 ms - 130305[0m
+undefined
+Session Destroyed
+[0mPOST /logout [32m201 [0m1.239 ms - -[0m
+username in app{"username":"u","password":"123"}
+in login of node
+
+SQL Query::select * from users where email='u' and password='123'
+
+Connection closed..
+DB Results:[object Object]
+{ user: 'u', user_id: 10 }
+u
+session initialized
+back in app.js[{"user_id":10,"email":"u","password":"123","is_Approved":0,"fname":null,"lname":null,"contact_no":null,"about_me":null,"user_type":"U","user_earnings":null,"profile_pic":"./public/uploads/Profile_pics/RajviModh.jpeg"}]
+[0mPOST /login [32m201 [0m6.081 ms - 246[0m
+
+SQL Query::select * from books where isApproved='1'
+
+Connection closed..
+DB Results:[object Object],[object Object]
+[0mPOST /getBookDetails [32m201 [0m5.636 ms - 130305[0m
+undefined
+Session Destroyed
+[0mPOST /logout [32m201 [0m1.931 ms - -[0m
+
+SQL Query::select * from books where isApproved='1'
+
+Connection closed..
+DB Results:[object Object],[object Object]
+[0mPOST /getBookDetails [32m201 [0m4.112 ms - 130305[0m
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+in DO signup of node[object Object]
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+in DO signup of node[object Object]
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+in DO signup of node[object Object]
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+in DO signup of node[object Object]
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mGET / [36m304 [0m459.394 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.371 ms - -[0m
+{ Error: Not Found
+    at /var/www/html/Project-Team-19/CraftOneLife/node/app.js:105:15
+    at Layer.handle [as handle_request] (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/index.js:317:13)
+    at /var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/index.js:335:12)
+    at next (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/index.js:275:10)
+    at /var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/index.js:635:15
+    at next (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/index.js:174:3)
+    at router (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[0mGET /favicon.ico [33m404 [0m2.364 ms - 7[0m
+[0mGET / [32m200 [0m30.043 ms - 170[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.872 ms - 111[0m
+{ Error: Not Found
+    at /var/www/html/Project-Team-19/CraftOneLife/node/app.js:105:15
+    at Layer.handle [as handle_request] (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/index.js:317:13)
+    at /var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/index.js:335:12)
+    at next (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/index.js:275:10)
+    at /var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/index.js:635:15
+    at next (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/index.js:174:3)
+    at router (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[0mGET /favicon.ico [33m404 [0m1.025 ms - 7[0m
+[0mGET / [32m200 [0m38.491 ms - 170[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.229 ms - 111[0m
+{ Error: Not Found
+    at /var/www/html/Project-Team-19/CraftOneLife/node/app.js:105:15
+    at Layer.handle [as handle_request] (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/index.js:317:13)
+    at /var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/index.js:335:12)
+    at next (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/index.js:275:10)
+    at /var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/index.js:635:15
+    at next (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/index.js:174:3)
+    at router (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[0mGET /favicon.ico [33m404 [0m2.492 ms - 7[0m
+[0mGET / [32m200 [0m33.900 ms - 170[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.014 ms - 111[0m
+{ Error: Not Found
+    at /var/www/html/Project-Team-19/CraftOneLife/node/app.js:105:15
+    at Layer.handle [as handle_request] (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/index.js:317:13)
+    at /var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/index.js:335:12)
+    at next (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/index.js:275:10)
+    at /var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/index.js:635:15
+    at next (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/index.js:174:3)
+    at router (/var/www/html/Project-Team-19/CraftOneLife/node/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[0mGET /favicon.ico [33m404 [0m0.979 ms - 7[0m
+username in app{"username":"u","password":"123"}
+in login of node
+
+SQL Query::select * from users where email='u' and password='123'
+
+Connection closed..
+DB Results:[object Object]
+{ user: 'u', user_id: 10 }
+u
+session initialized
+back in app.js[{"user_id":10,"email":"u","password":"123","is_Approved":0,"fname":null,"lname":null,"contact_no":null,"about_me":null,"user_type":"U","user_earnings":null,"profile_pic":"./public/uploads/Profile_pics/RajviModh.jpeg"}]
+[0mPOST /login [32m201 [0m55.522 ms - 246[0m
+in user cart 10
+query is select cart.book_id, books.book_name,books.bookTilePath, books.book_desc,cart.admin_price, cart.quantity from cart inner join books where cart.book_id=books.book_id and cart.user_id=10
+
+SQL Query::select cart.book_id, books.book_name,books.bookTilePath, books.book_desc,cart.admin_price, cart.quantity from cart inner join books where cart.book_id=books.book_id and cart.user_id=10
+
+Connection closed..
+DB Insertion successful
+[0mPOST /userCart [32m201 [0m14.794 ms - 26[0m
+undefined
+Session Destroyed
+[0mPOST /logout [32m201 [0m0.282 ms - -[0m
+username in app{"username":"admin","password":"admin"}
+in login of node
+
+SQL Query::select * from users where email='admin' and password='admin'
+
+Connection closed..
+DB Results:[object Object]
+{ user: 'admin', user_id: 2 }
+admin
+session initialized
+back in app.js[{"user_id":2,"email":"admin","password":"admin","is_Approved":1,"fname":"admin","lname":"admin","contact_no":"admin","about_me":null,"user_type":"A","user_earnings":null,"profile_pic":"./public/uploads/Profile_pics/RajviModh.jpeg"}]
+[0mPOST /login [32m201 [0m3.845 ms - 260[0m
+
+SQL Query::select * from users where is_Approved=0 and user_type='H'
+
+Connection closed..
+DB Results:
+[0mGET /admin/getallusers [32m201 [0m3.494 ms - 2[0m
+
+SQL Query::select * from books where isApproved=0
+
+Connection closed..
+DB Results:[object Object],[object Object],[object Object],[object Object]
+[0mGET /admin/getallbooks [32m201 [0m1.862 ms - 751[0m
+
+SQL Query::select * from users where is_Approved=0 and user_type='H'
+
+Connection closed..
+DB Results:
+[0mGET /admin/getallusers [32m201 [0m3.235 ms - 2[0m
+
+SQL Query::select * from books where isApproved=0
+
+Connection closed..
+DB Results:[object Object],[object Object],[object Object],[object Object]
+[0mGET /admin/getallbooks [32m201 [0m2.196 ms - 751[0m
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+username in app{"username":"admin","password":"admin"}
+in login of node
+
+SQL Query::select * from users where email='admin' and password='admin'
+
+Connection closed..
+DB Results:[object Object]
+{ user: 'admin', user_id: 2 }
+admin
+session initialized
+back in app.js[{"user_id":2,"email":"admin","password":"admin","is_Approved":1,"fname":"admin","lname":"admin","contact_no":"admin","about_me":null,"user_type":"A","user_earnings":null,"profile_pic":"./public/uploads/Profile_pics/RajviModh.jpeg"}]
+[0mPOST /login [32m201 [0m3.706 ms - 260[0m
+
+SQL Query::select * from users where is_Approved=0 and user_type='H'
+
+Connection closed..
+DB Results:
+[0mGET /admin/getallusers [32m201 [0m3.100 ms - 2[0m
+
+SQL Query::select * from books where isApproved=0
+
+Connection closed..
+DB Results:[object Object],[object Object],[object Object],[object Object]
+[0mGET /admin/getallbooks [32m201 [0m1.359 ms - 751[0m
+undefined
+Session Destroyed
+[0mPOST /logout [32m201 [0m0.250 ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+in DO signup of node[object Object]
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+in DO signup of node[object Object]
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+in DO signup of node[object Object]
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+in DO signup of node[object Object]
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+username in app{"username":"admin","password":"admin"}
+in login of node
+
+SQL Query::select * from users where email='admin' and password='admin'
+
+Connection closed..
+DB Results:[object Object]
+{ user: 'admin', user_id: 2 }
+admin
+session initialized
+back in app.js[{"user_id":2,"email":"admin","password":"admin","is_Approved":1,"fname":"admin","lname":"admin","contact_no":"admin","about_me":null,"user_type":"A","user_earnings":null,"profile_pic":"./public/uploads/Profile_pics/RajviModh.jpeg"}]
+[0mPOST /login [32m201 [0m3.085 ms - 260[0m
+username in app{"username":"admin","password":"admin"}
+in login of node
+
+SQL Query::select * from users where email='admin' and password='admin'
+
+Connection closed..
+DB Results:[object Object]
+{ user: 'admin', user_id: 2 }
+admin
+session initialized
+back in app.js[{"user_id":2,"email":"admin","password":"admin","is_Approved":1,"fname":"admin","lname":"admin","contact_no":"admin","about_me":null,"user_type":"A","user_earnings":null,"profile_pic":"./public/uploads/Profile_pics/RajviModh.jpeg"}]
+[0mPOST /login [32m201 [0m2.085 ms - 260[0m
+username in app{"username":"u","password":"123"}
+in login of node
+
+SQL Query::select * from users where email='u' and password='123'
+
+Connection closed..
+DB Results:[object Object]
+{ user: 'u', user_id: 10 }
+u
+session initialized
+back in app.js[{"user_id":10,"email":"u","password":"123","is_Approved":0,"fname":null,"lname":null,"contact_no":null,"about_me":null,"user_type":"U","user_earnings":null,"profile_pic":"./public/uploads/Profile_pics/RajviModh.jpeg"}]
+[0mPOST /login [32m201 [0m1.579 ms - 246[0m
+username in app{"username":"u","password":"123"}
+in login of node
+
+SQL Query::select * from users where email='u' and password='123'
+
+Connection closed..
+DB Results:[object Object]
+{ user: 'u', user_id: 10 }
+u
+session initialized
+back in app.js[{"user_id":10,"email":"u","password":"123","is_Approved":0,"fname":null,"lname":null,"contact_no":null,"about_me":null,"user_type":"U","user_earnings":null,"profile_pic":"./public/uploads/Profile_pics/RajviModh.jpeg"}]
+[0mPOST /login [32m201 [0m3.420 ms - 246[0m
+in DO signup of node[object Object]
+
+SQL Query::select * from users where is_Approved=0 and user_type='H'
+
+Connection closed..
+DB Results:
+[0mGET /admin/getallusers [32m201 [0m2.064 ms - 2[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+in DO signup of node[object Object]
+
+SQL Query::select * from books where isApproved='1'
+
+Connection closed..
+DB Results:[object Object],[object Object]
+[0mPOST /getBookDetails [32m201 [0m4.750 ms - 130305[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+in DO signup of node[object Object]
+in user cart 10
+query is select cart.book_id, books.book_name,books.bookTilePath, books.book_desc,cart.admin_price, cart.quantity from cart inner join books where cart.book_id=books.book_id and cart.user_id=10
+
+SQL Query::select cart.book_id, books.book_name,books.bookTilePath, books.book_desc,cart.admin_price, cart.quantity from cart inner join books where cart.book_id=books.book_id and cart.user_id=10
+
+Connection closed..
+DB Insertion successful
+[0mPOST /userCart [32m201 [0m1.778 ms - 26[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+in DO signup of node[object Object]
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+in DO signup of node[object Object]
+undefined
+Session Destroyed
+[0mPOST /logout [32m201 [0m3.810 ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+in DO signup of node[object Object]
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+in DO signup of node[object Object]
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+username in app{"username":"u","password":"123"}
+in login of node
+
+SQL Query::select * from users where email='u' and password='123'
+
+Connection closed..
+DB Results:[object Object]
+{ user: 'u', user_id: 10 }
+u
+session initialized
+back in app.js[{"user_id":10,"email":"u","password":"123","is_Approved":0,"fname":null,"lname":null,"contact_no":null,"about_me":null,"user_type":"U","user_earnings":null,"profile_pic":"./public/uploads/Profile_pics/RajviModh.jpeg"}]
+[0mPOST /login [32m201 [0m10.485 ms - 246[0m
+
+SQL Query::select * from books where isApproved='1'
+
+Connection closed..
+DB Results:[object Object],[object Object]
+[0mPOST /getBookDetails [32m201 [0m3.267 ms - 130305[0m
+in user cart 10
+query is select cart.book_id, books.book_name,books.bookTilePath, books.book_desc,cart.admin_price, cart.quantity from cart inner join books where cart.book_id=books.book_id and cart.user_id=10
+
+SQL Query::select cart.book_id, books.book_name,books.bookTilePath, books.book_desc,cart.admin_price, cart.quantity from cart inner join books where cart.book_id=books.book_id and cart.user_id=10
+
+Connection closed..
+DB Insertion successful
+[0mPOST /userCart [32m201 [0m1.656 ms - 26[0m
+in user cart 10
+query is select cart.book_id, books.book_name,books.bookTilePath, books.book_desc,cart.admin_price, cart.quantity from cart inner join books where cart.book_id=books.book_id and cart.user_id=10
+
+SQL Query::select cart.book_id, books.book_name,books.bookTilePath, books.book_desc,cart.admin_price, cart.quantity from cart inner join books where cart.book_id=books.book_id and cart.user_id=10
+
+Connection closed..
+DB Insertion successful
+[0mPOST /userCart [32m201 [0m3.514 ms - 26[0m
+undefined
+Session Destroyed
+[0mPOST /logout [32m201 [0m0.236 ms - -[0m
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+in DO signup of node[object Object]
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
+[0mPOST /doSignUp [0m- [0m- ms - -[0m
