@@ -44,6 +44,27 @@ router.get('/', function (req, res, next) {
 });
 
 
+/* GET users listing. */
+router.get('/usersListings', function (req, res, next) {
+    console.log("in node list files");
+    var resArr = [];
+
+    glob("public/uploads/*.*", function (er, files) {
+
+        var resArr = files.map(function (file) {
+            var imgJSON = {};
+            imgJSON.img = 'uploads/'+file.split('/')[2];
+            imgJSON.cols = 2  ;
+            return imgJSON;
+        });
+
+        console.log(resArr);
+        res.status(200).send(resArr);
+    });
+
+});
+
+
 
 
 
