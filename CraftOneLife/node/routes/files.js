@@ -102,4 +102,16 @@ router.post('/upload', upload.any(), function (req, res, next) {
 
 });
 
+router.post('/uploadBackup', upload.any(), function (req, res, next) {
+    var flag = true;
+    var now = new Date();
+    console.log("In upload data");
+    console.log("request data is ",req.body);
+
+    var insert_book="INSERT into books (book_name,book_path,user_price,book_desc,user_id,isApproved) values ('"+req.body.title+"','"+req.body.path+"/"+fname+"','"+req.body.price+"','"+req.body.desc+"',1,0)";
+
+    
+
+});
+
 module.exports = router;
