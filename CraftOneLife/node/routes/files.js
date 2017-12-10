@@ -110,7 +110,25 @@ router.post('/uploadBackup', upload.any(), function (req, res, next) {
 
     var insert_book="INSERT into books (book_name,book_path,user_price,book_desc,user_id,isApproved) values ('"+req.body.title+"','"+req.body.path+"/"+fname+"','"+req.body.price+"','"+req.body.desc+"',1,0)";
 
-    
+    try {
+
+
+        mysql.insertData(function (err, results) {
+            if (err) {
+                console.log(err);
+                res.status(500).json({message: "An error occured"});
+            }
+            else {
+
+                res.status(201).send("successful");
+
+            }
+
+        }, insert_book)
+    }
+    catch(err){
+        console.log(err);
+    }
 
 });
 
