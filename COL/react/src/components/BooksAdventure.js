@@ -26,7 +26,9 @@ class BooksAdventure extends Component{
 
     addToCart = (bookdata) => {
         bookdata.user_id=localStorage.getItem("user_id");
-        API.addToCart(bookdata)
+        var tempBookData = {...bookdata};
+        tempBookData.bookTilePath="";
+        API.addToCart(tempBookData)
             .then((res) => {
                 //alert("back in newer homepage : " + JSON.stringify(res));
                 if (res.status === '201') {
