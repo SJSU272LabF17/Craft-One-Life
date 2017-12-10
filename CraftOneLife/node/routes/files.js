@@ -44,27 +44,6 @@ router.get('/', function (req, res, next) {
 });
 
 
-/* GET users listing. */
-router.get('/usersListings', function (req, res, next) {
-    console.log("in node list files");
-    var resArr = [];
-
-    glob("public/uploads/*.*", function (er, files) {
-
-        var resArr = files.map(function (file) {
-            var imgJSON = {};
-            imgJSON.img = 'uploads/'+file.split('/')[2];
-            imgJSON.cols = 2  ;
-            return imgJSON;
-        });
-
-        console.log(resArr);
-        res.status(200).send(resArr);
-    });
-
-});
-
-
 
 
 
@@ -73,36 +52,6 @@ router.get('/usersListings', function (req, res, next) {
 
 
 router.post('/upload', upload.any(), function (req, res, next) {
-    var flag = true;
-    var now = new Date();
-    console.log("In upload data");
-    console.log("request data is ",req.body);
-
-    var insert_book="INSERT into books (book_name,book_path,user_price,book_desc,user_id,isApproved) values ('"+req.body.title+"','"+req.body.path+"/"+fname+"','"+req.body.price+"','"+req.body.desc+"',1,0)";
-
-    try {
-
-
-        mysql.insertData(function (err, results) {
-            if (err) {
-                console.log(err);
-                res.status(500).json({message: "An error occured"});
-            }
-            else {
-
-                res.status(201).send("successful");
-
-            }
-
-        }, insert_book)
-    }
-    catch(err){
-        console.log(err);
-    }
-
-});
-
-router.post('/uploadBackup', upload.any(), function (req, res, next) {
     var flag = true;
     var now = new Date();
     console.log("In upload data");
