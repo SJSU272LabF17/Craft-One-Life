@@ -15,7 +15,7 @@ class ArtistDisplayProfile extends Component {
     };
 
     componentWillMount(){
-        API.fetchUserProfile({}).then((response) => {
+        API.fetchUserProfile({'user':localStorage.getItem("user_id")}).then((response) => {
             //alert("fetch profile response" + JSON.stringify(response.data))
             this.setState({
                 profile_pic:response.data.profile_pic,
@@ -62,7 +62,6 @@ class ArtistDisplayProfile extends Component {
                             <div className="input-field">
 
                         <input className="form-control"
-                               placeholder="First Name"
                                type="text"
                                disabled={true}
                                value={this.state.fname}
@@ -84,7 +83,6 @@ class ArtistDisplayProfile extends Component {
 
                             <div className="input-field">
                         <input className="form-control"
-                               placeholder="Last Name"
                                type="text"
                                disabled={true}
                                value={this.state.lname}
@@ -107,7 +105,7 @@ class ArtistDisplayProfile extends Component {
                             <div className="input-field">
                     <div className="input-field">
                         <input className="form-control"
-                               placeholder="Email"
+
                                type="text"
                                disabled={true}
                                value={this.state.email}
@@ -133,7 +131,7 @@ class ArtistDisplayProfile extends Component {
                             <div className="input-field">
                     <div className="input-field">
                         <input className="form-control"
-                               placeholder="Phone number"
+
                                type="text"
                                disabled={true}
                                value={this.state.contact_no}
@@ -158,7 +156,7 @@ class ArtistDisplayProfile extends Component {
                     <div className="input-field">
                         <input className="form-control"
                                style={{height:150, textAlign:'top'}}
-                               placeholder="Give your brief description"
+
                                type="text"
                                disabled={true}
                                value={this.state.about_me}

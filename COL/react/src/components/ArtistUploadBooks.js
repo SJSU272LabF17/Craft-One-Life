@@ -28,7 +28,7 @@ class ArtistUploadBooks extends Component {
             //alert("Please insert all the fields")
         }
         else {
-
+            alert("in upload book");
             let u_path = "";
             u_path = (this.state.rootdir);
             const payload = new FormData();
@@ -40,12 +40,11 @@ class ArtistUploadBooks extends Component {
             payload.append('title', this.state.book_name);
             payload.append('desc', this.state.book_desc);
             payload.append('price', this.state.book_price);
+            payload.append('user',localStorage.getItem("user_id"));
+
+           // alert("---upload books- " + JSON.stringify(payload))
             API.uploadBook(payload)
-                .then((status) => {
-                    if (status.status === '201') {
-                        console.log("I am here ", status.status)
-                    }
-                });
+                
         }
 
     };
@@ -60,10 +59,11 @@ class ArtistUploadBooks extends Component {
                 </div>
 
                 <div className="col-sm-8 col-md-8">
+                    <form>
                     <div className="form-group">
                         <hr/>
                     </div>
-                <form>
+
                     <div className="row">
                         <div className="col-sm-4 col-md-4"><p>Book Name : </p></div>
                         <div className="col-sm-8 col-md-8">
@@ -148,12 +148,14 @@ class ArtistUploadBooks extends Component {
 
                     <br/>
                     <div className="input-field">
-                            <button className="btn btn-success" onClick={() => this.handleBookUpload()}>Upload Book
+                            <button className="btn btn-success" onClick={this.handleBookUpload}>Upload Book
                             </button>
             </div>
-                </form>
 
-            </div>
+
+
+            </form>
+                </div>
             </div>
         );
     }

@@ -16,7 +16,7 @@ class ArtistProfilePage extends Component{
     };
 
     componentWillMount(){
-         API.fetchUserProfile({}).then((response) => {
+         API.fetchUserProfile({'user':localStorage.getItem("user_id")}).then((response) => {
              //alert("fetch profile response" + JSON.stringify(response.data))
              this.setState({
                  //profile_pic:response.data.profile_pic,
@@ -45,6 +45,7 @@ class ArtistProfilePage extends Component{
         else {
             //alert("I am going to save profile" + JSON.stringify(userdata))
             const payload = new FormData();
+            payload.append('user',localStorage.getItem("user_id"))
             payload.append('mypic', this.refs.mypic.files[0]);
             payload.append('fname', this.state.fname)
             payload.append('lname', this.state.lname)
@@ -58,9 +59,9 @@ class ArtistProfilePage extends Component{
             API.saveUserProfile(payload)
                 .then((status) => {
                     console.log("response after saving profile ", status)
-                    if (status.status === '201') {
+                    if (status.status ==201) {
                         console.log("User Profile Updated.")
-                        //alert("Your Profile has been updated.")
+                        alert("Your Profile has been updated.")
                         this.props.history.push("/artistdisplayprofile")
                     }
 

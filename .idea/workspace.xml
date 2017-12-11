@@ -3,7 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="ba4cda77-9c6d-4db8-99ab-1f7b6840addd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COL/react/src/components/BooksAdventure.js" afterPath="$PROJECT_DIR$/COL/react/src/components/BooksAdventure.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COL/node/app.js" afterPath="$PROJECT_DIR$/COL/node/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COL/node/routes/admin.js" afterPath="$PROJECT_DIR$/COL/node/routes/admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COL/node/routes/files.js" afterPath="$PROJECT_DIR$/COL/node/routes/files.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COL/node/routes/getartistprofile.js" afterPath="$PROJECT_DIR$/COL/node/routes/getartistprofile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COL/node/routes/mysql.js" afterPath="$PROJECT_DIR$/COL/node/routes/mysql.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COL/node/routes/userprofile.js" afterPath="$PROJECT_DIR$/COL/node/routes/userprofile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COL/react/public/index.html" afterPath="$PROJECT_DIR$/COL/react/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COL/react/src/api/API.js" afterPath="$PROJECT_DIR$/COL/react/src/api/API.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COL/react/src/components/AdminApproveBooks.js" afterPath="$PROJECT_DIR$/COL/react/src/components/AdminApproveBooks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COL/react/src/components/ArtistDisplayProfile.js" afterPath="$PROJECT_DIR$/COL/react/src/components/ArtistDisplayProfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COL/react/src/components/ArtistMyBooks.js" afterPath="$PROJECT_DIR$/COL/react/src/components/ArtistMyBooks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COL/react/src/components/ArtistProfilePage.js" afterPath="$PROJECT_DIR$/COL/react/src/components/ArtistProfilePage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COL/react/src/components/ArtistUploadBooks.js" afterPath="$PROJECT_DIR$/COL/react/src/components/ArtistUploadBooks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COL/react/src/components/UserCart.js" afterPath="$PROJECT_DIR$/COL/react/src/components/UserCart.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,19 +29,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+    <leaf>
+      <file leaf-file-name="userprofile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/COL/node/routes/userprofile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="273">
+              <caret line="43" column="69" lean-forward="false" selection-start-line="43" selection-start-column="69" selection-end-line="43" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/COL/node/package.json">
+      <file leaf-file-name="getMyBooks.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/COL/node/routes/getMyBooks.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -37,59 +50,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/COL/node/app.js">
+      <file leaf-file-name="ArtistMyBooks.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/COL/react/src/components/ArtistMyBooks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="48" column="34" lean-forward="false" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+            <state relative-caret-position="133">
+              <caret line="30" column="49" lean-forward="true" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArtistUploadBooks.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/COL/react/src/components/ArtistUploadBooks.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="373">
+              <caret line="46" column="16" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
               <folding>
-                <marker date="1512822084000" expanded="true" signature="1200:1310" ph="{...}" />
-                <marker date="1512822084000" expanded="true" signature="1222:1308" ph="[...]" />
-                <marker date="1512822084000" expanded="true" signature="1315:1554" ph="//..." />
-                <marker date="1512822084000" expanded="true" signature="1572:1743" ph="{&quot;cookieName&quot;: 'session'...}" />
-                <marker date="1512822084000" expanded="true" signature="1852:1969" ph="//..." />
-                <marker date="1512822084000" expanded="true" signature="3012:3703" ph="{...}" />
-                <marker date="1512822084000" expanded="true" signature="3132:3684" ph="{...}" />
-                <marker date="1512822084000" expanded="true" signature="3150:3209" ph="{...}" />
-                <marker date="1512822084000" expanded="true" signature="3229:3288" ph="{...}" />
-                <marker date="1512822084000" expanded="true" signature="3305:3678" ph="{...}" />
-                <marker date="1512822084000" expanded="true" signature="3611:3666" ph="{&quot;results&quot;: user...}" />
-                <marker date="1512822084000" expanded="true" signature="3745:3876" ph="{...}" />
-                <marker date="1512822084000" expanded="true" signature="3958:4036" ph="{...}" />
-                <marker date="1512822084000" expanded="true" signature="4099:4378" ph="{...}" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mysql.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/COL/node/routes/mysql.js">
+      <file leaf-file-name="admin.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/COL/node/routes/admin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-              <folding>
-                <marker date="1512823037000" expanded="true" signature="85:259" ph="{&quot;host&quot;: '127.0.0.1'...}" />
-                <marker date="1512823037000" expanded="true" signature="306:772" ph="{...}" />
-                <marker date="1512823037000" expanded="true" signature="402:768" ph="{...}" />
-                <marker date="1512823037000" expanded="true" signature="472:684" ph="{...}" />
-                <marker date="1512823037000" expanded="true" signature="496:565" ph="{...}" />
-                <marker date="1512823037000" expanded="true" signature="571:674" ph="{...}" />
-                <marker date="1512823037000" expanded="true" signature="814:1385" ph="{...}" />
-                <marker date="1512823037000" expanded="true" signature="949:1381" ph="{...}" />
-                <marker date="1512823037000" expanded="true" signature="1008:1297" ph="{...}" />
-                <marker date="1512823037000" expanded="true" signature="1031:1137" ph="{...}" />
-                <marker date="1512823037000" expanded="true" signature="1155:1287" ph="{...}" />
-                <marker date="1512823037000" expanded="true" signature="1425:1995" ph="{...}" />
-                <marker date="1512823037000" expanded="true" signature="1560:1991" ph="{...}" />
-                <marker date="1512823037000" expanded="true" signature="1619:1907" ph="{...}" />
-                <marker date="1512823037000" expanded="true" signature="1642:1748" ph="{...}" />
-                <marker date="1512823037000" expanded="true" signature="1766:1897" ph="{...}" />
-                <marker date="1512823037000" expanded="true" signature="2040:2626" ph="{...}" />
-                <marker date="1512823037000" expanded="true" signature="2175:2622" ph="{...}" />
-                <marker date="1512823037000" expanded="true" signature="2234:2538" ph="{...}" />
-                <marker date="1512823037000" expanded="true" signature="2257:2363" ph="{...}" />
-                <marker date="1512823037000" expanded="true" signature="2381:2528" ph="{...}" />
-              </folding>
+            <state relative-caret-position="261">
+              <caret line="227" column="78" lean-forward="false" selection-start-line="227" selection-start-column="78" selection-end-line="227" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminApproveBooks.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/COL/react/src/components/AdminApproveBooks.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="53" column="18" lean-forward="false" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="www" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/COL/node/bin/www">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-11">
+              <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/COL/react/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,99 +115,88 @@
       <file leaf-file-name="API.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/COL/react/src/api/API.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="128" column="39" lean-forward="false" selection-start-line="128" selection-start-column="39" selection-end-line="128" selection-end-column="39" />
+            <state relative-caret-position="256">
+              <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
               <folding>
-                <marker date="1512866024000" expanded="true" signature="99:135" ph="{&quot;Accept&quot;: 'application/json'...}" />
-                <marker date="1512866024000" expanded="true" signature="174:632" ph="{...}" />
-                <marker date="1512866024000" expanded="true" signature="209:334" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512866024000" expanded="true" signature="426:512" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512866024000" expanded="true" signature="549:570" ph="{...}" />
-                <marker date="1512866024000" expanded="true" signature="671:1166" ph="{...}" />
-                <marker date="1512866024000" expanded="true" signature="709:854" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512866024000" expanded="true" signature="959:1046" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512866024000" expanded="true" signature="1083:1104" ph="{...}" />
-                <marker date="1512866024000" expanded="true" signature="1240:1422" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512866024000" expanded="true" signature="1318:1377" ph="{...}" />
-                <marker date="1512866024000" expanded="true" signature="1474:1582" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512866024000" expanded="true" signature="1610:1673" ph="{...}" />
-                <marker date="1512866024000" expanded="true" signature="1846:2012" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512866024000" expanded="true" signature="1889:1952" ph="{&quot;path&quot;: './public/uploads/Profile_pics/'...}" />
-                <marker date="1512866024000" expanded="true" signature="2058:2079" ph="{...}" />
-                <marker date="1512866024000" expanded="true" signature="2168:2189" ph="{...}" />
-                <marker date="1512866024000" expanded="true" signature="2395:2416" ph="{...}" />
-                <marker date="1512866024000" expanded="true" signature="2557:2682" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512866024000" expanded="true" signature="2804:2889" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512866024000" expanded="true" signature="2926:2947" ph="{...}" />
-                <marker date="1512866024000" expanded="true" signature="3120:3245" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512866024000" expanded="true" signature="3367:3391" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512866024000" expanded="true" signature="3428:3449" ph="{...}" />
-                <marker date="1512866024000" expanded="true" signature="3552:4048" ph="{...}" />
-                <marker date="1512866024000" expanded="true" signature="3591:3736" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512866024000" expanded="true" signature="3841:3928" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512866024000" expanded="true" signature="3965:3986" ph="{...}" />
-                <marker date="1512866024000" expanded="true" signature="4109:4186" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512866024000" expanded="true" signature="4237:4323" ph="{&quot;return&quot;: res.status...}" />
-                <marker date="1512866024000" expanded="true" signature="4356:4377" ph="{...}" />
-                <marker date="1512866024000" expanded="true" signature="4525:4601" ph="{&quot;method&quot;: 'GET'...}" />
-                <marker date="1512866024000" expanded="true" signature="4684:4705" ph="{...}" />
-                <marker date="1512866024000" expanded="true" signature="4822:4843" ph="{...}" />
-                <marker date="1512866024000" expanded="true" signature="5023:5148" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512866024000" expanded="true" signature="5270:5362" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512866024000" expanded="true" signature="5399:5420" ph="{...}" />
-                <marker date="1512866024000" expanded="true" signature="5593:5718" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512866024000" expanded="true" signature="5807:5895" ph="{&quot;return&quot;: res.data...}" />
-                <marker date="1512866024000" expanded="true" signature="5928:5949" ph="{...}" />
-                <marker date="1512866024000" expanded="true" signature="6105:6230" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512866024000" expanded="true" signature="6319:6407" ph="{&quot;return&quot;: res.data...}" />
-                <marker date="1512866024000" expanded="true" signature="6440:6461" ph="{...}" />
-                <marker date="1512866024000" expanded="true" signature="6627:6703" ph="{&quot;method&quot;: 'GET'...}" />
-                <marker date="1512866024000" expanded="true" signature="6786:6807" ph="{...}" />
-                <marker date="1512866024000" expanded="true" signature="6924:6945" ph="{...}" />
-                <marker date="1512866024000" expanded="true" signature="7115:7240" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512866024000" expanded="true" signature="7329:7418" ph="{&quot;return&quot;: res.data...}" />
-                <marker date="1512866024000" expanded="true" signature="7451:7472" ph="{...}" />
-                <marker date="1512866024000" expanded="true" signature="7628:7753" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512866024000" expanded="true" signature="7875:7967" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512866024000" expanded="true" signature="8004:8025" ph="{...}" />
-                <marker date="1512866024000" expanded="true" signature="8202:8327" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512866024000" expanded="true" signature="8449:8541" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512866024000" expanded="true" signature="8578:8599" ph="{...}" />
-                <marker date="1512866024000" expanded="true" signature="8767:8892" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512866024000" expanded="true" signature="9014:9106" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512866024000" expanded="true" signature="9143:9164" ph="{...}" />
-                <marker date="1512866024000" expanded="true" signature="9303:9846" ph="{...}" />
-                <marker date="1512866024000" expanded="true" signature="9353:9498" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512866024000" expanded="true" signature="9638:9726" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512866024000" expanded="true" signature="9763:9784" ph="{...}" />
-                <marker date="1512866024000" expanded="true" signature="9922:10047" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512866024000" expanded="true" signature="10169:10261" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512866024000" expanded="true" signature="10298:10319" ph="{...}" />
-                <marker date="1512866024000" expanded="true" signature="10492:10617" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512866024000" expanded="true" signature="10739:10831" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512866024000" expanded="true" signature="10868:10889" ph="{...}" />
-                <marker date="1512866024000" expanded="true" signature="11050:11175" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512866024000" expanded="true" signature="11297:11389" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512866024000" expanded="true" signature="11426:11447" ph="{...}" />
-                <marker date="1512866024000" expanded="true" signature="11615:11740" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512866024000" expanded="true" signature="11862:11886" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512866024000" expanded="true" signature="11923:11944" ph="{...}" />
-                <marker date="1512866024000" expanded="true" signature="12073:12198" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512866024000" expanded="true" signature="12320:12412" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512866024000" expanded="true" signature="12449:12470" ph="{...}" />
-                <marker date="1512866024000" expanded="true" signature="12641:12766" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512866024000" expanded="true" signature="12855:12944" ph="{&quot;return&quot;: res.data...}" />
-                <marker date="1512866024000" expanded="true" signature="12977:12998" ph="{...}" />
+                <marker date="1512953269000" expanded="true" signature="287:412" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512953269000" expanded="true" signature="504:590" ph="{&quot;return&quot;: res...}" />
+                <marker date="1512953269000" expanded="true" signature="627:648" ph="{...}" />
+                <marker date="1512953269000" expanded="true" signature="787:932" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512953269000" expanded="true" signature="1037:1124" ph="{&quot;return&quot;: res...}" />
+                <marker date="1512953269000" expanded="true" signature="1161:1182" ph="{...}" />
+                <marker date="1512953269000" expanded="true" signature="2148:2169" ph="{...}" />
+                <marker date="1512953269000" expanded="true" signature="2258:2279" ph="{...}" />
+                <marker date="1512953269000" expanded="true" signature="2485:2506" ph="{...}" />
+                <marker date="1512953269000" expanded="true" signature="2647:2772" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512953269000" expanded="true" signature="2894:2979" ph="{&quot;return&quot;: res...}" />
+                <marker date="1512953269000" expanded="true" signature="3016:3037" ph="{...}" />
+                <marker date="1512953269000" expanded="true" signature="3210:3335" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512953269000" expanded="true" signature="3457:3481" ph="{&quot;return&quot;: res...}" />
+                <marker date="1512953269000" expanded="true" signature="3518:3539" ph="{...}" />
+                <marker date="1512953269000" expanded="true" signature="3681:3826" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512953269000" expanded="true" signature="3931:4018" ph="{&quot;return&quot;: res...}" />
+                <marker date="1512953269000" expanded="true" signature="4055:4076" ph="{...}" />
+                <marker date="1512953269000" expanded="true" signature="4199:4276" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512953269000" expanded="true" signature="4327:4413" ph="{&quot;return&quot;: res.status...}" />
+                <marker date="1512953269000" expanded="true" signature="4446:4467" ph="{...}" />
+                <marker date="1512953269000" expanded="true" signature="4615:4691" ph="{&quot;method&quot;: 'GET'...}" />
+                <marker date="1512953269000" expanded="true" signature="4774:4795" ph="{...}" />
+                <marker date="1512953269000" expanded="true" signature="4912:4933" ph="{...}" />
+                <marker date="1512953269000" expanded="true" signature="5113:5238" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512953269000" expanded="true" signature="5360:5452" ph="{&quot;return&quot;: res...}" />
+                <marker date="1512953269000" expanded="true" signature="5489:5510" ph="{...}" />
+                <marker date="1512953269000" expanded="true" signature="5683:5808" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512953269000" expanded="true" signature="5897:5985" ph="{&quot;return&quot;: res.data...}" />
+                <marker date="1512953269000" expanded="true" signature="6018:6039" ph="{...}" />
+                <marker date="1512953269000" expanded="true" signature="6195:6320" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512953269000" expanded="true" signature="6409:6497" ph="{&quot;return&quot;: res.data...}" />
+                <marker date="1512953269000" expanded="true" signature="6530:6551" ph="{...}" />
+                <marker date="1512953269000" expanded="true" signature="6717:6793" ph="{&quot;method&quot;: 'GET'...}" />
+                <marker date="1512953269000" expanded="true" signature="6876:6897" ph="{...}" />
+                <marker date="1512953269000" expanded="true" signature="7014:7035" ph="{...}" />
+                <marker date="1512953269000" expanded="true" signature="7205:7330" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512953269000" expanded="true" signature="7419:7508" ph="{&quot;return&quot;: res.data...}" />
+                <marker date="1512953269000" expanded="true" signature="7541:7562" ph="{...}" />
+                <marker date="1512953269000" expanded="true" signature="7718:7843" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512953269000" expanded="true" signature="7965:8057" ph="{&quot;return&quot;: res...}" />
+                <marker date="1512953269000" expanded="true" signature="8094:8115" ph="{...}" />
+                <marker date="1512953269000" expanded="true" signature="8292:8417" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512953269000" expanded="true" signature="8539:8631" ph="{&quot;return&quot;: res...}" />
+                <marker date="1512953269000" expanded="true" signature="8668:8689" ph="{...}" />
+                <marker date="1512953269000" expanded="true" signature="8857:8982" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512953269000" expanded="true" signature="9104:9196" ph="{&quot;return&quot;: res...}" />
+                <marker date="1512953269000" expanded="true" signature="9233:9254" ph="{...}" />
+                <marker date="1512953269000" expanded="true" signature="9443:9588" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512953269000" expanded="true" signature="9728:9816" ph="{&quot;return&quot;: res...}" />
+                <marker date="1512953269000" expanded="true" signature="9853:9874" ph="{...}" />
+                <marker date="1512953269000" expanded="true" signature="10012:10137" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512953269000" expanded="true" signature="10259:10351" ph="{&quot;return&quot;: res...}" />
+                <marker date="1512953269000" expanded="true" signature="10388:10409" ph="{...}" />
+                <marker date="1512953269000" expanded="true" signature="10582:10707" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512953269000" expanded="true" signature="10829:10921" ph="{&quot;return&quot;: res...}" />
+                <marker date="1512953269000" expanded="true" signature="10958:10979" ph="{...}" />
+                <marker date="1512953269000" expanded="true" signature="11140:11265" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512953269000" expanded="true" signature="11387:11479" ph="{&quot;return&quot;: res...}" />
+                <marker date="1512953269000" expanded="true" signature="11516:11537" ph="{...}" />
+                <marker date="1512953269000" expanded="true" signature="11705:11830" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512953269000" expanded="true" signature="11952:11976" ph="{&quot;return&quot;: res...}" />
+                <marker date="1512953269000" expanded="true" signature="12013:12034" ph="{...}" />
+                <marker date="1512953269000" expanded="true" signature="12163:12288" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512953269000" expanded="true" signature="12410:12502" ph="{&quot;return&quot;: res...}" />
+                <marker date="1512953269000" expanded="true" signature="12539:12560" ph="{...}" />
+                <marker date="1512953269000" expanded="true" signature="12731:12856" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512953269000" expanded="true" signature="12945:13034" ph="{&quot;return&quot;: res.data...}" />
+                <marker date="1512953269000" expanded="true" signature="13067:13088" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BooksAdventure.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/COL/react/src/components/BooksAdventure.js">
+      <file leaf-file-name="files.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/COL/node/routes/files.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+            <state relative-caret-position="393">
+              <caret line="66" column="59" lean-forward="false" selection-start-line="66" selection-start-column="59" selection-end-line="66" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -208,6 +215,11 @@
       <find>uplo</find>
       <find>addToCart</find>
       <find>add</find>
+      <find>PROCEED</find>
+      <find>upload</find>
+      <find>user</find>
+      <find>form</find>
+      <find>plac</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/COL/react</dir>
@@ -223,10 +235,21 @@
         <option value="$PROJECT_DIR$/CraftOneLife/react/src/components/AboutUs.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/COL/node/package.json" />
-        <option value="$PROJECT_DIR$/COL/node/app.js" />
-        <option value="$PROJECT_DIR$/COL/node/routes/mysql.js" />
-        <option value="$PROJECT_DIR$/COL/react/src/api/API.js" />
         <option value="$PROJECT_DIR$/COL/react/src/components/BooksAdventure.js" />
+        <option value="$PROJECT_DIR$/COL/react/src/components/UserCart.js" />
+        <option value="$PROJECT_DIR$/COL/node/routes/mysql.js" />
+        <option value="$PROJECT_DIR$/COL/node/app.js" />
+        <option value="$PROJECT_DIR$/COL/react/src/api/API.js" />
+        <option value="$PROJECT_DIR$/COL/react/src/components/ArtistDisplayProfile.js" />
+        <option value="$PROJECT_DIR$/COL/node/routes/getartistprofile.js" />
+        <option value="$PROJECT_DIR$/COL/react/src/components/ArtistProfilePage.js" />
+        <option value="$PROJECT_DIR$/COL/node/routes/userprofile.js" />
+        <option value="$PROJECT_DIR$/COL/react/src/components/ArtistMyBooks.js" />
+        <option value="$PROJECT_DIR$/COL/node/routes/files.js" />
+        <option value="$PROJECT_DIR$/COL/react/src/components/ArtistUploadBooks.js" />
+        <option value="$PROJECT_DIR$/COL/node/routes/admin.js" />
+        <option value="$PROJECT_DIR$/COL/react/src/components/AdminApproveBooks.js" />
+        <option value="$PROJECT_DIR$/COL/react/public/index.html" />
       </list>
     </option>
   </component>
@@ -247,9 +270,10 @@
     <handled-path value="$PROJECT_DIR$/COL/node/node_modules" />
     <handled-path value="$PROJECT_DIR$/COL/react/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1436" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -289,6 +313,27 @@
               <item name="Project-Team-19" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project-Team-19" type="462c0819:PsiDirectoryNode" />
               <item name="COL" type="462c0819:PsiDirectoryNode" />
+              <item name="node" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project-Team-19" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project-Team-19" type="462c0819:PsiDirectoryNode" />
+              <item name="COL" type="462c0819:PsiDirectoryNode" />
+              <item name="node" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project-Team-19" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project-Team-19" type="462c0819:PsiDirectoryNode" />
+              <item name="COL" type="462c0819:PsiDirectoryNode" />
+              <item name="node" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project-Team-19" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project-Team-19" type="462c0819:PsiDirectoryNode" />
+              <item name="COL" type="462c0819:PsiDirectoryNode" />
               <item name="react" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -296,7 +341,22 @@
               <item name="Project-Team-19" type="462c0819:PsiDirectoryNode" />
               <item name="COL" type="462c0819:PsiDirectoryNode" />
               <item name="react" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project-Team-19" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project-Team-19" type="462c0819:PsiDirectoryNode" />
+              <item name="COL" type="462c0819:PsiDirectoryNode" />
+              <item name="react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project-Team-19" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project-Team-19" type="462c0819:PsiDirectoryNode" />
+              <item name="COL" type="462c0819:PsiDirectoryNode" />
+              <item name="react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Project-Team-19" type="b2602c69:ProjectViewProjectNode" />
@@ -347,24 +407,26 @@
       <updated>1511944207549</updated>
       <workItem from="1511944208829" duration="194000" />
       <workItem from="1512782962427" duration="4597000" />
-      <workItem from="1512863188551" duration="3602000" />
+      <workItem from="1512863188551" duration="4082000" />
+      <workItem from="1512884206752" duration="968000" />
+      <workItem from="1512948976485" duration="7044000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18314000" />
+    <option name="totallyTimeSpent" value="26806000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1436" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24876674" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946997" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3465473" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -372,6 +434,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -387,54 +450,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CraftOneLife/react/src/components/AboutUs.js" />
-    <entry file="file://$PROJECT_DIR$/COL/node/routes/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="909">
-          <caret line="231" column="0" lean-forward="true" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CraftOneLife/react/src/components/AboutUs.js" />
-    <entry file="file://$PROJECT_DIR$/CraftOneLife/react/src/components/AboutUs.js" />
-    <entry file="file://$PROJECT_DIR$/node/package.json" />
-    <entry file="file://$PROJECT_DIR$/node/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/react/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/CraftOneLife/react/src/components/AboutUs.js" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="true" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CraftOneLife/react/src/components/AboutUs.js" />
-    <entry file="file://$PROJECT_DIR$/CraftOneLife/react/src/components/AboutUs.js" />
-    <entry file="file://$PROJECT_DIR$/node/package.json" />
-    <entry file="file://$PROJECT_DIR$/node/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/react/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/CraftOneLife/react/src/components/AboutUs.js" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/COL/node/routes/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="909">
-          <caret line="231" column="0" lean-forward="true" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CraftOneLife/react/src/components/AboutUs.js" />
-    <entry file="file://$PROJECT_DIR$/CraftOneLife/react/src/components/AboutUs.js" />
-    <entry file="file://$PROJECT_DIR$/node/package.json" />
-    <entry file="file://$PROJECT_DIR$/node/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/react/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/CraftOneLife/react/src/components/AboutUs.js" />
     <entry file="file://$PROJECT_DIR$/COL/node/routes/admin.js" />
     <entry file="file://$PROJECT_DIR$/CraftOneLife/react/src/components/AboutUs.js" />
     <entry file="file://$PROJECT_DIR$/CraftOneLife/react/src/components/AboutUs.js" />
@@ -446,7 +461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -456,13 +470,6 @@
     <entry file="file://$PROJECT_DIR$/node/.gitignore" />
     <entry file="file://$PROJECT_DIR$/react/.gitignore" />
     <entry file="file://$PROJECT_DIR$/CraftOneLife/react/src/components/AboutUs.js" />
-    <entry file="file://$PROJECT_DIR$/COL/node/routes/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="909">
-          <caret line="231" column="0" lean-forward="true" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/COL/react/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -477,13 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/COL/react/src/components/AdminApproveBooks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/COL/react/src/images/car-6.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -494,25 +494,19 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/COL/react/src/components/ArtistMyBooks.js">
+    <entry file="file://$PROJECT_DIR$/COL/react/src/components/UserCart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="69" column="53" lean-forward="true" selection-start-line="69" selection-start-column="53" selection-end-line="69" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="581">
+          <caret line="197" column="40" lean-forward="false" selection-start-line="197" selection-start-column="40" selection-end-line="197" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/COL/node/bin/www">
+    <entry file="file://$PROJECT_DIR$/COL/react/src/components/BooksAdventure.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+        <state relative-caret-position="65">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -520,156 +514,312 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/node/routes/addQuantity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="16" column="80" lean-forward="false" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/node/routes/addtocart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="31" column="76" lean-forward="false" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/node/routes/artistearnings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-301">
+          <caret line="7" column="69" lean-forward="false" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/node/routes/cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-622">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="2185" column="0" lean-forward="false" selection-start-line="2185" selection-start-column="0" selection-end-line="2185" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/COL/node/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="48" column="34" lean-forward="false" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
-          <folding>
-            <marker date="1512822084000" expanded="true" signature="1200:1310" ph="{...}" />
-            <marker date="1512822084000" expanded="true" signature="1222:1308" ph="[...]" />
-            <marker date="1512822084000" expanded="true" signature="1315:1554" ph="//..." />
-            <marker date="1512822084000" expanded="true" signature="1572:1743" ph="{&quot;cookieName&quot;: 'session'...}" />
-            <marker date="1512822084000" expanded="true" signature="1852:1969" ph="//..." />
-            <marker date="1512822084000" expanded="true" signature="3012:3703" ph="{...}" />
-            <marker date="1512822084000" expanded="true" signature="3132:3684" ph="{...}" />
-            <marker date="1512822084000" expanded="true" signature="3150:3209" ph="{...}" />
-            <marker date="1512822084000" expanded="true" signature="3229:3288" ph="{...}" />
-            <marker date="1512822084000" expanded="true" signature="3305:3678" ph="{...}" />
-            <marker date="1512822084000" expanded="true" signature="3611:3666" ph="{&quot;results&quot;: user...}" />
-            <marker date="1512822084000" expanded="true" signature="3745:3876" ph="{...}" />
-            <marker date="1512822084000" expanded="true" signature="3958:4036" ph="{...}" />
-            <marker date="1512822084000" expanded="true" signature="4099:4378" ph="{...}" />
-          </folding>
+        <state relative-caret-position="464">
+          <caret line="97" column="9" lean-forward="false" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/node/routes/getbookdetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-154">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/node/routes/homelesssignup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-630">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/node/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/node/routes/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/node/routes/myorders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/COL/node/routes/mysql.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/node/routes/proceedcheckout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1220">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/node/routes/removeQty.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/node/routes/signup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/react/src/components/ArtistDisplayProfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="17" column="69" lean-forward="false" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
           <folding>
-            <marker date="1512823037000" expanded="true" signature="85:259" ph="{&quot;host&quot;: '127.0.0.1'...}" />
-            <marker date="1512823037000" expanded="true" signature="306:772" ph="{...}" />
-            <marker date="1512823037000" expanded="true" signature="402:768" ph="{...}" />
-            <marker date="1512823037000" expanded="true" signature="472:684" ph="{...}" />
-            <marker date="1512823037000" expanded="true" signature="496:565" ph="{...}" />
-            <marker date="1512823037000" expanded="true" signature="571:674" ph="{...}" />
-            <marker date="1512823037000" expanded="true" signature="814:1385" ph="{...}" />
-            <marker date="1512823037000" expanded="true" signature="949:1381" ph="{...}" />
-            <marker date="1512823037000" expanded="true" signature="1008:1297" ph="{...}" />
-            <marker date="1512823037000" expanded="true" signature="1031:1137" ph="{...}" />
-            <marker date="1512823037000" expanded="true" signature="1155:1287" ph="{...}" />
-            <marker date="1512823037000" expanded="true" signature="1425:1995" ph="{...}" />
-            <marker date="1512823037000" expanded="true" signature="1560:1991" ph="{...}" />
-            <marker date="1512823037000" expanded="true" signature="1619:1907" ph="{...}" />
-            <marker date="1512823037000" expanded="true" signature="1642:1748" ph="{...}" />
-            <marker date="1512823037000" expanded="true" signature="1766:1897" ph="{...}" />
-            <marker date="1512823037000" expanded="true" signature="2040:2626" ph="{...}" />
-            <marker date="1512823037000" expanded="true" signature="2175:2622" ph="{...}" />
-            <marker date="1512823037000" expanded="true" signature="2234:2538" ph="{...}" />
-            <marker date="1512823037000" expanded="true" signature="2257:2363" ph="{...}" />
-            <marker date="1512823037000" expanded="true" signature="2381:2528" ph="{...}" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/node/routes/getartistprofile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="37" lean-forward="false" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/react/src/components/ArtistProfilePage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="58" column="25" lean-forward="true" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/node/routes/userprofile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="43" column="69" lean-forward="false" selection-start-line="43" selection-start-column="69" selection-end-line="43" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/node/routes/getMyBooks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/react/src/components/ArtistMyBooks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="30" column="49" lean-forward="true" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/node/routes/files.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="66" column="59" lean-forward="false" selection-start-line="66" selection-start-column="59" selection-end-line="66" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/COL/react/src/api/API.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="128" column="39" lean-forward="false" selection-start-line="128" selection-start-column="39" selection-end-line="128" selection-end-column="39" />
+        <state relative-caret-position="256">
+          <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
           <folding>
-            <marker date="1512866024000" expanded="true" signature="99:135" ph="{&quot;Accept&quot;: 'application/json'...}" />
-            <marker date="1512866024000" expanded="true" signature="174:632" ph="{...}" />
-            <marker date="1512866024000" expanded="true" signature="209:334" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512866024000" expanded="true" signature="426:512" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512866024000" expanded="true" signature="549:570" ph="{...}" />
-            <marker date="1512866024000" expanded="true" signature="671:1166" ph="{...}" />
-            <marker date="1512866024000" expanded="true" signature="709:854" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512866024000" expanded="true" signature="959:1046" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512866024000" expanded="true" signature="1083:1104" ph="{...}" />
-            <marker date="1512866024000" expanded="true" signature="1240:1422" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512866024000" expanded="true" signature="1318:1377" ph="{...}" />
-            <marker date="1512866024000" expanded="true" signature="1474:1582" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512866024000" expanded="true" signature="1610:1673" ph="{...}" />
-            <marker date="1512866024000" expanded="true" signature="1846:2012" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512866024000" expanded="true" signature="1889:1952" ph="{&quot;path&quot;: './public/uploads/Profile_pics/'...}" />
-            <marker date="1512866024000" expanded="true" signature="2058:2079" ph="{...}" />
-            <marker date="1512866024000" expanded="true" signature="2168:2189" ph="{...}" />
-            <marker date="1512866024000" expanded="true" signature="2395:2416" ph="{...}" />
-            <marker date="1512866024000" expanded="true" signature="2557:2682" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512866024000" expanded="true" signature="2804:2889" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512866024000" expanded="true" signature="2926:2947" ph="{...}" />
-            <marker date="1512866024000" expanded="true" signature="3120:3245" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512866024000" expanded="true" signature="3367:3391" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512866024000" expanded="true" signature="3428:3449" ph="{...}" />
-            <marker date="1512866024000" expanded="true" signature="3552:4048" ph="{...}" />
-            <marker date="1512866024000" expanded="true" signature="3591:3736" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512866024000" expanded="true" signature="3841:3928" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512866024000" expanded="true" signature="3965:3986" ph="{...}" />
-            <marker date="1512866024000" expanded="true" signature="4109:4186" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512866024000" expanded="true" signature="4237:4323" ph="{&quot;return&quot;: res.status...}" />
-            <marker date="1512866024000" expanded="true" signature="4356:4377" ph="{...}" />
-            <marker date="1512866024000" expanded="true" signature="4525:4601" ph="{&quot;method&quot;: 'GET'...}" />
-            <marker date="1512866024000" expanded="true" signature="4684:4705" ph="{...}" />
-            <marker date="1512866024000" expanded="true" signature="4822:4843" ph="{...}" />
-            <marker date="1512866024000" expanded="true" signature="5023:5148" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512866024000" expanded="true" signature="5270:5362" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512866024000" expanded="true" signature="5399:5420" ph="{...}" />
-            <marker date="1512866024000" expanded="true" signature="5593:5718" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512866024000" expanded="true" signature="5807:5895" ph="{&quot;return&quot;: res.data...}" />
-            <marker date="1512866024000" expanded="true" signature="5928:5949" ph="{...}" />
-            <marker date="1512866024000" expanded="true" signature="6105:6230" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512866024000" expanded="true" signature="6319:6407" ph="{&quot;return&quot;: res.data...}" />
-            <marker date="1512866024000" expanded="true" signature="6440:6461" ph="{...}" />
-            <marker date="1512866024000" expanded="true" signature="6627:6703" ph="{&quot;method&quot;: 'GET'...}" />
-            <marker date="1512866024000" expanded="true" signature="6786:6807" ph="{...}" />
-            <marker date="1512866024000" expanded="true" signature="6924:6945" ph="{...}" />
-            <marker date="1512866024000" expanded="true" signature="7115:7240" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512866024000" expanded="true" signature="7329:7418" ph="{&quot;return&quot;: res.data...}" />
-            <marker date="1512866024000" expanded="true" signature="7451:7472" ph="{...}" />
-            <marker date="1512866024000" expanded="true" signature="7628:7753" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512866024000" expanded="true" signature="7875:7967" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512866024000" expanded="true" signature="8004:8025" ph="{...}" />
-            <marker date="1512866024000" expanded="true" signature="8202:8327" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512866024000" expanded="true" signature="8449:8541" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512866024000" expanded="true" signature="8578:8599" ph="{...}" />
-            <marker date="1512866024000" expanded="true" signature="8767:8892" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512866024000" expanded="true" signature="9014:9106" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512866024000" expanded="true" signature="9143:9164" ph="{...}" />
-            <marker date="1512866024000" expanded="true" signature="9303:9846" ph="{...}" />
-            <marker date="1512866024000" expanded="true" signature="9353:9498" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512866024000" expanded="true" signature="9638:9726" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512866024000" expanded="true" signature="9763:9784" ph="{...}" />
-            <marker date="1512866024000" expanded="true" signature="9922:10047" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512866024000" expanded="true" signature="10169:10261" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512866024000" expanded="true" signature="10298:10319" ph="{...}" />
-            <marker date="1512866024000" expanded="true" signature="10492:10617" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512866024000" expanded="true" signature="10739:10831" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512866024000" expanded="true" signature="10868:10889" ph="{...}" />
-            <marker date="1512866024000" expanded="true" signature="11050:11175" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512866024000" expanded="true" signature="11297:11389" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512866024000" expanded="true" signature="11426:11447" ph="{...}" />
-            <marker date="1512866024000" expanded="true" signature="11615:11740" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512866024000" expanded="true" signature="11862:11886" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512866024000" expanded="true" signature="11923:11944" ph="{...}" />
-            <marker date="1512866024000" expanded="true" signature="12073:12198" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512866024000" expanded="true" signature="12320:12412" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512866024000" expanded="true" signature="12449:12470" ph="{...}" />
-            <marker date="1512866024000" expanded="true" signature="12641:12766" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512866024000" expanded="true" signature="12855:12944" ph="{&quot;return&quot;: res.data...}" />
-            <marker date="1512866024000" expanded="true" signature="12977:12998" ph="{...}" />
+            <marker date="1512953269000" expanded="true" signature="287:412" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512953269000" expanded="true" signature="504:590" ph="{&quot;return&quot;: res...}" />
+            <marker date="1512953269000" expanded="true" signature="627:648" ph="{...}" />
+            <marker date="1512953269000" expanded="true" signature="787:932" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512953269000" expanded="true" signature="1037:1124" ph="{&quot;return&quot;: res...}" />
+            <marker date="1512953269000" expanded="true" signature="1161:1182" ph="{...}" />
+            <marker date="1512953269000" expanded="true" signature="2148:2169" ph="{...}" />
+            <marker date="1512953269000" expanded="true" signature="2258:2279" ph="{...}" />
+            <marker date="1512953269000" expanded="true" signature="2485:2506" ph="{...}" />
+            <marker date="1512953269000" expanded="true" signature="2647:2772" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512953269000" expanded="true" signature="2894:2979" ph="{&quot;return&quot;: res...}" />
+            <marker date="1512953269000" expanded="true" signature="3016:3037" ph="{...}" />
+            <marker date="1512953269000" expanded="true" signature="3210:3335" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512953269000" expanded="true" signature="3457:3481" ph="{&quot;return&quot;: res...}" />
+            <marker date="1512953269000" expanded="true" signature="3518:3539" ph="{...}" />
+            <marker date="1512953269000" expanded="true" signature="3681:3826" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512953269000" expanded="true" signature="3931:4018" ph="{&quot;return&quot;: res...}" />
+            <marker date="1512953269000" expanded="true" signature="4055:4076" ph="{...}" />
+            <marker date="1512953269000" expanded="true" signature="4199:4276" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512953269000" expanded="true" signature="4327:4413" ph="{&quot;return&quot;: res.status...}" />
+            <marker date="1512953269000" expanded="true" signature="4446:4467" ph="{...}" />
+            <marker date="1512953269000" expanded="true" signature="4615:4691" ph="{&quot;method&quot;: 'GET'...}" />
+            <marker date="1512953269000" expanded="true" signature="4774:4795" ph="{...}" />
+            <marker date="1512953269000" expanded="true" signature="4912:4933" ph="{...}" />
+            <marker date="1512953269000" expanded="true" signature="5113:5238" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512953269000" expanded="true" signature="5360:5452" ph="{&quot;return&quot;: res...}" />
+            <marker date="1512953269000" expanded="true" signature="5489:5510" ph="{...}" />
+            <marker date="1512953269000" expanded="true" signature="5683:5808" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512953269000" expanded="true" signature="5897:5985" ph="{&quot;return&quot;: res.data...}" />
+            <marker date="1512953269000" expanded="true" signature="6018:6039" ph="{...}" />
+            <marker date="1512953269000" expanded="true" signature="6195:6320" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512953269000" expanded="true" signature="6409:6497" ph="{&quot;return&quot;: res.data...}" />
+            <marker date="1512953269000" expanded="true" signature="6530:6551" ph="{...}" />
+            <marker date="1512953269000" expanded="true" signature="6717:6793" ph="{&quot;method&quot;: 'GET'...}" />
+            <marker date="1512953269000" expanded="true" signature="6876:6897" ph="{...}" />
+            <marker date="1512953269000" expanded="true" signature="7014:7035" ph="{...}" />
+            <marker date="1512953269000" expanded="true" signature="7205:7330" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512953269000" expanded="true" signature="7419:7508" ph="{&quot;return&quot;: res.data...}" />
+            <marker date="1512953269000" expanded="true" signature="7541:7562" ph="{...}" />
+            <marker date="1512953269000" expanded="true" signature="7718:7843" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512953269000" expanded="true" signature="7965:8057" ph="{&quot;return&quot;: res...}" />
+            <marker date="1512953269000" expanded="true" signature="8094:8115" ph="{...}" />
+            <marker date="1512953269000" expanded="true" signature="8292:8417" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512953269000" expanded="true" signature="8539:8631" ph="{&quot;return&quot;: res...}" />
+            <marker date="1512953269000" expanded="true" signature="8668:8689" ph="{...}" />
+            <marker date="1512953269000" expanded="true" signature="8857:8982" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512953269000" expanded="true" signature="9104:9196" ph="{&quot;return&quot;: res...}" />
+            <marker date="1512953269000" expanded="true" signature="9233:9254" ph="{...}" />
+            <marker date="1512953269000" expanded="true" signature="9443:9588" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512953269000" expanded="true" signature="9728:9816" ph="{&quot;return&quot;: res...}" />
+            <marker date="1512953269000" expanded="true" signature="9853:9874" ph="{...}" />
+            <marker date="1512953269000" expanded="true" signature="10012:10137" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512953269000" expanded="true" signature="10259:10351" ph="{&quot;return&quot;: res...}" />
+            <marker date="1512953269000" expanded="true" signature="10388:10409" ph="{...}" />
+            <marker date="1512953269000" expanded="true" signature="10582:10707" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512953269000" expanded="true" signature="10829:10921" ph="{&quot;return&quot;: res...}" />
+            <marker date="1512953269000" expanded="true" signature="10958:10979" ph="{...}" />
+            <marker date="1512953269000" expanded="true" signature="11140:11265" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512953269000" expanded="true" signature="11387:11479" ph="{&quot;return&quot;: res...}" />
+            <marker date="1512953269000" expanded="true" signature="11516:11537" ph="{...}" />
+            <marker date="1512953269000" expanded="true" signature="11705:11830" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512953269000" expanded="true" signature="11952:11976" ph="{&quot;return&quot;: res...}" />
+            <marker date="1512953269000" expanded="true" signature="12013:12034" ph="{...}" />
+            <marker date="1512953269000" expanded="true" signature="12163:12288" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512953269000" expanded="true" signature="12410:12502" ph="{&quot;return&quot;: res...}" />
+            <marker date="1512953269000" expanded="true" signature="12539:12560" ph="{...}" />
+            <marker date="1512953269000" expanded="true" signature="12731:12856" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512953269000" expanded="true" signature="12945:13034" ph="{&quot;return&quot;: res.data...}" />
+            <marker date="1512953269000" expanded="true" signature="13067:13088" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/COL/react/src/components/BooksAdventure.js">
+    <entry file="file://$PROJECT_DIR$/COL/react/src/components/ArtistUploadBooks.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+        <state relative-caret-position="373">
+          <caret line="46" column="16" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/node/routes/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="227" column="78" lean-forward="false" selection-start-line="227" selection-start-column="78" selection-end-line="227" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/react/src/components/AdminApproveBooks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="53" column="18" lean-forward="false" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/node/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/react/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
           <folding />
         </state>
       </provider>

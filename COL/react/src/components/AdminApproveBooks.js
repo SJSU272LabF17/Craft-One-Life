@@ -51,7 +51,7 @@ class AdminApproveBooks extends Component {
         API.rejectBooks(data).then((res) => {
             //alert("Book rejected successfully");
             API.getBooksForApproval().then((res) => {
-                alert(res.resarray);
+                //alert(res.resarray);
                 if (typeof res.resarray == "undefined") {
                     res.resarray = [];
                     this.setState({Books: res.resarray});

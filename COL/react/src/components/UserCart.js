@@ -131,6 +131,7 @@ class UserCart extends Component{
 
     handleCheckOut = (data) => {
 
+
         var cardnumber = document.getElementById("cardnumber").value;
         var cvv = document.getElementById("cvv").value;
         var expiry = document.getElementById("expiry").value;
@@ -194,7 +195,7 @@ class UserCart extends Component{
                 payload.push(payloadArr);
             }
 
-
+            console.log('inside checkout');
             var payload = {total: this.state.total, user_id: user_id, payload: payload};
           //  alert("in handlecheckout " + JSON.stringify(payload));
 

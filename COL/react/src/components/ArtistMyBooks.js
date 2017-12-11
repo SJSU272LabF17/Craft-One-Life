@@ -28,7 +28,7 @@ class MyBooks extends Component{
         API.getMyBooks(payload)
             .then((res) => {
                 //alert("back in my books : " + JSON.stringify(res.data));
-                if (res.status === 201) {
+                if (res.status === 201 && res.data[0]) {
                     //alert("Books fetched");
                     console.log("got the data",res.data[0].isApproved)
                     for(var i=0;i<res.data.length;i++){

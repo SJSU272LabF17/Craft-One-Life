@@ -1,5 +1,5 @@
-const api = process.env.REACT_APP_CONTACTS_API_URL || 'http://52.87.159.119:3001'
-
+//const api = process.env.REACT_APP_CONTACTS_API_URL || 'http://52.87.159.11:3001'
+const api = process.env.REACT_APP_CONTACTS_API_URL || 'http://localhost:3001'
 const headers = {
     'Accept': 'application/json'
 };
@@ -41,26 +41,28 @@ export const doSignup = (payload) => {
             return error;
         });
 };
-export const uploadBook = (payload) =>
+export const uploadBook = (payload) => {
     fetch(`${api}/files/upload`, {
             method: 'POST',
             body: payload,
             headers: {
                 'path': payload.get('path')
             },
-            credentials:'include'
+            credentials: 'include'
         }
     ).then(res => res.json())
         .then(res => {
-            debugger
-            console.log("My response is ",JSON.stringify(res))
+           // debugger
+            console.log("My response is ", JSON.stringify(res))
             return res;
         }).catch(error => {
-        debugger
+        //debugger
         console.log(payload)
         console.log("This is error while file upload ", error.message);
         return error;
-    })
+    });
+}
+
 export const saveUserProfile = (payload) =>
     fetch(`${api}/saveUserProfile/upload`, {
         method: 'POST',
