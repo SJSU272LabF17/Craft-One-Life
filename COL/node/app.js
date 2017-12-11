@@ -3,7 +3,7 @@ var path = require('path');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var cors = require('cors');
+// var cors = require('cors');
 var session = require("client-sessions");
 var passport = require('passport');
 require('./routes/login')(passport);
@@ -24,6 +24,7 @@ var admin = require('./routes/admin');
 var cart = require('./routes/cart');
 var mybooks = require('./routes/getMyBooks');
 var artistearnings = require('./routes/artistearnings');
+var cors = require('express-cors');
 
 var app = express();
 
@@ -32,15 +33,21 @@ app.use(session({
     cookieName: 'session',
     secret: 'cmpe272_test_string',
     duration: 30 * 60 * 1000,    //setting the time for active session
-    activeDuration: 5 * 60 * 1000  }))
+    activeDuration: 5 * 60 * 1000  }));
+
+app.use(cors({
+    allowedOrigins: [
+        'http://52.87.159.119:3001', 'http://localhost:3001'
+    ]
+}));
 
 //Enable CORS
-var corsOptions = {
-    origin: 'http://52.87.159.119:3000',
-    credentials: true,
-    optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
-}
-app.use(cors(corsOptions));
+// var corsOptions = {
+//     origin: 'http://52.87.159.119:3000',
+//     credentials: true,
+//     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+// }
+// app.use(cors(corsOptions));
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
