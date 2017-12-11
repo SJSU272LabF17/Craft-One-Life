@@ -4,19 +4,8 @@
     <list default="true" id="ba4cda77-9c6d-4db8-99ab-1f7b6840addd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COL/node/app.js" afterPath="$PROJECT_DIR$/COL/node/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COL/node/routes/admin.js" afterPath="$PROJECT_DIR$/COL/node/routes/admin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COL/node/routes/files.js" afterPath="$PROJECT_DIR$/COL/node/routes/files.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COL/node/routes/getartistprofile.js" afterPath="$PROJECT_DIR$/COL/node/routes/getartistprofile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COL/node/routes/mysql.js" afterPath="$PROJECT_DIR$/COL/node/routes/mysql.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COL/node/routes/userprofile.js" afterPath="$PROJECT_DIR$/COL/node/routes/userprofile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COL/react/public/index.html" afterPath="$PROJECT_DIR$/COL/react/public/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COL/react/src/api/API.js" afterPath="$PROJECT_DIR$/COL/react/src/api/API.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COL/react/src/components/AdminApproveBooks.js" afterPath="$PROJECT_DIR$/COL/react/src/components/AdminApproveBooks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COL/react/src/components/ArtistDisplayProfile.js" afterPath="$PROJECT_DIR$/COL/react/src/components/ArtistDisplayProfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COL/react/src/components/ArtistMyBooks.js" afterPath="$PROJECT_DIR$/COL/react/src/components/ArtistMyBooks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COL/react/src/components/ArtistProfilePage.js" afterPath="$PROJECT_DIR$/COL/react/src/components/ArtistProfilePage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COL/react/src/components/ArtistUploadBooks.js" afterPath="$PROJECT_DIR$/COL/react/src/components/ArtistUploadBooks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COL/react/src/components/UserCart.js" afterPath="$PROJECT_DIR$/COL/react/src/components/UserCart.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,26 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="userprofile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/COL/node/routes/userprofile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="43" column="69" lean-forward="false" selection-start-line="43" selection-start-column="69" selection-end-line="43" selection-end-column="69" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getMyBooks.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/COL/node/routes/getMyBooks.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ArtistMyBooks.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/COL/react/src/components/ArtistMyBooks.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -75,8 +44,28 @@
       <file leaf-file-name="admin.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/COL/node/routes/admin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
+            <state relative-caret-position="256">
               <caret line="227" column="78" lean-forward="false" selection-start-line="227" selection-start-column="78" selection-end-line="227" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysql.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/COL/node/routes/mysql.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/COL/node/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-288">
+              <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -102,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/COL/react/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+            <state relative-caret-position="204">
+              <caret line="12" column="62" lean-forward="true" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -115,78 +104,78 @@
       <file leaf-file-name="API.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/COL/react/src/api/API.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+            <state relative-caret-position="17">
+              <caret line="1" column="80" lean-forward="true" selection-start-line="1" selection-start-column="80" selection-end-line="1" selection-end-column="80" />
               <folding>
-                <marker date="1512953269000" expanded="true" signature="287:412" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512953269000" expanded="true" signature="504:590" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512953269000" expanded="true" signature="627:648" ph="{...}" />
-                <marker date="1512953269000" expanded="true" signature="787:932" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512953269000" expanded="true" signature="1037:1124" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512953269000" expanded="true" signature="1161:1182" ph="{...}" />
-                <marker date="1512953269000" expanded="true" signature="2148:2169" ph="{...}" />
-                <marker date="1512953269000" expanded="true" signature="2258:2279" ph="{...}" />
-                <marker date="1512953269000" expanded="true" signature="2485:2506" ph="{...}" />
-                <marker date="1512953269000" expanded="true" signature="2647:2772" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512953269000" expanded="true" signature="2894:2979" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512953269000" expanded="true" signature="3016:3037" ph="{...}" />
-                <marker date="1512953269000" expanded="true" signature="3210:3335" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512953269000" expanded="true" signature="3457:3481" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512953269000" expanded="true" signature="3518:3539" ph="{...}" />
-                <marker date="1512953269000" expanded="true" signature="3681:3826" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512953269000" expanded="true" signature="3931:4018" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512953269000" expanded="true" signature="4055:4076" ph="{...}" />
-                <marker date="1512953269000" expanded="true" signature="4199:4276" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512953269000" expanded="true" signature="4327:4413" ph="{&quot;return&quot;: res.status...}" />
-                <marker date="1512953269000" expanded="true" signature="4446:4467" ph="{...}" />
-                <marker date="1512953269000" expanded="true" signature="4615:4691" ph="{&quot;method&quot;: 'GET'...}" />
-                <marker date="1512953269000" expanded="true" signature="4774:4795" ph="{...}" />
-                <marker date="1512953269000" expanded="true" signature="4912:4933" ph="{...}" />
-                <marker date="1512953269000" expanded="true" signature="5113:5238" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512953269000" expanded="true" signature="5360:5452" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512953269000" expanded="true" signature="5489:5510" ph="{...}" />
-                <marker date="1512953269000" expanded="true" signature="5683:5808" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512953269000" expanded="true" signature="5897:5985" ph="{&quot;return&quot;: res.data...}" />
-                <marker date="1512953269000" expanded="true" signature="6018:6039" ph="{...}" />
-                <marker date="1512953269000" expanded="true" signature="6195:6320" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512953269000" expanded="true" signature="6409:6497" ph="{&quot;return&quot;: res.data...}" />
-                <marker date="1512953269000" expanded="true" signature="6530:6551" ph="{...}" />
-                <marker date="1512953269000" expanded="true" signature="6717:6793" ph="{&quot;method&quot;: 'GET'...}" />
-                <marker date="1512953269000" expanded="true" signature="6876:6897" ph="{...}" />
-                <marker date="1512953269000" expanded="true" signature="7014:7035" ph="{...}" />
-                <marker date="1512953269000" expanded="true" signature="7205:7330" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512953269000" expanded="true" signature="7419:7508" ph="{&quot;return&quot;: res.data...}" />
-                <marker date="1512953269000" expanded="true" signature="7541:7562" ph="{...}" />
-                <marker date="1512953269000" expanded="true" signature="7718:7843" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512953269000" expanded="true" signature="7965:8057" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512953269000" expanded="true" signature="8094:8115" ph="{...}" />
-                <marker date="1512953269000" expanded="true" signature="8292:8417" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512953269000" expanded="true" signature="8539:8631" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512953269000" expanded="true" signature="8668:8689" ph="{...}" />
-                <marker date="1512953269000" expanded="true" signature="8857:8982" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512953269000" expanded="true" signature="9104:9196" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512953269000" expanded="true" signature="9233:9254" ph="{...}" />
-                <marker date="1512953269000" expanded="true" signature="9443:9588" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512953269000" expanded="true" signature="9728:9816" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512953269000" expanded="true" signature="9853:9874" ph="{...}" />
-                <marker date="1512953269000" expanded="true" signature="10012:10137" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512953269000" expanded="true" signature="10259:10351" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512953269000" expanded="true" signature="10388:10409" ph="{...}" />
-                <marker date="1512953269000" expanded="true" signature="10582:10707" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512953269000" expanded="true" signature="10829:10921" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512953269000" expanded="true" signature="10958:10979" ph="{...}" />
-                <marker date="1512953269000" expanded="true" signature="11140:11265" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512953269000" expanded="true" signature="11387:11479" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512953269000" expanded="true" signature="11516:11537" ph="{...}" />
-                <marker date="1512953269000" expanded="true" signature="11705:11830" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512953269000" expanded="true" signature="11952:11976" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512953269000" expanded="true" signature="12013:12034" ph="{...}" />
-                <marker date="1512953269000" expanded="true" signature="12163:12288" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512953269000" expanded="true" signature="12410:12502" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512953269000" expanded="true" signature="12539:12560" ph="{...}" />
-                <marker date="1512953269000" expanded="true" signature="12731:12856" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512953269000" expanded="true" signature="12945:13034" ph="{&quot;return&quot;: res.data...}" />
-                <marker date="1512953269000" expanded="true" signature="13067:13088" ph="{...}" />
+                <marker date="1512958719000" expanded="true" signature="288:413" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512958719000" expanded="true" signature="505:591" ph="{&quot;return&quot;: res...}" />
+                <marker date="1512958719000" expanded="true" signature="628:649" ph="{...}" />
+                <marker date="1512958719000" expanded="true" signature="788:933" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512958719000" expanded="true" signature="1038:1125" ph="{&quot;return&quot;: res...}" />
+                <marker date="1512958719000" expanded="true" signature="1162:1183" ph="{...}" />
+                <marker date="1512958719000" expanded="true" signature="2149:2170" ph="{...}" />
+                <marker date="1512958719000" expanded="true" signature="2259:2280" ph="{...}" />
+                <marker date="1512958719000" expanded="true" signature="2486:2507" ph="{...}" />
+                <marker date="1512958719000" expanded="true" signature="2648:2773" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512958719000" expanded="true" signature="2895:2980" ph="{&quot;return&quot;: res...}" />
+                <marker date="1512958719000" expanded="true" signature="3017:3038" ph="{...}" />
+                <marker date="1512958719000" expanded="true" signature="3211:3336" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512958719000" expanded="true" signature="3458:3482" ph="{&quot;return&quot;: res...}" />
+                <marker date="1512958719000" expanded="true" signature="3519:3540" ph="{...}" />
+                <marker date="1512958719000" expanded="true" signature="3682:3827" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512958719000" expanded="true" signature="3932:4019" ph="{&quot;return&quot;: res...}" />
+                <marker date="1512958719000" expanded="true" signature="4056:4077" ph="{...}" />
+                <marker date="1512958719000" expanded="true" signature="4200:4277" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512958719000" expanded="true" signature="4328:4414" ph="{&quot;return&quot;: res.status...}" />
+                <marker date="1512958719000" expanded="true" signature="4447:4468" ph="{...}" />
+                <marker date="1512958719000" expanded="true" signature="4616:4692" ph="{&quot;method&quot;: 'GET'...}" />
+                <marker date="1512958719000" expanded="true" signature="4775:4796" ph="{...}" />
+                <marker date="1512958719000" expanded="true" signature="4913:4934" ph="{...}" />
+                <marker date="1512958719000" expanded="true" signature="5114:5239" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512958719000" expanded="true" signature="5361:5453" ph="{&quot;return&quot;: res...}" />
+                <marker date="1512958719000" expanded="true" signature="5490:5511" ph="{...}" />
+                <marker date="1512958719000" expanded="true" signature="5684:5809" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512958719000" expanded="true" signature="5898:5986" ph="{&quot;return&quot;: res.data...}" />
+                <marker date="1512958719000" expanded="true" signature="6019:6040" ph="{...}" />
+                <marker date="1512958719000" expanded="true" signature="6196:6321" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512958719000" expanded="true" signature="6410:6498" ph="{&quot;return&quot;: res.data...}" />
+                <marker date="1512958719000" expanded="true" signature="6531:6552" ph="{...}" />
+                <marker date="1512958719000" expanded="true" signature="6718:6794" ph="{&quot;method&quot;: 'GET'...}" />
+                <marker date="1512958719000" expanded="true" signature="6877:6898" ph="{...}" />
+                <marker date="1512958719000" expanded="true" signature="7015:7036" ph="{...}" />
+                <marker date="1512958719000" expanded="true" signature="7206:7331" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512958719000" expanded="true" signature="7420:7509" ph="{&quot;return&quot;: res.data...}" />
+                <marker date="1512958719000" expanded="true" signature="7542:7563" ph="{...}" />
+                <marker date="1512958719000" expanded="true" signature="7719:7844" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512958719000" expanded="true" signature="7966:8058" ph="{&quot;return&quot;: res...}" />
+                <marker date="1512958719000" expanded="true" signature="8095:8116" ph="{...}" />
+                <marker date="1512958719000" expanded="true" signature="8293:8418" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512958719000" expanded="true" signature="8540:8632" ph="{&quot;return&quot;: res...}" />
+                <marker date="1512958719000" expanded="true" signature="8669:8690" ph="{...}" />
+                <marker date="1512958719000" expanded="true" signature="8858:8983" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512958719000" expanded="true" signature="9105:9197" ph="{&quot;return&quot;: res...}" />
+                <marker date="1512958719000" expanded="true" signature="9234:9255" ph="{...}" />
+                <marker date="1512958719000" expanded="true" signature="9444:9589" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512958719000" expanded="true" signature="9729:9817" ph="{&quot;return&quot;: res...}" />
+                <marker date="1512958719000" expanded="true" signature="9854:9875" ph="{...}" />
+                <marker date="1512958719000" expanded="true" signature="10013:10138" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512958719000" expanded="true" signature="10260:10352" ph="{&quot;return&quot;: res...}" />
+                <marker date="1512958719000" expanded="true" signature="10389:10410" ph="{...}" />
+                <marker date="1512958719000" expanded="true" signature="10583:10708" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512958719000" expanded="true" signature="10830:10922" ph="{&quot;return&quot;: res...}" />
+                <marker date="1512958719000" expanded="true" signature="10959:10980" ph="{...}" />
+                <marker date="1512958719000" expanded="true" signature="11141:11266" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512958719000" expanded="true" signature="11388:11480" ph="{&quot;return&quot;: res...}" />
+                <marker date="1512958719000" expanded="true" signature="11517:11538" ph="{...}" />
+                <marker date="1512958719000" expanded="true" signature="11706:11831" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512958719000" expanded="true" signature="11953:11977" ph="{&quot;return&quot;: res...}" />
+                <marker date="1512958719000" expanded="true" signature="12014:12035" ph="{...}" />
+                <marker date="1512958719000" expanded="true" signature="12164:12289" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512958719000" expanded="true" signature="12411:12503" ph="{&quot;return&quot;: res...}" />
+                <marker date="1512958719000" expanded="true" signature="12540:12561" ph="{...}" />
+                <marker date="1512958719000" expanded="true" signature="12732:12857" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1512958719000" expanded="true" signature="12946:13035" ph="{&quot;return&quot;: res.data...}" />
+                <marker date="1512958719000" expanded="true" signature="13068:13089" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -195,8 +184,8 @@
       <file leaf-file-name="files.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/COL/node/routes/files.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="66" column="59" lean-forward="false" selection-start-line="66" selection-start-column="59" selection-end-line="66" selection-end-column="59" />
+            <state relative-caret-position="489">
+              <caret line="67" column="59" lean-forward="false" selection-start-line="67" selection-start-column="59" selection-end-line="67" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -237,19 +226,19 @@
         <option value="$PROJECT_DIR$/COL/node/package.json" />
         <option value="$PROJECT_DIR$/COL/react/src/components/BooksAdventure.js" />
         <option value="$PROJECT_DIR$/COL/react/src/components/UserCart.js" />
-        <option value="$PROJECT_DIR$/COL/node/routes/mysql.js" />
-        <option value="$PROJECT_DIR$/COL/node/app.js" />
-        <option value="$PROJECT_DIR$/COL/react/src/api/API.js" />
         <option value="$PROJECT_DIR$/COL/react/src/components/ArtistDisplayProfile.js" />
         <option value="$PROJECT_DIR$/COL/node/routes/getartistprofile.js" />
         <option value="$PROJECT_DIR$/COL/react/src/components/ArtistProfilePage.js" />
         <option value="$PROJECT_DIR$/COL/node/routes/userprofile.js" />
         <option value="$PROJECT_DIR$/COL/react/src/components/ArtistMyBooks.js" />
-        <option value="$PROJECT_DIR$/COL/node/routes/files.js" />
         <option value="$PROJECT_DIR$/COL/react/src/components/ArtistUploadBooks.js" />
         <option value="$PROJECT_DIR$/COL/node/routes/admin.js" />
         <option value="$PROJECT_DIR$/COL/react/src/components/AdminApproveBooks.js" />
         <option value="$PROJECT_DIR$/COL/react/public/index.html" />
+        <option value="$PROJECT_DIR$/COL/node/routes/files.js" />
+        <option value="$PROJECT_DIR$/COL/node/routes/mysql.js" />
+        <option value="$PROJECT_DIR$/COL/node/app.js" />
+        <option value="$PROJECT_DIR$/COL/react/src/api/API.js" />
       </list>
     </option>
   </component>
@@ -270,7 +259,7 @@
     <handled-path value="$PROJECT_DIR$/COL/node/node_modules" />
     <handled-path value="$PROJECT_DIR$/COL/react/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1436" />
     <option name="height" value="877" />
@@ -409,24 +398,24 @@
       <workItem from="1512782962427" duration="4597000" />
       <workItem from="1512863188551" duration="4082000" />
       <workItem from="1512884206752" duration="968000" />
-      <workItem from="1512948976485" duration="7044000" />
+      <workItem from="1512948976485" duration="8247000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26806000" />
+    <option name="totallyTimeSpent" value="28009000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1436" height="877" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946997" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24876674" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3465473" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32769045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -564,14 +553,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/COL/node/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="97" column="9" lean-forward="false" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/COL/node/routes/getbookdetails.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-154">
@@ -608,14 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/COL/node/routes/mysql.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -696,92 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/COL/node/routes/files.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="66" column="59" lean-forward="false" selection-start-line="66" selection-start-column="59" selection-end-line="66" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/COL/react/src/api/API.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-          <folding>
-            <marker date="1512953269000" expanded="true" signature="287:412" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512953269000" expanded="true" signature="504:590" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512953269000" expanded="true" signature="627:648" ph="{...}" />
-            <marker date="1512953269000" expanded="true" signature="787:932" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512953269000" expanded="true" signature="1037:1124" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512953269000" expanded="true" signature="1161:1182" ph="{...}" />
-            <marker date="1512953269000" expanded="true" signature="2148:2169" ph="{...}" />
-            <marker date="1512953269000" expanded="true" signature="2258:2279" ph="{...}" />
-            <marker date="1512953269000" expanded="true" signature="2485:2506" ph="{...}" />
-            <marker date="1512953269000" expanded="true" signature="2647:2772" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512953269000" expanded="true" signature="2894:2979" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512953269000" expanded="true" signature="3016:3037" ph="{...}" />
-            <marker date="1512953269000" expanded="true" signature="3210:3335" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512953269000" expanded="true" signature="3457:3481" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512953269000" expanded="true" signature="3518:3539" ph="{...}" />
-            <marker date="1512953269000" expanded="true" signature="3681:3826" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512953269000" expanded="true" signature="3931:4018" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512953269000" expanded="true" signature="4055:4076" ph="{...}" />
-            <marker date="1512953269000" expanded="true" signature="4199:4276" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512953269000" expanded="true" signature="4327:4413" ph="{&quot;return&quot;: res.status...}" />
-            <marker date="1512953269000" expanded="true" signature="4446:4467" ph="{...}" />
-            <marker date="1512953269000" expanded="true" signature="4615:4691" ph="{&quot;method&quot;: 'GET'...}" />
-            <marker date="1512953269000" expanded="true" signature="4774:4795" ph="{...}" />
-            <marker date="1512953269000" expanded="true" signature="4912:4933" ph="{...}" />
-            <marker date="1512953269000" expanded="true" signature="5113:5238" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512953269000" expanded="true" signature="5360:5452" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512953269000" expanded="true" signature="5489:5510" ph="{...}" />
-            <marker date="1512953269000" expanded="true" signature="5683:5808" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512953269000" expanded="true" signature="5897:5985" ph="{&quot;return&quot;: res.data...}" />
-            <marker date="1512953269000" expanded="true" signature="6018:6039" ph="{...}" />
-            <marker date="1512953269000" expanded="true" signature="6195:6320" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512953269000" expanded="true" signature="6409:6497" ph="{&quot;return&quot;: res.data...}" />
-            <marker date="1512953269000" expanded="true" signature="6530:6551" ph="{...}" />
-            <marker date="1512953269000" expanded="true" signature="6717:6793" ph="{&quot;method&quot;: 'GET'...}" />
-            <marker date="1512953269000" expanded="true" signature="6876:6897" ph="{...}" />
-            <marker date="1512953269000" expanded="true" signature="7014:7035" ph="{...}" />
-            <marker date="1512953269000" expanded="true" signature="7205:7330" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512953269000" expanded="true" signature="7419:7508" ph="{&quot;return&quot;: res.data...}" />
-            <marker date="1512953269000" expanded="true" signature="7541:7562" ph="{...}" />
-            <marker date="1512953269000" expanded="true" signature="7718:7843" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512953269000" expanded="true" signature="7965:8057" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512953269000" expanded="true" signature="8094:8115" ph="{...}" />
-            <marker date="1512953269000" expanded="true" signature="8292:8417" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512953269000" expanded="true" signature="8539:8631" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512953269000" expanded="true" signature="8668:8689" ph="{...}" />
-            <marker date="1512953269000" expanded="true" signature="8857:8982" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512953269000" expanded="true" signature="9104:9196" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512953269000" expanded="true" signature="9233:9254" ph="{...}" />
-            <marker date="1512953269000" expanded="true" signature="9443:9588" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512953269000" expanded="true" signature="9728:9816" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512953269000" expanded="true" signature="9853:9874" ph="{...}" />
-            <marker date="1512953269000" expanded="true" signature="10012:10137" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512953269000" expanded="true" signature="10259:10351" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512953269000" expanded="true" signature="10388:10409" ph="{...}" />
-            <marker date="1512953269000" expanded="true" signature="10582:10707" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512953269000" expanded="true" signature="10829:10921" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512953269000" expanded="true" signature="10958:10979" ph="{...}" />
-            <marker date="1512953269000" expanded="true" signature="11140:11265" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512953269000" expanded="true" signature="11387:11479" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512953269000" expanded="true" signature="11516:11537" ph="{...}" />
-            <marker date="1512953269000" expanded="true" signature="11705:11830" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512953269000" expanded="true" signature="11952:11976" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512953269000" expanded="true" signature="12013:12034" ph="{...}" />
-            <marker date="1512953269000" expanded="true" signature="12163:12288" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512953269000" expanded="true" signature="12410:12502" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512953269000" expanded="true" signature="12539:12560" ph="{...}" />
-            <marker date="1512953269000" expanded="true" signature="12731:12856" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512953269000" expanded="true" signature="12945:13034" ph="{&quot;return&quot;: res.data...}" />
-            <marker date="1512953269000" expanded="true" signature="13067:13088" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/COL/react/src/components/ArtistUploadBooks.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
@@ -789,14 +676,6 @@
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/COL/node/routes/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="227" column="78" lean-forward="false" selection-start-line="227" selection-start-column="78" selection-end-line="227" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -818,8 +697,118 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/COL/react/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+        <state relative-caret-position="204">
+          <caret line="12" column="62" lean-forward="true" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/node/routes/files.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="67" column="59" lean-forward="false" selection-start-line="67" selection-start-column="59" selection-end-line="67" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/node/routes/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="227" column="78" lean-forward="false" selection-start-line="227" selection-start-column="78" selection-end-line="227" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/node/routes/mysql.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/react/src/api/API.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="80" lean-forward="true" selection-start-line="1" selection-start-column="80" selection-end-line="1" selection-end-column="80" />
+          <folding>
+            <marker date="1512958719000" expanded="true" signature="288:413" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512958719000" expanded="true" signature="505:591" ph="{&quot;return&quot;: res...}" />
+            <marker date="1512958719000" expanded="true" signature="628:649" ph="{...}" />
+            <marker date="1512958719000" expanded="true" signature="788:933" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512958719000" expanded="true" signature="1038:1125" ph="{&quot;return&quot;: res...}" />
+            <marker date="1512958719000" expanded="true" signature="1162:1183" ph="{...}" />
+            <marker date="1512958719000" expanded="true" signature="2149:2170" ph="{...}" />
+            <marker date="1512958719000" expanded="true" signature="2259:2280" ph="{...}" />
+            <marker date="1512958719000" expanded="true" signature="2486:2507" ph="{...}" />
+            <marker date="1512958719000" expanded="true" signature="2648:2773" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512958719000" expanded="true" signature="2895:2980" ph="{&quot;return&quot;: res...}" />
+            <marker date="1512958719000" expanded="true" signature="3017:3038" ph="{...}" />
+            <marker date="1512958719000" expanded="true" signature="3211:3336" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512958719000" expanded="true" signature="3458:3482" ph="{&quot;return&quot;: res...}" />
+            <marker date="1512958719000" expanded="true" signature="3519:3540" ph="{...}" />
+            <marker date="1512958719000" expanded="true" signature="3682:3827" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512958719000" expanded="true" signature="3932:4019" ph="{&quot;return&quot;: res...}" />
+            <marker date="1512958719000" expanded="true" signature="4056:4077" ph="{...}" />
+            <marker date="1512958719000" expanded="true" signature="4200:4277" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512958719000" expanded="true" signature="4328:4414" ph="{&quot;return&quot;: res.status...}" />
+            <marker date="1512958719000" expanded="true" signature="4447:4468" ph="{...}" />
+            <marker date="1512958719000" expanded="true" signature="4616:4692" ph="{&quot;method&quot;: 'GET'...}" />
+            <marker date="1512958719000" expanded="true" signature="4775:4796" ph="{...}" />
+            <marker date="1512958719000" expanded="true" signature="4913:4934" ph="{...}" />
+            <marker date="1512958719000" expanded="true" signature="5114:5239" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512958719000" expanded="true" signature="5361:5453" ph="{&quot;return&quot;: res...}" />
+            <marker date="1512958719000" expanded="true" signature="5490:5511" ph="{...}" />
+            <marker date="1512958719000" expanded="true" signature="5684:5809" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512958719000" expanded="true" signature="5898:5986" ph="{&quot;return&quot;: res.data...}" />
+            <marker date="1512958719000" expanded="true" signature="6019:6040" ph="{...}" />
+            <marker date="1512958719000" expanded="true" signature="6196:6321" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512958719000" expanded="true" signature="6410:6498" ph="{&quot;return&quot;: res.data...}" />
+            <marker date="1512958719000" expanded="true" signature="6531:6552" ph="{...}" />
+            <marker date="1512958719000" expanded="true" signature="6718:6794" ph="{&quot;method&quot;: 'GET'...}" />
+            <marker date="1512958719000" expanded="true" signature="6877:6898" ph="{...}" />
+            <marker date="1512958719000" expanded="true" signature="7015:7036" ph="{...}" />
+            <marker date="1512958719000" expanded="true" signature="7206:7331" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512958719000" expanded="true" signature="7420:7509" ph="{&quot;return&quot;: res.data...}" />
+            <marker date="1512958719000" expanded="true" signature="7542:7563" ph="{...}" />
+            <marker date="1512958719000" expanded="true" signature="7719:7844" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512958719000" expanded="true" signature="7966:8058" ph="{&quot;return&quot;: res...}" />
+            <marker date="1512958719000" expanded="true" signature="8095:8116" ph="{...}" />
+            <marker date="1512958719000" expanded="true" signature="8293:8418" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512958719000" expanded="true" signature="8540:8632" ph="{&quot;return&quot;: res...}" />
+            <marker date="1512958719000" expanded="true" signature="8669:8690" ph="{...}" />
+            <marker date="1512958719000" expanded="true" signature="8858:8983" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512958719000" expanded="true" signature="9105:9197" ph="{&quot;return&quot;: res...}" />
+            <marker date="1512958719000" expanded="true" signature="9234:9255" ph="{...}" />
+            <marker date="1512958719000" expanded="true" signature="9444:9589" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512958719000" expanded="true" signature="9729:9817" ph="{&quot;return&quot;: res...}" />
+            <marker date="1512958719000" expanded="true" signature="9854:9875" ph="{...}" />
+            <marker date="1512958719000" expanded="true" signature="10013:10138" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512958719000" expanded="true" signature="10260:10352" ph="{&quot;return&quot;: res...}" />
+            <marker date="1512958719000" expanded="true" signature="10389:10410" ph="{...}" />
+            <marker date="1512958719000" expanded="true" signature="10583:10708" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512958719000" expanded="true" signature="10830:10922" ph="{&quot;return&quot;: res...}" />
+            <marker date="1512958719000" expanded="true" signature="10959:10980" ph="{...}" />
+            <marker date="1512958719000" expanded="true" signature="11141:11266" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512958719000" expanded="true" signature="11388:11480" ph="{&quot;return&quot;: res...}" />
+            <marker date="1512958719000" expanded="true" signature="11517:11538" ph="{...}" />
+            <marker date="1512958719000" expanded="true" signature="11706:11831" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512958719000" expanded="true" signature="11953:11977" ph="{&quot;return&quot;: res...}" />
+            <marker date="1512958719000" expanded="true" signature="12014:12035" ph="{...}" />
+            <marker date="1512958719000" expanded="true" signature="12164:12289" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512958719000" expanded="true" signature="12411:12503" ph="{&quot;return&quot;: res...}" />
+            <marker date="1512958719000" expanded="true" signature="12540:12561" ph="{...}" />
+            <marker date="1512958719000" expanded="true" signature="12732:12857" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1512958719000" expanded="true" signature="12946:13035" ph="{&quot;return&quot;: res.data...}" />
+            <marker date="1512958719000" expanded="true" signature="13068:13089" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/node/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288">
+          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
           <folding />
         </state>
       </provider>

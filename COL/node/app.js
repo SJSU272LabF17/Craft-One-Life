@@ -30,13 +30,13 @@ var app = express();
 
 app.use(session({
     cookieName: 'session',
-    secret: 'cmpe273_test_string',
+    secret: 'cmpe272_test_string',
     duration: 30 * 60 * 1000,    //setting the time for active session
     activeDuration: 5 * 60 * 1000  }))
 
 //Enable CORS
 var corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: 'http://52.87.159.119:3000',
     credentials: true,
     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 }
