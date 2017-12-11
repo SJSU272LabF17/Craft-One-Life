@@ -13,7 +13,7 @@ var addToCart = function(req,res) {
             else {
                 if(results.length>0)
                 {
-                    console.log("============= in add to cart"+req.session.user);
+                    console.log("============= in addatocart"+req.session.user);
                     var qty=results[0].quantity+1;
                     //var updateCart="update cart set quantity="+qty+" where user_id="+req.session.user+" and book_id="+req.body.bookId;
                     var updateCart="update cart set quantity="+qty+" where user_id="+req.body.user_id+" and book_id="+req.body.bookId;

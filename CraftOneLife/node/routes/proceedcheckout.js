@@ -28,7 +28,7 @@ var proceedCheckout = function (req, res) {
                     for (i = 0; i < req.body.payload.length; i++) {
 
 
-                        var insertQueryBookings = "insert into bookingDetails (bookingId,book_id,qty) values('" + bookingId + "','" + req.body.payload[i].book_id + "','" + req.body.total + "')";
+                        var insertQueryBookings = "insert into bookingDetails (bookingId,book_id,qty) values('" + bookingId + "','" + req.body.payload[i].book_id + "','" + req.body.payload[i].quantity + "')";
 
                         console.log("query is " + insertQueryBookings);
 

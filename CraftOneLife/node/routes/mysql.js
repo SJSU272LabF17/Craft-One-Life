@@ -5,7 +5,7 @@ var mysql = require('mysql');
 var pool = mysql.createPool({
         host     : '127.0.0.1',
         user     : 'root',
-        password : '',
+        password : 'root',
         database : 'craftone',
         port	 : 3306,
         connectionLimit:500
@@ -79,29 +79,6 @@ function deleteData(callback,sqlQuery){
 }
 
 function insertstarfiles(callback,sqlQuery){
-
-    console.log("\nSQL Query::"+sqlQuery);
-
-    //var connection=getConnection();
-
-    pool.getConnection(function(err, connection) {
-
-        connection.query(sqlQuery, function (err, rows) {
-            if (err) {
-                console.log("ERROR: " + err.message);
-                callback(err, rows);
-            }
-            else {	// return err or result
-                console.log("DB Insertion for star files successful");
-                callback(err, rows);
-            }
-        });
-        console.log("\nConnection closed..");
-        connection.release();
-    });
-}
-
-function insertstarfiles1(callback,sqlQuery){
 
     console.log("\nSQL Query::"+sqlQuery);
 
