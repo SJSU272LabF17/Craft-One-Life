@@ -37,7 +37,7 @@ app.use(session({
 
 app.use(cors({
     allowedOrigins: [
-        'http://52.87.159.119:3001', 'http://localhost:3001'
+        'http://52.87.159.119:3000', 'http://localhost:3000'
     ]
 }));
 
