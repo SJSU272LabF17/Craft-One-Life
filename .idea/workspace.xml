@@ -18,84 +18,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ArtistMyBooks.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/COL/react/src/components/ArtistMyBooks.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="30" column="49" lean-forward="true" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArtistUploadBooks.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/COL/react/src/components/ArtistUploadBooks.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="46" column="16" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/COL/node/routes/admin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="227" column="78" lean-forward="false" selection-start-line="227" selection-start-column="78" selection-end-line="227" selection-end-column="78" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mysql.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/COL/node/routes/mysql.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/COL/node/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminApproveBooks.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/COL/react/src/components/AdminApproveBooks.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="53" column="18" lean-forward="false" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="www" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/COL/node/bin/www">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
-              <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/COL/react/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="62" lean-forward="true" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+            <state relative-caret-position="424">
+              <caret line="51" column="4" lean-forward="true" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -104,88 +32,18 @@
       <file leaf-file-name="API.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/COL/react/src/api/API.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="75" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding>
-                <marker date="1512963388000" expanded="true" signature="289:414" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512963388000" expanded="true" signature="506:592" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512963388000" expanded="true" signature="629:650" ph="{...}" />
-                <marker date="1512963388000" expanded="true" signature="789:934" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512963388000" expanded="true" signature="1039:1126" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512963388000" expanded="true" signature="1163:1184" ph="{...}" />
-                <marker date="1512963388000" expanded="true" signature="2150:2171" ph="{...}" />
-                <marker date="1512963388000" expanded="true" signature="2260:2281" ph="{...}" />
-                <marker date="1512963388000" expanded="true" signature="2487:2508" ph="{...}" />
-                <marker date="1512963388000" expanded="true" signature="2649:2774" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512963388000" expanded="true" signature="2896:2981" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512963388000" expanded="true" signature="3018:3039" ph="{...}" />
-                <marker date="1512963388000" expanded="true" signature="3212:3337" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512963388000" expanded="true" signature="3459:3483" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512963388000" expanded="true" signature="3520:3541" ph="{...}" />
-                <marker date="1512963388000" expanded="true" signature="3683:3828" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512963388000" expanded="true" signature="3933:4020" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512963388000" expanded="true" signature="4057:4078" ph="{...}" />
-                <marker date="1512963388000" expanded="true" signature="4201:4278" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512963388000" expanded="true" signature="4329:4415" ph="{&quot;return&quot;: res.status...}" />
-                <marker date="1512963388000" expanded="true" signature="4448:4469" ph="{...}" />
-                <marker date="1512963388000" expanded="true" signature="4617:4693" ph="{&quot;method&quot;: 'GET'...}" />
-                <marker date="1512963388000" expanded="true" signature="4776:4797" ph="{...}" />
-                <marker date="1512963388000" expanded="true" signature="4914:4935" ph="{...}" />
-                <marker date="1512963388000" expanded="true" signature="5115:5240" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512963388000" expanded="true" signature="5362:5454" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512963388000" expanded="true" signature="5491:5512" ph="{...}" />
-                <marker date="1512963388000" expanded="true" signature="5685:5810" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512963388000" expanded="true" signature="5899:5987" ph="{&quot;return&quot;: res.data...}" />
-                <marker date="1512963388000" expanded="true" signature="6020:6041" ph="{...}" />
-                <marker date="1512963388000" expanded="true" signature="6197:6322" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512963388000" expanded="true" signature="6411:6499" ph="{&quot;return&quot;: res.data...}" />
-                <marker date="1512963388000" expanded="true" signature="6532:6553" ph="{...}" />
-                <marker date="1512963388000" expanded="true" signature="6719:6795" ph="{&quot;method&quot;: 'GET'...}" />
-                <marker date="1512963388000" expanded="true" signature="6878:6899" ph="{...}" />
-                <marker date="1512963388000" expanded="true" signature="7016:7037" ph="{...}" />
-                <marker date="1512963388000" expanded="true" signature="7207:7332" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512963388000" expanded="true" signature="7421:7510" ph="{&quot;return&quot;: res.data...}" />
-                <marker date="1512963388000" expanded="true" signature="7543:7564" ph="{...}" />
-                <marker date="1512963388000" expanded="true" signature="7720:7845" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512963388000" expanded="true" signature="7967:8059" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512963388000" expanded="true" signature="8096:8117" ph="{...}" />
-                <marker date="1512963388000" expanded="true" signature="8294:8419" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512963388000" expanded="true" signature="8541:8633" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512963388000" expanded="true" signature="8670:8691" ph="{...}" />
-                <marker date="1512963388000" expanded="true" signature="8859:8984" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512963388000" expanded="true" signature="9106:9198" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512963388000" expanded="true" signature="9235:9256" ph="{...}" />
-                <marker date="1512963388000" expanded="true" signature="9445:9590" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512963388000" expanded="true" signature="9730:9818" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512963388000" expanded="true" signature="9855:9876" ph="{...}" />
-                <marker date="1512963388000" expanded="true" signature="10014:10139" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512963388000" expanded="true" signature="10261:10353" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512963388000" expanded="true" signature="10390:10411" ph="{...}" />
-                <marker date="1512963388000" expanded="true" signature="10584:10709" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512963388000" expanded="true" signature="10831:10923" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512963388000" expanded="true" signature="10960:10981" ph="{...}" />
-                <marker date="1512963388000" expanded="true" signature="11142:11267" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512963388000" expanded="true" signature="11389:11481" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512963388000" expanded="true" signature="11518:11539" ph="{...}" />
-                <marker date="1512963388000" expanded="true" signature="11707:11832" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512963388000" expanded="true" signature="11954:11978" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512963388000" expanded="true" signature="12015:12036" ph="{...}" />
-                <marker date="1512963388000" expanded="true" signature="12165:12290" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512963388000" expanded="true" signature="12412:12504" ph="{&quot;return&quot;: res...}" />
-                <marker date="1512963388000" expanded="true" signature="12541:12562" ph="{...}" />
-                <marker date="1512963388000" expanded="true" signature="12733:12858" ph="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1512963388000" expanded="true" signature="12947:13036" ph="{&quot;return&quot;: res.data...}" />
-                <marker date="1512963388000" expanded="true" signature="13069:13090" ph="{...}" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" column="80" lean-forward="true" selection-start-line="1" selection-start-column="80" selection-end-line="1" selection-end-column="80" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="files.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/COL/node/routes/files.js">
+      <file leaf-file-name="mysql.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/COL/node/routes/mysql.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="67" column="59" lean-forward="false" selection-start-line="67" selection-start-column="59" selection-end-line="67" selection-end-column="59" />
+            <state relative-caret-position="119">
+              <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -209,6 +67,8 @@
       <find>user</find>
       <find>form</find>
       <find>plac</find>
+      <find>styles</find>
+      <find>style.css</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/COL/react</dir>
@@ -236,9 +96,9 @@
         <option value="$PROJECT_DIR$/COL/react/src/components/AdminApproveBooks.js" />
         <option value="$PROJECT_DIR$/COL/react/public/index.html" />
         <option value="$PROJECT_DIR$/COL/node/routes/files.js" />
-        <option value="$PROJECT_DIR$/COL/node/routes/mysql.js" />
-        <option value="$PROJECT_DIR$/COL/react/src/api/API.js" />
         <option value="$PROJECT_DIR$/COL/node/app.js" />
+        <option value="$PROJECT_DIR$/COL/react/src/api/API.js" />
+        <option value="$PROJECT_DIR$/COL/node/routes/mysql.js" />
       </list>
     </option>
   </component>
@@ -278,7 +138,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -302,34 +161,13 @@
               <item name="Project-Team-19" type="462c0819:PsiDirectoryNode" />
               <item name="COL" type="462c0819:PsiDirectoryNode" />
               <item name="node" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project-Team-19" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project-Team-19" type="462c0819:PsiDirectoryNode" />
-              <item name="COL" type="462c0819:PsiDirectoryNode" />
-              <item name="node" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Project-Team-19" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project-Team-19" type="462c0819:PsiDirectoryNode" />
               <item name="COL" type="462c0819:PsiDirectoryNode" />
-              <item name="node" type="462c0819:PsiDirectoryNode" />
-              <item name="uploads" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project-Team-19" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project-Team-19" type="462c0819:PsiDirectoryNode" />
-              <item name="COL" type="462c0819:PsiDirectoryNode" />
               <item name="react" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project-Team-19" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project-Team-19" type="462c0819:PsiDirectoryNode" />
-              <item name="COL" type="462c0819:PsiDirectoryNode" />
-              <item name="react" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Project-Team-19" type="b2602c69:ProjectViewProjectNode" />
@@ -346,19 +184,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Project-Team-19" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project-Team-19" type="462c0819:PsiDirectoryNode" />
-              <item name="COL" type="462c0819:PsiDirectoryNode" />
-              <item name="react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -398,24 +229,28 @@
       <workItem from="1512863188551" duration="4082000" />
       <workItem from="1512884206752" duration="968000" />
       <workItem from="1512948976485" duration="12925000" />
+      <workItem from="1512969142061" duration="902000" />
+      <workItem from="1513028989889" duration="20000" />
+      <workItem from="1513032847788" duration="167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32687000" />
+    <option name="totallyTimeSpent" value="33933000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24876674" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32769045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3095526" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -485,7 +320,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="581">
           <caret line="197" column="40" lean-forward="false" selection-start-line="197" selection-start-column="40" selection-end-line="197" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -493,7 +327,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="65">
           <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -515,7 +348,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="16" column="80" lean-forward="false" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="80" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -523,7 +355,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="31" column="76" lean-forward="false" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -531,7 +362,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-301">
           <caret line="7" column="69" lean-forward="false" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -539,7 +369,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-622">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -547,7 +376,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="2185" column="0" lean-forward="false" selection-start-line="2185" selection-start-column="0" selection-end-line="2185" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -555,7 +383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-154">
           <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -563,7 +390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-630">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -571,7 +397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -579,7 +404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -587,7 +411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -595,7 +418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1220">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -603,7 +425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -611,7 +432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -619,9 +439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
           <caret line="17" column="69" lean-forward="false" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -629,7 +446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="37" lean-forward="false" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -637,9 +453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="58" column="25" lean-forward="true" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -647,7 +460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="43" column="69" lean-forward="false" selection-start-line="43" selection-start-column="69" selection-end-line="43" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -655,7 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -663,7 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="30" column="49" lean-forward="true" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -671,9 +481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
           <caret line="46" column="16" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -681,7 +488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="53" column="18" lean-forward="false" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -689,15 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-11">
           <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/COL/react/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="62" lean-forward="true" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -705,7 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="489">
           <caret line="67" column="59" lean-forward="false" selection-start-line="67" selection-start-column="59" selection-end-line="67" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,100 +509,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="227" column="78" lean-forward="false" selection-start-line="227" selection-start-column="78" selection-end-line="227" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/COL/node/routes/mysql.js">
+    <entry file="file://$PROJECT_DIR$/COL/react/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        <state relative-caret-position="165">
+          <caret line="47" column="49" lean-forward="true" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COL/node/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="51" column="4" lean-forward="true" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/COL/react/src/api/API.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="75" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <marker date="1512963388000" expanded="true" signature="289:414" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512963388000" expanded="true" signature="506:592" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512963388000" expanded="true" signature="629:650" ph="{...}" />
-            <marker date="1512963388000" expanded="true" signature="789:934" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512963388000" expanded="true" signature="1039:1126" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512963388000" expanded="true" signature="1163:1184" ph="{...}" />
-            <marker date="1512963388000" expanded="true" signature="2150:2171" ph="{...}" />
-            <marker date="1512963388000" expanded="true" signature="2260:2281" ph="{...}" />
-            <marker date="1512963388000" expanded="true" signature="2487:2508" ph="{...}" />
-            <marker date="1512963388000" expanded="true" signature="2649:2774" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512963388000" expanded="true" signature="2896:2981" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512963388000" expanded="true" signature="3018:3039" ph="{...}" />
-            <marker date="1512963388000" expanded="true" signature="3212:3337" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512963388000" expanded="true" signature="3459:3483" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512963388000" expanded="true" signature="3520:3541" ph="{...}" />
-            <marker date="1512963388000" expanded="true" signature="3683:3828" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512963388000" expanded="true" signature="3933:4020" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512963388000" expanded="true" signature="4057:4078" ph="{...}" />
-            <marker date="1512963388000" expanded="true" signature="4201:4278" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512963388000" expanded="true" signature="4329:4415" ph="{&quot;return&quot;: res.status...}" />
-            <marker date="1512963388000" expanded="true" signature="4448:4469" ph="{...}" />
-            <marker date="1512963388000" expanded="true" signature="4617:4693" ph="{&quot;method&quot;: 'GET'...}" />
-            <marker date="1512963388000" expanded="true" signature="4776:4797" ph="{...}" />
-            <marker date="1512963388000" expanded="true" signature="4914:4935" ph="{...}" />
-            <marker date="1512963388000" expanded="true" signature="5115:5240" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512963388000" expanded="true" signature="5362:5454" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512963388000" expanded="true" signature="5491:5512" ph="{...}" />
-            <marker date="1512963388000" expanded="true" signature="5685:5810" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512963388000" expanded="true" signature="5899:5987" ph="{&quot;return&quot;: res.data...}" />
-            <marker date="1512963388000" expanded="true" signature="6020:6041" ph="{...}" />
-            <marker date="1512963388000" expanded="true" signature="6197:6322" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512963388000" expanded="true" signature="6411:6499" ph="{&quot;return&quot;: res.data...}" />
-            <marker date="1512963388000" expanded="true" signature="6532:6553" ph="{...}" />
-            <marker date="1512963388000" expanded="true" signature="6719:6795" ph="{&quot;method&quot;: 'GET'...}" />
-            <marker date="1512963388000" expanded="true" signature="6878:6899" ph="{...}" />
-            <marker date="1512963388000" expanded="true" signature="7016:7037" ph="{...}" />
-            <marker date="1512963388000" expanded="true" signature="7207:7332" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512963388000" expanded="true" signature="7421:7510" ph="{&quot;return&quot;: res.data...}" />
-            <marker date="1512963388000" expanded="true" signature="7543:7564" ph="{...}" />
-            <marker date="1512963388000" expanded="true" signature="7720:7845" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512963388000" expanded="true" signature="7967:8059" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512963388000" expanded="true" signature="8096:8117" ph="{...}" />
-            <marker date="1512963388000" expanded="true" signature="8294:8419" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512963388000" expanded="true" signature="8541:8633" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512963388000" expanded="true" signature="8670:8691" ph="{...}" />
-            <marker date="1512963388000" expanded="true" signature="8859:8984" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512963388000" expanded="true" signature="9106:9198" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512963388000" expanded="true" signature="9235:9256" ph="{...}" />
-            <marker date="1512963388000" expanded="true" signature="9445:9590" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512963388000" expanded="true" signature="9730:9818" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512963388000" expanded="true" signature="9855:9876" ph="{...}" />
-            <marker date="1512963388000" expanded="true" signature="10014:10139" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512963388000" expanded="true" signature="10261:10353" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512963388000" expanded="true" signature="10390:10411" ph="{...}" />
-            <marker date="1512963388000" expanded="true" signature="10584:10709" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512963388000" expanded="true" signature="10831:10923" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512963388000" expanded="true" signature="10960:10981" ph="{...}" />
-            <marker date="1512963388000" expanded="true" signature="11142:11267" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512963388000" expanded="true" signature="11389:11481" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512963388000" expanded="true" signature="11518:11539" ph="{...}" />
-            <marker date="1512963388000" expanded="true" signature="11707:11832" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512963388000" expanded="true" signature="11954:11978" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512963388000" expanded="true" signature="12015:12036" ph="{...}" />
-            <marker date="1512963388000" expanded="true" signature="12165:12290" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512963388000" expanded="true" signature="12412:12504" ph="{&quot;return&quot;: res...}" />
-            <marker date="1512963388000" expanded="true" signature="12541:12562" ph="{...}" />
-            <marker date="1512963388000" expanded="true" signature="12733:12858" ph="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1512963388000" expanded="true" signature="12947:13036" ph="{&quot;return&quot;: res.data...}" />
-            <marker date="1512963388000" expanded="true" signature="13069:13090" ph="{...}" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" column="80" lean-forward="true" selection-start-line="1" selection-start-column="80" selection-end-line="1" selection-end-column="80" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/COL/node/app.js">
+    <entry file="file://$PROJECT_DIR$/COL/node/routes/mysql.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="38" />
+        <state relative-caret-position="119">
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
           <folding />
         </state>
       </provider>
