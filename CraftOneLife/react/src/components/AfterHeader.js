@@ -4,11 +4,7 @@ import * as API from '../api/API';
 
 class AfterHeader extends Component {
     handleLogout = () => {
-<<<<<<< HEAD
-       
-=======
-        alert('logout called');
->>>>>>> 42dd93887df5a9371b034c0e9b68dc917c69d630
+        //alert('logout called');
         API.doLogout()
             .then((status) => {
                 if(status === 201){
@@ -36,11 +32,7 @@ class AfterHeader extends Component {
                                 <li><Link to="/bookadventure">Books</Link></li>
 
                                 <li><Link to="/aboutus">About Us</Link></li>
-<<<<<<< HEAD
                                 {/*<li><Link to="/contactus">Contact Us</Link></li>*/}
-=======
-                                <li><Link to="/contactus">Contact Us</Link></li>
->>>>>>> 42dd93887df5a9371b034c0e9b68dc917c69d630
                                 <li><Link to='/usercart'>Cart</Link></li>
                                 <li><Link to='/myorders'>My Orders</Link></li>
                                 <li><a onClick={()=>this.handleLogout()}>Logout</a></li>

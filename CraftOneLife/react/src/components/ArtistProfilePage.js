@@ -16,8 +16,8 @@ class ArtistProfilePage extends Component{
     };
 
     componentWillMount(){
-         API.fetchUserProfile({}).then((response) => {
-             alert("fetch profile response" + JSON.stringify(response.data))
+         API.fetchUserProfile({'user':localStorage.getItem("user_id")}).then((response) => {
+             //alert("fetch profile response" + JSON.stringify(response.data))
              this.setState({
                  //profile_pic:response.data.profile_pic,
                  fname:response.data.fname,
@@ -31,38 +31,52 @@ class ArtistProfilePage extends Component{
 
     };
     saveUserProfile = (userdata) => {
-        alert("I am going to save profile" + JSON.stringify(userdata))
-        const payload = new FormData();
-        payload.append('mypic', this.refs.mypic.files[0]);
-        payload.append('fname',this.state.fname)
-        payload.append('lname',this.state.lname)
-        payload.append('email',this.state.email)
-        payload.append('contact_no',this.state.contact_no)
-        payload.append('about_me',this.state.about_me)
+        var isEmailValid = /^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i.test(userdata.email);
+        console.log("valid ",isEmailValid)
+        if (userdata.userdata === "" || userdata.fname === "" || userdata.lname === "" || userdata.contact_no === "" || userdata.email === "" || userdata.about_me === "") {
+            alert("Please insert all the fields")
+        }
+        else if (!isEmailValid) {
+            alert("Email id invalid. Please try again.")
+        }
+        else if (userdata.contact_no.length!=10) {
+            alert("Contact number is invalid. Please try again.")
+        }
+        else {
+            //alert("I am going to save profile" + JSON.stringify(userdata))
+            const payload = new FormData();
+            payload.append('user',localStorage.getItem("user_id"))
+            payload.append('mypic', this.refs.mypic.files[0]);
+            payload.append('fname', this.state.fname)
+            payload.append('lname', this.state.lname)
+            payload.append('email', this.state.email)
+            payload.append('contact_no', this.state.contact_no)
+            payload.append('about_me', this.state.about_me)
 
 
+            //var data = {userdata:userdata,payload:payload}
 
-        //var data = {userdata:userdata,payload:payload}
+            API.saveUserProfile(payload)
+                .then((status) => {
+                    console.log("response after saving profile ", status)
+                    if (status.status ==201) {
+                        console.log("User Profile Updated.")
+                        alert("Your Profile has been updated.")
+                        this.props.history.push("/artistdisplayprofile")
+                    }
 
-        API.saveUserProfile(payload)
-            .then((status) => {
-                console.log("response after saving profile ",status)
-                if (status.status === '201') {
-                    console.log("User Profile Updated.")
-                    alert("Your Profile has been updated.")
-                    this.props.history.push("/artistdisplayprofile")
-                }
-
-                else if (status === 401) {
-                    console.log("Error in user profile update")
-                }
-            });
+                    else if (status === 401) {
+                        console.log("Error in user profile update")
+                    }
+                });
+        }
     };
     render(){
         return(
             <div className="row justify-content-md-center">
 
             <div className="col-sm-10 col-md-10">
+                <h3 style={{color:'green'}}><u>Edit Profile</u></h3>
                 <div className="form-group">
                     <hr/>
                 </div>
@@ -140,7 +154,7 @@ class ArtistProfilePage extends Component{
                     <div className="input-field">
                         <input className="form-control"
                                placeholder="Phone number"
-                               type="text"
+                               type="number"
                                value={this.state.contact_no}
                                onChange={(event)=>{
                                    this.setState({
@@ -159,6 +173,7 @@ class ArtistProfilePage extends Component{
                 <div className="col-sm-8 col-md-8">
                     <div className="input-field">
                         <input className="form-control"
+                               style={{height:150, textAlign:'top'}}
                                placeholder="Give your brief description"
                                type="text"
                                value={this.state.about_me}

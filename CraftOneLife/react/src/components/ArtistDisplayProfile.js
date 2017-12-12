@@ -15,7 +15,7 @@ class ArtistDisplayProfile extends Component {
     };
 
     componentWillMount(){
-        API.fetchUserProfile({}).then((response) => {
+        API.fetchUserProfile({'user':localStorage.getItem("user_id")}).then((response) => {
             //alert("fetch profile response" + JSON.stringify(response.data))
             this.setState({
                 profile_pic:response.data.profile_pic,
@@ -40,23 +40,14 @@ class ArtistDisplayProfile extends Component {
                     <hr/>
                     <br/>
                 </div>
-<<<<<<< HEAD
                 <div className="col-sm-2 col-md-2">
-=======
-                <div className="col-sm-3 col-md-3">
->>>>>>> 42dd93887df5a9371b034c0e9b68dc917c69d630
                     <div>
                         <Avatar src={"data:image/jpeg;base64,"+this.state.profile_pic} round={true} size={150} alt={this.state.profile_pic}/>
                     </div>
                     <br/>
 
                 </div>
-<<<<<<< HEAD
 
-=======
-                <div className="col-sm-2 col-md-2">
-                </div>
->>>>>>> 42dd93887df5a9371b034c0e9b68dc917c69d630
 
             <div className="col-sm-7 col-md-7">
                 <div className="form-group">
@@ -71,7 +62,6 @@ class ArtistDisplayProfile extends Component {
                             <div className="input-field">
 
                         <input className="form-control"
-                               placeholder="First Name"
                                type="text"
                                disabled={true}
                                value={this.state.fname}
@@ -93,7 +83,6 @@ class ArtistDisplayProfile extends Component {
 
                             <div className="input-field">
                         <input className="form-control"
-                               placeholder="Last Name"
                                type="text"
                                disabled={true}
                                value={this.state.lname}
@@ -116,7 +105,7 @@ class ArtistDisplayProfile extends Component {
                             <div className="input-field">
                     <div className="input-field">
                         <input className="form-control"
-                               placeholder="Email"
+
                                type="text"
                                disabled={true}
                                value={this.state.email}
@@ -142,7 +131,7 @@ class ArtistDisplayProfile extends Component {
                             <div className="input-field">
                     <div className="input-field">
                         <input className="form-control"
-                               placeholder="Phone number"
+
                                type="text"
                                disabled={true}
                                value={this.state.contact_no}
@@ -167,7 +156,7 @@ class ArtistDisplayProfile extends Component {
                     <div className="input-field">
                         <input className="form-control"
                                style={{height:150, textAlign:'top'}}
-                               placeholder="Give your brief description"
+
                                type="text"
                                disabled={true}
                                value={this.state.about_me}

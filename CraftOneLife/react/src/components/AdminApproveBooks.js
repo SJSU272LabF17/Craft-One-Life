@@ -12,7 +12,9 @@ class AdminApproveBooks extends Component {
     };
 
     componentWillMount() {
+
         API.getBooksForApproval().then((res) => {
+            //alert(res.resarray);
             if (typeof res.resarray == "undefined") {
                 res.resarray = [];
                 this.setState({Books: res.resarray});
@@ -25,12 +27,12 @@ class AdminApproveBooks extends Component {
 
     addApprovedBooks(u) {
 
-       
+        //alert(u);
         var data = {u: u};
         API.approveBooks(data).then((res) => {
-            alert("Book approved successfully");
+            //alert("Book approved successfully");
             API.getBooksForApproval().then((res) => {
-                
+                //alert(res.resarray);
                 if (typeof res.resarray == "undefined") {
                     res.resarray = [];
                     this.setState({Books: res.resarray});
@@ -44,12 +46,12 @@ class AdminApproveBooks extends Component {
 
     rejectBooks(u) {
 
-        
+        //alert(u);
         var data = {u: u};
         API.rejectBooks(data).then((res) => {
-            alert("Book rejected successfully");
+            //alert("Book rejected successfully");
             API.getBooksForApproval().then((res) => {
-                
+                //alert(res.resarray);
                 if (typeof res.resarray == "undefined") {
                     res.resarray = [];
                     this.setState({Books: res.resarray});
