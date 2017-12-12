@@ -1231,7 +1231,7 @@ class NewerHomePage extends Component {
 
                                         <nav id="fh5co-menu-wrap" role="navigation">
                                             <ul className="sf-menu" id="fh5co-primary-menu">
-                                                <li><Link to='/adminapproveusers'>Approve Users</Link></li>
+
                                                 <li><Link to='/adminapprovebooks'>Approve Books</Link></li>
                                                 <li><a onClick={()=>this.handleLogout()}>Logout</a></li>
                                             </ul>
@@ -1319,7 +1319,7 @@ class NewerHomePage extends Component {
 
                                         <nav id="fh5co-menu-wrap" role="navigation">
                                             <ul className="sf-menu" id="fh5co-primary-menu">
-                                                <li><Link to='/adminapproveusers'>Approve Users</Link></li>
+
                                                 <li><Link to='/adminapprovebooks'>Approve Books</Link></li>
                                                 <li><a onClick={()=>this.handleLogout()}>Logout</a></li>
                                             </ul>
