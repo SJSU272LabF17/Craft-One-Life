@@ -17,8 +17,7 @@ var getBookDetails =  function (req,res) {
                 console.log(err);
             }
             else {
-                //console.log("Book Details ",results[0]);
-                //var bitmap = fs.readFileSync(results[0].bookTilePath);
+                
                 var authorImage="";
                 var resultFiles = [];
                 for(var i=0;i<results.length;i++)
