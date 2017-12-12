@@ -22,6 +22,7 @@ class ContactUs extends Component{
                 .then((res) => {
                     //alert("back in react response : " + JSON.stringify(res));
                     if (res.status === '201') {
+                        window.location.replace("/login")
                         this.setState({
                             message: "Data Added successfully",
                         });

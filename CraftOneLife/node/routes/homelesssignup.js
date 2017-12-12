@@ -4,7 +4,7 @@ var nodemailer = require('nodemailer');
 
 var homelessSignup = function(req,res) {
     console.log("in DO signup of node" + req.body);
-    var signup = "insert into craftone.users (email, password, fname, lname, is_Approved,user_type) values ('"+req.body.email+"','"+req.body.password+"','"+req.body.fname+"','"+req.body.lname+"','0','H')";
+    var signup = "insert into craftone.users (email, password, fname, lname, is_Approved,user_type) values ('"+req.body.email+"','"+req.body.password+"','"+req.body.fname+"','"+req.body.lname+"','1','H')";
 
 
     try {
@@ -15,7 +15,7 @@ var homelessSignup = function(req,res) {
             else {
                 console.log("Homeless Signup ",results[0])
 
-                var transporter = nodemailer.createTransport({
+                /*var transporter = nodemailer.createTransport({
                     service: 'Gmail',
                     auth: {
                         user: 'genesisworld23@gmail.com',
@@ -48,7 +48,7 @@ var homelessSignup = function(req,res) {
                     }
                     callback(null,res);
                 });
-
+*/
                 res.status(201).json({status:'201'});
 
             }
