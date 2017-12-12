@@ -104,7 +104,22 @@ class BooksAdventure extends Component{
 
 
 
-                                    
+                                    <div className="input-field">
+                                        <input className="form-control"
+                                               style={{height:150, textAlign:'top'}}
+
+                                               type="text"
+                                               disabled={true}
+                                               value={this.state.bookDesc}
+                                               onChange={(event)=>{
+                                                   this.setState({
+                                                       bookDesc:event.target.value
+                                                   });
+                                               }}
+                                               required
+
+                                        />
+                                    </div>
                                 </div>
                                 <br/>
 
