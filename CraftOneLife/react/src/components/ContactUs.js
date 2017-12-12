@@ -17,10 +17,10 @@ class ContactUs extends Component{
         }
 
         else {
-            alert("in react request" + JSON.stringify(userdata));
+            //alert("in react request" + JSON.stringify(userdata));
             API.handleContactUs(userdata)
                 .then((res) => {
-                    alert("back in react response : " + JSON.stringify(res));
+                    //alert("back in react response : " + JSON.stringify(res));
                     if (res.status === '201') {
                         this.setState({
                             message: "Data Added successfully",

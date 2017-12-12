@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/LoginAppReactJS.iml" filepath="$PROJECT_DIR$/.idea/LoginAppReactJS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/COL.iml" filepath="$PROJECT_DIR$/.idea/COL.iml" />
     </modules>
   </component>
 </project>

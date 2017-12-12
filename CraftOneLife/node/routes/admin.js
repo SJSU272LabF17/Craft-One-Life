@@ -225,7 +225,7 @@ router.post('/approvebook', function (req, res) {
         photo='./public/uploads/Harry Potter.jpg';
     }
     console.log(no);
-    var approveBooks = "update books set isApproved=1,bookTilePath="+photo+",admin_price="+parseInt(req.body.u.user_price)*1.2+" where book_id='"+req.body.u.book_id+"'";
+    var approveBooks = "update books set isApproved=1,bookTilePath='"+photo+"',admin_price="+parseInt(req.body.u.user_price)*1.2+" where book_id='"+req.body.u.book_id+"'";
 
     try {
 
@@ -266,7 +266,7 @@ router.post('/rejectbook', function (req, res) {
         photo='./public/uploads/Harry Potter.jpg';
     }
     console.log(no);
-    var approveBooks = "update books set isApproved=2, bookTilePath="+photo+", admin_price="+parseInt(req.body.u.user_price)*1.2+" where book_id='"+req.body.u.book_id+"'";
+    var approveBooks = "update books set isApproved=2, bookTilePath='"+photo+"', admin_price="+parseInt(req.body.u.user_price)*1.2+" where book_id='"+req.body.u.book_id+"'";
 
     try {
 

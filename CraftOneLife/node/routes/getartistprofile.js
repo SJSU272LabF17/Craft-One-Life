@@ -7,7 +7,7 @@ var fetchUserProfile=function (req,res){
     var userdetail={};
 
 
-    var get_profile = "select * from users where user_id=1";
+    var get_profile = "select * from users where user_id="+req.body.user;
 
     try {
         mysql.insertData(function (err, results) {
@@ -16,18 +16,36 @@ var fetchUserProfile=function (req,res){
             }
             else {
                 console.log("User Profile ",results[0])
-                var bitmap = fs.readFileSync(results[0].profile_pic);
-                //convert binary data to base64 encoded string
-                //console.log(new Buffer(bitmap).toString('base64'))
-                var data={
-                    fname:results[0].fname,
-                    lname:results[0].lname,
-                    email:results[0].email,
-                    contact_no:results[0].contact_no,
-                    about_me:results[0].about_me,
-                    profile_pic:(new Buffer(bitmap).toString('base64'))
+                if(results[0].profile_pic===null || results[0].profile_pic==="")
+                {
+                    //var bitmap = fs.readFileSync(results[0].profile_pic);
+                    //convert binary data to base64 encoded string
+                    //console.log(new Buffer(bitmap).toString('base64'))
+                    var data={
+                        fname:results[0].fname,
+                        lname:results[0].lname,
+                        email:results[0].email,
+                        contact_no:results[0].contact_no,
+                        about_me:results[0].about_me,
+                        profile_pic:""
 
+                    }
                 }
+                else{
+                    var bitmap = fs.readFileSync(results[0].profile_pic);
+                    //convert binary data to base64 encoded string
+                    //console.log(new Buffer(bitmap).toString('base64'))
+                    var data={
+                        fname:results[0].fname,
+                        lname:results[0].lname,
+                        email:results[0].email,
+                        contact_no:results[0].contact_no,
+                        about_me:results[0].about_me,
+                        profile_pic:(new Buffer(bitmap).toString('base64'))
+
+                    }
+                }
+
                 res.status(201).json({status:'201',data:data});
 
             }

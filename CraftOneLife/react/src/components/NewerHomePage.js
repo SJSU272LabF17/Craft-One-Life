@@ -18,9 +18,11 @@ import AdminApproveUsers from './AdminApproveUsers';
 import ArtistUploadBooks from './ArtistUploadBooks';
 import ArtistProfilePage from './ArtistProfilePage';
 import ArtistDisplayProfile from './ArtistDisplayProfile';
+import ArtistEarnings from './ArtistEarnings';
 import BooksAdventure from './BooksAdventure';
 import UserCart from './UserCart';
 import MyOrders from './MyOrders';
+import ArtistMyBooks from './ArtistMyBooks'
 
 import DemoCarousel from './DemoCarousel';
 import clients from '../images/clients.png';
@@ -44,27 +46,27 @@ class NewerHomePage extends Component {
             .then((res) => {
                 //alert("back in newer homepage : " + JSON.stringify(res.results[0].user_type));
                 if (res.status === '201') {
-                    alert("in 201");
+                    //alert("in 201");
                     var user=res.results[0];
                     localStorage.setItem("user_id",res.results[0].user_id);
                     if(user.is_Approved===1 && user.user_type==="H"){
-                        alert("in H");
+                        //alert("in H");
                         this.setState({
                             isLoggedIn: true
                         });
-                        localStorage.setItem("isLoggedIn","true");
+                        //localStorage.setItem("isLoggedIn","true");
                         this.props.history.push("/artistdisplayprofile");
                     }
                     else if (user.user_type==="A"){
-                        alert("in A");
+                        //alert("in A");
                         this.setState({
                             isLoggedIn: true
                         });
-                        localStorage.setItem("isLoggedIn","true");
+                        //localStorage.setItem("isLoggedIn","true");
                         this.props.history.push("/adminapproveusers");
                     }
                     else if (user.user_type==="U"){
-                        alert("in U");
+                        //alert("in U");
                         this.setState({
                             isLoggedIn: true
                         });
@@ -77,11 +79,12 @@ class NewerHomePage extends Component {
 
 
 
-                } else {
+                } else if (res.status === 401) {
                     this.setState({
                         isLoggedIn: false,
                         message: "Wrong username or password. Try again..!!"
                     });
+                    //alert("Wrong username or password. Try again..!!")
                 }
             });
     };
@@ -92,30 +95,40 @@ class NewerHomePage extends Component {
 
     };
     handleSignUp = (userdata) => {
-        //alert("in signup");
-        API.doSignup(userdata)
-            .then((res) => {
-                //alert("back in handle signup response : " + JSON.stringify(res));
-                if (res.status === '201') {
-                    this.setState({
-                        message: ""
-                    });
-                    this.props.history.push("/login");
-                }
-                else if (res.status === '401') {
-                    this.setState({
-                        message: JSON.stringify(res.errors)
-                    });
-                    console.log(this.state.message);
+        var isEmailValid = /^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i.test(userdata.username);
 
-                }
+        if (userdata.userdata === "" || userdata.password === "") {
+            alert("Please insert all the fields")
+        }
+        else if (!isEmailValid) {
+            alert("Email id invalid. Please try again.")
+        }
+        else {
 
-            })
+            API.doSignup(userdata)
+                .then((res) => {
+                    //alert("back in handle signup response : " + JSON.stringify(res));
+                    if (res.status === '201') {
+                        this.setState({
+                            message: ""
+                        });
+                        this.props.history.push("/login");
+                    }
+                    else if (res.status === '401') {
+                        this.setState({
+                            message: JSON.stringify(res.errors)
+                        });
+                        console.log(this.state.message);
+
+                    }
+
+                })
+        }
     };
 
 
     handleLogout = () => {
-        alert('logout called');
+        //alert('logout called');
         API.doLogout()
             .then((status) => {
                 if(status === 201){
@@ -152,7 +165,7 @@ class NewerHomePage extends Component {
                                                 <h3>MAKING INVISIBLE TALENT VISIBLE</h3>
                                                 <p>We help small businesses and Fortune 500 companies uplift their
                                                     offices while supporting their communities.</p>
-                                                <button
+                                                {/*<button
                                                     className="btn btn-success"
                                                     type="button">
                                                     Contact Us
@@ -160,7 +173,9 @@ class NewerHomePage extends Component {
                                                 &nbsp; &nbsp;
                                                 <button
                                                     className="btn btn-success"
-                                                    type="button">
+                                                    type="button" onClick={() => {this.props
+
+                                                }}>
                                                     Browse Art
                                                 </button>
                                                 &nbsp; &nbsp;
@@ -168,7 +183,7 @@ class NewerHomePage extends Component {
                                                     className="btn btn-success"
                                                     type="button">
                                                     View Catalogue
-                                                </button>
+                                                </button>*/}
                                                 <br/>
                                                 <h1>Here's What We Offer</h1>
                                                 <img style={{width: 900, height: 550}} src={whatWeOffer}/>
@@ -249,10 +264,10 @@ class NewerHomePage extends Component {
                             {(localStorage.getItem("isLoggedIn")==="true" ) ? <AfterHeader/> : <BeforeHeader/>}
                             <div className="fh5co-hero">
                                 <div className="container">
-                                    <div className="row justify-content-md-center">
+
                                         <Login handleSubmit={this.handleSubmit}/>
 
-                                    </div>
+
                                 </div>
                             </div>
                             <footer>
@@ -463,9 +478,9 @@ class NewerHomePage extends Component {
                             {(localStorage.getItem("isLoggedIn")==="true" ) ? <AfterHeader/> : <BeforeHeader/>}
                             <div className="fh5co-hero">
                                 <div className="container">
-                                    <div className="row justify-content-md-center">
+
                                         <Signup handleSignUp={this.handleSignUp}/>
-                                    </div>
+
                                 </div>
                             </div>
                             <footer>
@@ -756,11 +771,14 @@ class NewerHomePage extends Component {
 
                                         <nav id="fh5co-menu-wrap" role="navigation">
                                             <ul className="sf-menu" id="fh5co-primary-menu">
-                                                <li><Link to='/artistprofilepage'>MyProfile</Link></li>
-                                                <li><Link to='/artistdisplayprofile'>Display Profile</Link></li>
+                                                <li><Link to='/artistprofilepage'>Edit Profile</Link></li>
+                                                <li><Link to='/artistdisplayprofile'>My Profile</Link></li>
                                                 <li><Link to='/artistuploadbooks'>Upload Books</Link></li>
+                                                <li><Link to='/artistmybooks'>My Books</Link></li>
+                                                <li><Link to='/artistearnings'>My Earnings</Link></li>
                                                 <li><a onClick={()=>this.handleLogout()}>Logout</a></li>
                                             </ul>
+
                                         </nav>
                                     </div>
                                 </div>
@@ -843,9 +861,11 @@ class NewerHomePage extends Component {
 
                                         <nav id="fh5co-menu-wrap" role="navigation">
                                             <ul className="sf-menu" id="fh5co-primary-menu">
-                                                <li><Link to='/artistprofilepage'>MyProfile</Link></li>
-                                                <li><Link to='/artistdisplayprofile'>Display Profile</Link></li>
+                                                <li><Link to='/artistprofilepage'>Edit Profile</Link></li>
+                                                <li><Link to='/artistdisplayprofile'>My Profile</Link></li>
                                                 <li><Link to='/artistuploadbooks'>Upload Books</Link></li>
+                                                <li><Link to='/artistmybooks'>My Books</Link></li>
+                                                <li><Link to='/artistearnings'>My Earnings</Link></li>
                                                 <li><a onClick={()=>this.handleLogout()}>Logout</a></li>
                                             </ul>
                                         </nav>
@@ -854,9 +874,9 @@ class NewerHomePage extends Component {
                             </header>
                             <div className="fh5co-hero">
                                 <div className="container">
-                                    <div className="row justify-content-md-center">
+
                                     <ArtistUploadBooks/>
-                                    </div>
+
                                 </div>
                             </div>
                             <footer>
@@ -929,9 +949,11 @@ class NewerHomePage extends Component {
 
                                         <nav id="fh5co-menu-wrap" role="navigation">
                                             <ul className="sf-menu" id="fh5co-primary-menu">
-                                                <li><Link to='/artistprofilepage'>MyProfile</Link></li>
-                                                <li><Link to='/artistdisplayprofile'>Display Profile</Link></li>
+                                                <li><Link to='/artistprofilepage'>Edit Profile</Link></li>
+                                                <li><Link to='/artistdisplayprofile'>My Profile</Link></li>
                                                 <li><Link to='/artistuploadbooks'>Upload Books</Link></li>
+                                                <li><Link to='/artistmybooks'>My Books</Link></li>
+                                                <li><Link to='/artistearnings'>My Earnings</Link></li>
                                                 <li><a onClick={()=>this.handleLogout()}>Logout</a></li>
                                             </ul>
                                         </nav>
@@ -1003,6 +1025,192 @@ class NewerHomePage extends Component {
                         </div>
                     </div>
                 )}/>
+
+                <Route exact path="/artistmybooks" render={() => (
+
+                    <div id="fh5co-wrapper">
+                        <div id="fh5co-page">
+                            <header id="fh5co-header-section" className="sticky-banner">
+                                <div className="container">
+                                    <div className="nav-header">
+                                        <a href="#" className="js-fh5co-nav-toggle fh5co-nav-toggle dark"/>
+                                        <h1 id="fh5co-logo"><a href="/">CraftOnelife</a></h1>
+
+                                        <nav id="fh5co-menu-wrap" role="navigation">
+                                            <ul className="sf-menu" id="fh5co-primary-menu">
+                                                <li><Link to='/artistprofilepage'>Edit Profile</Link></li>
+                                                <li><Link to='/artistdisplayprofile'>My Profile</Link></li>
+                                                <li><Link to='/artistuploadbooks'>Upload Books</Link></li>
+                                                <li><Link to='/artistmybooks'>My Books</Link></li>
+                                                <li><Link to='/artistearnings'>My Earnings</Link></li>
+                                                <li><a onClick={()=>this.handleLogout()}>Logout</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </header>
+                            <div className="fh5co-hero">
+                                <div className="container">
+
+                                    <ArtistMyBooks/>
+
+                                </div>
+                            </div>
+
+
+                            <footer>
+                                <div id="footer">
+                                    <div className="container">
+                                        <div className="row row-bottom-padded-md">
+                                            <div className="col-md-6 col-sm-6 col-xs-12 fh5co-footer-link">
+                                                <h3>CRAFTONELIFE</h3>
+                                                <p>Far far away, behind the word mountains, far from the countries
+                                                    Vokalia and
+                                                    Consonantia, there live the blind texts.</p>
+                                            </div>
+                                            <div className="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+                                                <h3>Shop</h3>
+                                                <ul>
+                                                    <li><a href="#">By Genre</a></li>
+                                                    <li><a href="#">By Taste</a></li>
+                                                    <li><a href="#">By Price</a></li>
+                                                </ul>
+                                            </div>
+                                            <div className="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+                                                <h3>Company</h3>
+                                                <ul>
+                                                    <li><a href="#">About</a></li>
+                                                    <li><a href="#">Team</a></li>
+                                                    <li><a href="#">Locations</a></li>
+                                                    <li><a href="#">Blog</a></li>
+                                                    <li><a href="#">Press</a></li>
+                                                </ul>
+                                            </div>
+                                            <div className="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+                                                <h3>Customer Care</h3>
+                                                <ul>
+                                                    <li><a href="#">Refunds/Returns</a></li>
+                                                    <li><a href="#">Shipping Policy</a></li>
+                                                    <li><a href="#">FAQ</a></li>
+                                                    <li><a href="#">Contact Us</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div className="row">
+                                            <div className="col-md-6 col-md-offset-3 text-center">
+                                                <p className="fh5co-social-icons">
+                                                    <a href="#"><i className="icon-twitter2"/></a>
+                                                    <a href="#"><i className="icon-facebook2"/></a>
+                                                    <a href="#"><i className="icon-instagram"/></a>
+                                                    <a href="#"><i className="icon-dribbble2"/></a>
+                                                    <a href="#"><i className="icon-youtube"/></a>
+                                                </p>
+                                                <p>Copyright 2017. All Rights Reserved. <br/>Made with <i
+                                                    className="icon-heart3"/></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+
+
+                )}/>
+
+
+                <Route exact path="/artistearnings" render={() => (
+                    <div>
+                    <div id="fh5co-wrapper">
+                        <div id="fh5co-page">
+                            <header id="fh5co-header-section" className="sticky-banner">
+                                <div className="container">
+                                    <div className="nav-header">
+                                        <a href="#" className="js-fh5co-nav-toggle fh5co-nav-toggle dark"/>
+                                        <h1 id="fh5co-logo"><a href="/">CraftOnelife</a></h1>
+
+                                        <nav id="fh5co-menu-wrap" role="navigation">
+                                            <ul className="sf-menu" id="fh5co-primary-menu">
+                                                <li><Link to='/artistprofilepage'>Edit Profile</Link></li>
+                                                <li><Link to='/artistdisplayprofile'>My Profile</Link></li>
+                                                <li><Link to='/artistuploadbooks'>Upload Books</Link></li>
+                                                <li><Link to='/artistmybooks'>My Books</Link></li>
+                                                <li><Link to='/artistearnings'>My Earnings</Link></li>
+                                                <li><a onClick={()=>this.handleLogout()}>Logout</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </header>
+                            <div className="fh5co-hero">
+                                <div className="container">
+
+                                    <ArtistEarnings/>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                            <footer>
+                                <div id="footer">
+                                    <div className="container">
+                                        <div className="row row-bottom-padded-md">
+                                            <div className="col-md-6 col-sm-6 col-xs-12 fh5co-footer-link">
+                                                <h3>CRAFTONELIFE</h3>
+                                                <p>Far far away, behind the word mountains, far from the countries
+                                                    Vokalia and
+                                                    Consonantia, there live the blind texts.</p>
+                                            </div>
+                                            <div className="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+                                                <h3>Shop</h3>
+                                                <ul>
+                                                    <li><a href="#">By Genre</a></li>
+                                                    <li><a href="#">By Taste</a></li>
+                                                    <li><a href="#">By Price</a></li>
+                                                </ul>
+                                            </div>
+                                            <div className="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+                                                <h3>Company</h3>
+                                                <ul>
+                                                    <li><a href="#">About</a></li>
+                                                    <li><a href="#">Team</a></li>
+                                                    <li><a href="#">Locations</a></li>
+                                                    <li><a href="#">Blog</a></li>
+                                                    <li><a href="#">Press</a></li>
+                                                </ul>
+                                            </div>
+                                            <div className="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+                                                <h3>Customer Care</h3>
+                                                <ul>
+                                                    <li><a href="#">Refunds/Returns</a></li>
+                                                    <li><a href="#">Shipping Policy</a></li>
+                                                    <li><a href="#">FAQ</a></li>
+                                                    <li><a href="#">Contact Us</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div className="row">
+                                            <div className="col-md-6 col-md-offset-3 text-center">
+                                                <p className="fh5co-social-icons">
+                                                    <a href="#"><i className="icon-twitter2"/></a>
+                                                    <a href="#"><i className="icon-facebook2"/></a>
+                                                    <a href="#"><i className="icon-instagram"/></a>
+                                                    <a href="#"><i className="icon-dribbble2"/></a>
+                                                    <a href="#"><i className="icon-youtube"/></a>
+                                                </p>
+                                                <p>Copyright 2017. All Rights Reserved. <br/>Made with <i
+                                                    className="icon-heart3"/></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </footer>
+
+                        </div>
+
+                )}/>
+
+
                 {/*------------------------------------------------------------ADMIN PAGES-----------------------------------------------------------*/}
 
 

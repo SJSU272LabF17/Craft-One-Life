@@ -1,5 +1,5 @@
-const api = process.env.REACT_APP_CONTACTS_API_URL || 'http://localhost:3001'
-
+const api = process.env.REACT_APP_CONTACTS_API_URL || 'http://52.87.159.11:3001';
+// const api = process.env.REACT_APP_CONTACTS_API_URL || 'http://localhost:3001'
 const headers = {
     'Accept': 'application/json'
 };
@@ -33,7 +33,7 @@ export const doSignup = (payload) => {
         }
     ).then(res => res.json())
         .then(res => {
-            alert("in api response : "+JSON.stringify(res));
+            //alert("in api response : "+JSON.stringify(res));
             return res;
         })
         .catch(error => {
@@ -41,26 +41,28 @@ export const doSignup = (payload) => {
             return error;
         });
 };
-export const uploadBook = (payload) =>
+export const uploadBook = (payload) => {
     fetch(`${api}/files/upload`, {
             method: 'POST',
             body: payload,
             headers: {
                 'path': payload.get('path')
             },
-            credentials:'include'
+            credentials: 'include'
         }
     ).then(res => res.json())
         .then(res => {
-            debugger
-            console.log("My response is ",JSON.stringify(res))
+           // debugger
+            console.log("My response is ", JSON.stringify(res))
             return res;
         }).catch(error => {
-        debugger
+        //debugger
         console.log(payload)
         console.log("This is error while file upload ", error.message);
         return error;
-    })
+    });
+}
+
 export const saveUserProfile = (payload) =>
     fetch(`${api}/saveUserProfile/upload`, {
         method: 'POST',
@@ -137,7 +139,7 @@ export const addToCart = (payload) => {
         }
     ).then(res => res.json())
         .then(res => {
-            alert("in api response : "+JSON.stringify(res));
+            //alert("in api response : "+JSON.stringify(res));
             return res;
         })
         .catch(error => {
@@ -155,7 +157,7 @@ export const doLogout = () =>
         },
         credentials:'include'
     }).then(res => {
-        alert("in api response : "+JSON.stringify(res));
+        //alert("in api response : "+JSON.stringify(res));
         return res.status;
     })
         .catch(error => {
@@ -212,13 +214,32 @@ export const approveuser = (payload) =>
         credentials:'include',
         body:JSON.stringify(payload)
     }).then(res => {
-        alert('response from server approveuser', res.data);
+        //alert('response from server approveuser', res.data);
         return res.data;
     })
         .catch(error => {
             console.log("This is error in fileupload API");
             return error;
         });
+
+export const rejectuser = (payload) =>
+    fetch(`${api}/admin/rejectuser`, {
+        method: 'POST',
+        headers: {
+            ...headers,
+            'Content-Type': 'application/json'
+        },
+        credentials:'include',
+        body:JSON.stringify(payload)
+    }).then(res => {
+        //alert('response from server approveuser', res.data);
+        return res.data;
+    })
+        .catch(error => {
+            console.log("This is error in fileupload API");
+            return error;
+        });
+
 export const getBooksForApproval = (payload) =>
     fetch(`${api}/admin/getallbooks`, {
         method: 'GET',
@@ -246,7 +267,7 @@ export const approveBooks = (payload) =>
         credentials:'include',
         body:JSON.stringify(payload)
     }).then(res => {
-        alert('response from server approvebooks', res.data);
+        //alert('response from server approvebooks', res.data);
         return res.data;
     })
         .catch(error => {
@@ -306,7 +327,7 @@ export const doEmptyCart = (payload) =>
         body: JSON.stringify(payload)
     }).then(res => res.json())
         .then(res =>{
-            alert("Response in API useCart"+JSON.stringify(res));
+            //alert("Response in API useCart"+JSON.stringify(res));
             return res;
         })
         .catch(error => {
@@ -373,3 +394,78 @@ export const handleRemoveQuantity = (payload) =>
             console.log("There is error in getting book details ",error);
             return error;
         });
+
+export const getOrders = (payload) =>
+    fetch(`${api}/myorders`, {
+        method: 'POST',
+        headers: {
+            ...headers,
+            'Content-Type': 'application/json'
+        },
+        credentials:'include',
+        body: JSON.stringify(payload)
+    }).then(res => res.json())
+        .then(res =>{
+            //alert("Response in API useCart"+JSON.stringify(res));
+            return res;
+        })
+        .catch(error => {
+            console.log("There is error in getting book details ",error);
+            return error;
+        });
+
+export const fetchEarnings = (payload) =>
+    fetch(`${api}/getEarnings`, {
+        method: 'POST',
+        headers: {
+            ...headers,
+            'Content-Type': 'application/json'
+        },
+        credentials:'include',
+        body: JSON.stringify(payload)
+    }).then(res => res.json())
+        .then(res =>{
+            return res;
+        })
+        .catch(error => {
+            console.log("This is error");
+            return error;
+        });
+
+export const getMyBooks = (payload) =>
+    fetch(`${api}/mybooks`, {
+        method: 'POST',
+        headers: {
+            ...headers,
+            'Content-Type': 'application/json'
+        },
+        credentials:'include',
+        body: JSON.stringify(payload)
+    }).then(res => res.json())
+        .then(res =>{
+            //alert("Response in API useCart"+JSON.stringify(res));
+            return res;
+        })
+        .catch(error => {
+            console.log("There is error in getting book details ",error);
+            return error;
+        });
+
+export const rejectBooks = (payload) =>
+    fetch(`${api}/admin/rejectbook`, {
+        method: 'POST',
+        headers: {
+            ...headers,
+            'Content-Type': 'application/json'
+        },
+        credentials:'include',
+        body:JSON.stringify(payload)
+    }).then(res => {
+        //alert('response from server reject books', res.data);
+        return res.data;
+    })
+        .catch(error => {
+            console.log("This is error in reject books API");
+            return error;
+        });
+

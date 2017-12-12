@@ -30,12 +30,22 @@ class Login extends Component {
 
     render() {
         return (
+            <div className="row justify-content-md-center">
+            <div className="col-sm-12 col-md-12">
+                <h2 style={{color:'green'}}><u>Login</u></h2>
+                <hr/>
+                <br/>
+            </div>
                 <div className="col-sm-7 col-md-7">
                     <form>
                         <div className="form-group">
                             <hr/>
                         </div>
-                        <div className="input-field">
+                        <div className="row">
+                            <div className="col-sm-4 col-md-4"><p>UserName : </p></div>
+                            <div className="col-sm-8 col-md-8">
+
+                                <div className="input-field">
                             <input
                                 className="form-control"
                                 type="text"
@@ -49,7 +59,12 @@ class Login extends Component {
                                 }}
                             />
                         </div>
+                            </div>
+                        </div>
                         <br/>
+                        <div className="row">
+                            <div className="col-sm-4 col-md-4"><p>Password : </p></div>
+                            <div className="col-sm-8 col-md-8">
                         <div className="input-field">
                             <input
                                 className="form-control"
@@ -63,6 +78,8 @@ class Login extends Component {
                                     });
                                 }}
                             />
+                        </div>
+                            </div>
                         </div>
                         <br/>
 
@@ -78,7 +95,7 @@ class Login extends Component {
                     </form>
                 </div>
 
-
+            </div>
 
         );
     }

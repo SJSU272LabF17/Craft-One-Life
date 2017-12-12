@@ -26,9 +26,9 @@ router.post('/upload', upload.any(), function (req, res, next) {
 
 
     if(req.files.length>0)
-    var update_profile = "update users set email='"+req.body.email+"',fname='"+req.body.fname+"',lname='"+req.body.lname+"',contact_no='"+req.body.contact_no+"',about_me='"+req.body.about_me+"',profile_pic='./public/uploads/Profile_pics/"+req.files[0].filename+"' where user_id=1";
+    var update_profile = "update users set email='"+req.body.email+"',fname='"+req.body.fname+"',lname='"+req.body.lname+"',contact_no='"+req.body.contact_no+"',about_me='"+req.body.about_me+"',profile_pic='./public/uploads/Profile_pics/"+req.files[0].filename+"' where user_id="+req.body.user;
     else
-        var update_profile = "update users set email='"+req.body.email+"',fname='"+req.body.fname+"',lname='"+req.body.lname+"',contact_no='"+req.body.contact_no+"',about_me='"+req.body.about_me+"' where user_id=1";
+        var update_profile = "update users set email='"+req.body.email+"',fname='"+req.body.fname+"',lname='"+req.body.lname+"',contact_no='"+req.body.contact_no+"',about_me='"+req.body.about_me+"' where user_id="+req.body.user;
 
 
     try {
@@ -41,7 +41,7 @@ router.post('/upload', upload.any(), function (req, res, next) {
             }
             else {
 
-                res.status(201).send("successful");
+                res.status(201).send({message:"successful",status:201});
 
             }
 

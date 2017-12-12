@@ -23,12 +23,22 @@ class Signup extends Component {
 
     render() {
         return (
-
+            <div className="row justify-content-md-center">
+                <div className="col-sm-12 col-md-12">
+                    <h2 style={{color:'green'}}><u>Signup</u></h2>
+                    <hr/>
+                    <br/>
+                </div>
                 <div className="col-sm-7 col-md-7">
-                    <form onSubmit={this.props.handleSignUp(this.state)}>
+
+                    <form>
                         <div className="form-group">
                             <hr/>
                         </div>
+                        <div className="row">
+                            <div className="col-sm-4 col-md-4"><p>UserName : </p></div>
+                            <div className="col-sm-8 col-md-8">
+
                         <div className="input-field">
                             <input
                                 className="form-control"
@@ -44,7 +54,12 @@ class Signup extends Component {
                                 }}
                             />
                         </div>
+                            </div>
+                        </div>
                         <br/>
+                        <div className="row">
+                            <div className="col-sm-4 col-md-4"><p>Password : </p></div>
+                            <div className="col-sm-8 col-md-8">
                         <div className="input-field">
                             <input
                                 className="form-control"
@@ -60,20 +75,24 @@ class Signup extends Component {
                                 }}
                             />
                         </div>
-                        <br/>
-                        <div className="input-field">
-
+                            </div>
                         </div>
+                        <br/>
+
+
                         <br/>
                         <div className="input-field">
                             <button
                                 className="btn btn-success"
-                                type="submit">
+                                type="button"
+                                onClick={() => this.props.handleSignUp(this.state)}>
+
                                 Sign Up
                             </button>
                         </div>
                     </form>
                 </div>
+            </div>
         );
     }
 }

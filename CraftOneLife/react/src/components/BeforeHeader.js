@@ -25,7 +25,7 @@ class BeforeHeader extends Component {
                                     </ul>
                                 </li>*/}
                                 <li><Link to="/aboutus">About Us</Link></li>
-                                <li><Link to="/contactus">Contact Us</Link></li>
+                                <li><Link to="/contactus">Become A Writer</Link></li>
                                 <li><Link to='/login'>Login</Link></li>
                                 <li><Link to='/signup'>Signup</Link></li>
                                 {/*<li><Link to='/usercart'>Cart</Link></li>*/}

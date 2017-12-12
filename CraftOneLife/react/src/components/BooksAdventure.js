@@ -26,15 +26,18 @@ class BooksAdventure extends Component{
 
     addToCart = (bookdata) => {
         bookdata.user_id=localStorage.getItem("user_id");
-        API.addToCart(bookdata)
+        var tempBookData = {...bookdata};
+        tempBookData.bookTilePath="";
+        API.addToCart(tempBookData)
             .then((res) => {
-                alert("back in newer homepage : " + JSON.stringify(res));
+                //alert("back in newer homepage : " + JSON.stringify(res));
                 if (res.status === '201') {
                     this.setState({
                         isLoggedIn: true,
                         message: "Welcome to my App..!!",
                         //username: userdata.username
                     });
+                    alert("Successfully added to cart");
                     //this.props.history.push("/artistwelcomepage");
                 } else if (res.status === '401') {
                     this.setState({
